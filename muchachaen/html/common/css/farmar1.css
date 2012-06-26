@@ -1,0 +1,52 @@
+
+.farmar1{
+    background:url("../../about/images/bg-gallery.jpg") no-repeat scroll center top transparent;}
+    
+.farmar1 header#header { 
+    padding:15px 0 17px;} 
+    
+*+html .farmar1 header#header {
+padding:15px 0 0px;
+}
+    
+.farmar1 #side { 
+    padding:25px 0 0;}
+    
+.farmar1 #contents { 
+    width:838px; 
+    padding: 0 45px 0 0;}
+ 
+.farmar1 #container {
+    padding:0 0 90px;}
+
+.farmar1 .info-content {
+    padding: 25px 0 0 28px;}
+.farmar1-p01{
+    font:bold 20px MS Gothic;
+    width:770px;}
+
+.farmar1-div01{
+    width:770px;
+    padding:60px 0 0;}    
+    
+.farmar1-p02{
+    font:bold 28px MS Gothic;
+    padding:0 0 70px;}
+    
+.farmar1-p02 span{
+    font:bold 14px MS Gothic;}
+    
+.farmar1-p03{
+    font: 12px/23px Meiryo;
+    width:408px;}
+    
+.farmar1-p04{
+    width:770px;
+	 line-height: 23px;}
+    
+.farmar1-img01 {
+    margin: 0 0 30px 10px;}
+    
+.farmar1-div02{
+    width:770px;
+    padding:45px 0 0;}
