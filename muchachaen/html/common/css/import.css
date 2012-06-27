@@ -1,0 +1,9 @@
+@charset "shift_jis";
+/****************************
+BASE CSS READING (NOT IE 4)
+****************************/
+@import "html5reset.css";
+@import "style.css";
+
+
+ 
