@@ -1,0 +1,25 @@
+@charset "utf-8";
+/**************************************************************************************************
+Initialization
+**************************************************************************************************/
+
+
+#search_page{
+text-align:left;
+min-height:500px;
+margin:60px auto 60px 60px;
+width:820px;
+}
+
+#search_page h2{
+font-size:16px;
+color:#2d278b;
+background:url(../images/searchbg.gif) repeat-x left top;
+padding-left:30px;
+margin-bottom:20px;
+}
+
+#search_page #result{
+width:740px;
+margin:30px auto;
+}

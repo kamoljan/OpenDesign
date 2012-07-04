@@ -1,0 +1,2864 @@
+@charset "utf-8";
+
+
+/*-------------------------------------------------------------------
+中学生の皆様へ
+------------------------------------------------------------------*/
+
+/**************************************************************************************************
+Initialization
+**************************************************************************************************/
+
+#HSTopImage {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#HSTopImage h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#SH_contents {
+		text-align: center;
+		width: 970px;
+		margin: 0 auto;
+}
+
+#SH_contents a {
+color:#775128;
+text-decoration:underline;
+}
+
+#SH_contents a:hover {
+color:#775128;
+text-decoration:none;
+}
+
+
+/********　どんな学科があるの　********/
+
+/*　普通科　*/
+
+.hs_bg01 {
+		background: url(../../junior/images/hs_bg01.jpg) no-repeat;
+		width: 970px;
+		height: 248px;
+		position:relative;
+}
+
+.hs_ul01 {
+		float: left;
+		margin: 13px 0 0 0;
+		padding: 0;
+		text-align: left;
+}
+
+
+.hs_ul01 ul {
+		margin: 10px 0 0 0;
+		padding: 0 0 0 10px;
+		list-style: none;
+}
+
+.hs_ul01 .li_01 {
+		background: url(../images/hs_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 30px 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+		color:#775128;
+}
+
+.hs_ul01 .li_02 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+		color:#775128;
+}
+
+.hs_ul01 .li_03 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 8px 38px;
+		line-height: 15px;
+		color:#775128;
+}
+
+/*　学科・コースTOPはこちら　*/
+
+.hs_top {
+	 position:absolute; 
+	 top: 1px; 
+	 left: 512px;
+}
+	
+
+/*　商業科　*/
+
+.hs_ul02 {
+		float: left;
+		margin: 13px 0 0 0;
+		padding: 0;
+		text-align: left;
+}
+
+.hs_ul02 ul {
+		margin: 42px 0 0 0;
+		padding: 0 0 0 66px;
+		list-style: none;
+}
+
+.hs_ul02 .li_01 {
+		background: url(../images/hs_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 0 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+		color:#775128;
+}
+
+.hs_ul02 .li_02 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 8px 21px;
+		line-height: 14px;
+		color:#775128;
+}
+
+.hs_ul02 .li_03 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 8px 38px;
+		line-height: 15px;
+		color:#775128;
+}
+
+.hs_ul02 .li_04 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 28px 38px;
+		line-height: 15px;
+		color:#775128;
+}
+
+
+
+/********　学校生活の様子が見たい　********/
+
+
+.hs_bg02 {
+		background: url(../../junior/images/hs_bg02.jpg) no-repeat;
+		width: 970px;
+		height: 318px;
+		position:relative;
+		text-align: left;
+		margin: 0;
+}
+
+/*　エンジョイスクールバナー　*/
+
+.hs_enjoy {
+	 position: absolute; 
+	 top: 144px; 
+	 left: 276px;
+}
+
+/*　エンジョイスクール　*/
+
+.hs_ul03 {
+		float: left;
+		margin: 0;
+		padding: 0 0 0 214px;
+		text-align: left;
+}
+
+.hs_ul03 ul {
+		margin: 0;
+		padding: 0 0 0 77px;
+		list-style: none;
+}
+
+.hs_ul03 .li_01 {
+		background: url(../images/hs_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 0 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.hs_ul03 .li_02 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+.hs_ul04 {
+		float: left;
+		margin: 0;
+		padding: 0 0 0 38px;
+		text-align: left;
+}
+
+.hs_ul04 ul {
+		margin: 0;
+		padding: 0 0 0 77px;
+		list-style: none;
+}
+
+
+.hs_ul04 .li_01 {
+		background: url(../images/hs_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 0 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.hs_ul04 .li_02 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+.hs_ul05 {
+		float: right;
+		margin: 0;
+		padding: 0 0 0 5px;
+		text-align: left;
+}
+
+.hs_ul05 ul {
+		margin: 50px 0 0 0;
+		padding: 0 90px 0 0;
+		list-style: none;
+}
+
+.hs_ul05 .li_02 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+.hs_ul06 {
+		margin: 105px 0 0 0;
+		padding: 0 0 0 38px;
+		text-align: left;
+}
+
+.hs_ul06 ul {
+		margin: 0;
+		padding: 0 0 0 55px;
+		list-style: none;
+}
+
+.hs_ul06 .li_01 {
+		background: url(../images/hs_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 0 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+
+.hs_ul06 .li_02 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+.hs_ul06 .li_03 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		float: right;
+		padding: 0 513px 0 15px;
+		margin: 26px 0 0 0;
+		line-height: 14px;
+}
+
+.hs_bg03 {
+		background-image: url(../../junior/images/hs_bg03.gif);
+		width: 970px;
+		height: 260px;
+}
+
+.hs_bg03 {
+		background: url(../../junior/images/hs_bg04.jpg) no-repeat;
+		width: 970px;
+		height: 740px;
+}
+
+
+.hs_ul01 ul {
+		margin: 49px 0 0 0;
+		padding: 0 0 0 77px;
+		list-style: none;
+}
+
+.hs_ul01 .li_01 {
+		background: url(../images/hs_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 0 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.hs_ul01 .li_02 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+.hs_ul01 .li_03 {
+		background: url(../images/hs_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 8px 38px;
+		line-height: 15px;
+}
+
+.hs_bun {
+		text-align: left;
+		margin: 175px 0 10px 0;
+		padding: 0 0 0 39px;
+}
+
+.hs_bun img {
+		float: left;
+		margin: 0 6px 0 0;
+}
+
+.hs_bun img.img02 {
+		float: left;
+		margin: 8px 6px 0 0;
+}
+
+
+
+/*-------------------------------------------------------------------
+保護者の皆様へ
+-------------------------------------------------------------------*/
+
+/**************************************************************************************************
+Initialization
+**************************************************************************************************/
+
+#GDTopImage {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#GDTopImage h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#GD_contents {
+		text-align: center;
+		width: 970px;
+		margin: 0 auto;
+}
+
+.gd_bg01 a {
+color:#775128;
+text-decoration:underline;
+}
+
+.gd_bg01 a:hover {
+color:#775128;
+text-decoration:none;
+}
+
+.gd_bg02 a {
+color:#775128;
+text-decoration:underline;
+}
+
+.gd_bg02 a:hover {
+color:#775128;
+text-decoration:none;
+}
+
+
+/********　	聖カタリナ女子について詳しく知りたい　********/
+
+/*　学校案内　*/
+
+.gd_bg01 {
+		background: url(../../guardian/images/gd_bg01.jpg) no-repeat;
+		width: 970px;
+		height: 263px;
+		position:relative;
+}
+
+.gd_ul01 {
+		float: left;
+		margin: 50px 0 0 0;
+		padding: 0 0 0 70px;
+		text-align: left;
+}
+
+.gd_ul01 ul {
+		margin: 10px 0 0 0;
+		padding: 0 0 0 10px;
+		list-style: none;
+}
+
+.gd_ul01 .li_01 {
+		background: url(../images/gd_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 30px 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.gd_ul01 .li_02 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+.gd_ul01 .li_03 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 35px;
+		line-height: 14px;
+}
+
+.gd_ul02 {
+		float: left;
+		margin: 70px 0 0 0;
+		padding: 0 0 0 10px;
+		text-align: left;
+}
+
+.gd_ul02 ul {
+		margin: 10px 0 0 0;
+		padding: 0 0 0 10px;
+		list-style: none;
+}
+
+.gd_ul02 .li_01 {
+		background: url(../images/gd_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 30px 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.gd_ul02 .li_02 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+.gd_ul02 .li_03 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 35px;
+		line-height: 14px;
+}
+
+/*　学科・コースTOPはこちら　*/
+
+.gd_top {
+	 position:absolute; 
+	 top: 20px; 
+	 left: 535px;
+}
+
+
+/*　blog　*/
+
+.gd_blog {
+	float: right;
+	margin: 173px 190px 0 0;
+}
+
+/********　	卒業後の進路状況って　********/
+
+/* 進学状況　*/
+
+.gd_bg02 {
+		background: url(../../guardian/images/gd_bg02.jpg) no-repeat;
+		width: 970px;
+		height: 417px;
+}
+
+.gd_bg02in {
+	margin: 0;
+	padding: 0 0 0 340px;
+}
+
+.gd_ul03 {
+		float: left;
+		margin: 140px 0 0 0;
+		padding: 0;
+		text-align: left;
+}
+
+.gd_ul03 ul {
+		margin: 10px 0 0 0;
+		padding: 0;
+		list-style: none;
+}
+
+.gd_ul03 .li_01 {
+		background: url(../images/gd_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 22px 0 0 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.gd_ul03 .li_02 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 20px;
+		_padding: 0 0 0 15px;
+		margin: 20px 0 8px 0;
+		line-height: 14px;
+}
+
+.gd_ul03 .li_03 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 20px 12px 20px;
+		line-height: 14px;
+		float: left;
+}
+
+.gd_ul03 .li_04 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 0 12px 100px;
+		_margin: 0 0 12px 120px;
+		line-height: 14px;
+}
+
+.gd_ul03 .li_05 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 20px 12px 0;
+		line-height: 14px;
+		float: left;
+}
+
+.gd_ul03 .li_06 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 0 12px 180px;
+		_margin: 0 0 12px 200px;
+		line-height: 14px;
+}
+
+.gd_ul04 {
+		float: left;
+		margin: 140px 0 0 0;
+		padding: 0 0 0 22px;
+		text-align: left;
+}
+
+.gd_ul04 ul {
+		margin: 55px 0 0 0;
+		padding: 0 0 0 10px;
+		list-style: none;
+}
+
+.gd_ul04 .li_02 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 20px;
+		_padding: 0 0 0 15px;
+		margin: 20px 0 8px 0;
+		line-height: 14px;
+}
+
+.gd_ul04 .li_03 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 20px 12px 20px;
+		line-height: 14px;
+		float: left;
+}
+
+.gd_ul04 .li_04 {
+		background: url(../images/gd_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 0 12px 100px;
+		_margin: 0 0 12px 120px;
+		line-height: 14px;
+}
+
+/********　	どんな学科・コースで学べるの？　********/
+
+
+/* 学科・コース紹介　*/
+
+.gd_bg03 {
+		background: url(../../guardian/images/gd_bg04.jpg) no-repeat;
+		width: 970px;
+		height: 417px;
+		text-align: left;
+		position:relative;
+}
+
+.gd_bg03 a {
+color:#0d5a0f;
+text-decoration:underline;
+}
+
+.gd_bg03 a:hover {
+color:#0d5a0f;
+text-decoration:none;
+}
+
+.gd_bg03_pt {
+	float: right;
+	margin: 3px 33px 0 0;
+}
+
+.gd_bg03in {
+	margin: 0;
+	padding: 138px 0 0 110px;
+}
+		
+
+.gd_bg03in h2 {
+		font-size: 14px;
+		margin: 0;
+		padding: 0;
+		line-height: 21px;
+}
+
+.gd_bg03in h2 a {
+color:#775128;
+text-decoration:underline;
+}
+
+.gd_bg03in h2 a:hover {
+color:#775128;
+text-decoration:none;
+}
+
+		
+.gd_ul05 {
+		float: left;
+		margin: 0 0 0 0;
+		padding: 0 0 0 120px;
+		text-align: left;
+		font-size: 12px;
+}
+
+.gd_ul05 ul {
+		margin: 0;
+		padding: 0 0 0 20px;
+		list-style: none;
+		line-height: 18px;
+}
+
+.gd_ul05 .li_01 {
+		padding: 0;
+		margin: 20px 0 123px 0;
+}
+
+.gd_ul05 .li_02 {
+		padding: 0;
+		margin: 0 0 15px 0;
+}
+
+.gd_ul05 .li_03 {
+		padding: 0;
+		margin: 0;
+}
+
+.gd_ul06 {
+		float: left;
+		margin: 0 0 0 0;
+		padding: 0 0 0 21px;
+		text-align: left;
+		font-size: 12px;
+}
+
+.gd_ul06 ul {
+		margin: 0 0 0 18px;
+		padding: 0;
+		list-style: none;
+}
+
+.gd_ul06 .li_01 {
+		padding: 0;
+		margin: 20px 0 53px 0;
+		line-height: 15px;
+		width: 141px;
+}
+
+.gd_ul06 .li_02 {
+		padding: 0;
+		margin: 0 0 21px 0;
+		line-height: 17px;
+		width: 141px;
+}
+
+.gd_ul06 .li_03 {
+		padding: 0;
+		margin: 0;
+		line-height: 12px;
+		width: 141px;
+}
+
+.gd_ul07 {
+		float: left;
+		margin: 0 0 0 0;
+		padding: 0 0 0 11px;
+		text-align: left;
+		font-size: 12px;
+}
+
+.gd_ul07 ul {
+		margin: 0;
+		padding: 0 0 0 13px;
+		list-style: none;
+}
+
+.gd_ul07 .li_01 {
+		padding: 0;
+		margin: 20px 0 19px 0;
+		line-height: 14px;
+}
+
+.gd_ul07 .li_02 {
+		padding: 0;
+		margin: 0 0 21px 0;
+		line-height: 14px;
+}
+
+.gd_ul08 {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.gd_ul08 .li01 {
+	position:absolute; 
+	top: 18px; 
+	left: 139px;
+}
+
+.gd_ul08 .li02 {
+	position:absolute; 
+	top: 159px; 
+	left: 139px;
+}
+
+.gd_ul08 .li03 {
+	position:absolute; 
+	top: 190px; 
+	left: 139px;
+}
+
+.gd_ul08 .li04 {
+	position:absolute; 
+	top: 18px; 
+	left: 217px;
+}
+
+.gd_ul08 .li05 {
+	position:absolute; 
+	top: 85px; 
+	left: 217px;
+}
+
+.gd_ul08 .li06 {
+	position:absolute; 
+	top: 120px; 
+	left: 217px;
+}
+
+.gd_ul08 .li07{
+	position:absolute; 
+	top: 18px; 
+	left: 378px;
+}
+
+.gd_ul08 .li08 {
+	position:absolute; 
+	top: 50px; 
+	left: 378px;
+}
+
+
+
+/*　学科・コースTOPはこちら　*/
+
+.gd_top2 {
+	 position:absolute; 
+	 top: 280px; 
+	 left: 363px;
+}
+
+.gd_bun {
+		text-align: left;
+		margin: 40px 0 0 0;
+		padding: 0 0 0 39px;
+}
+
+.gd_bun img {
+		float: left;
+		margin: 0 6px 0 0;
+}
+
+.gd_bun img.img02 {
+		float: left;
+		margin: 8px 6px 0 0;
+}
+
+
+
+
+/*--------------------------------------------------------
+卒業生・地域の皆様へ
+----------------------------------------------------------*/
+
+/**************************************************************************************************
+Initialization
+**************************************************************************************************/
+
+#OBTopImage {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#OBTopImage h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#OB_contents {
+		text-align: center;
+		width: 970px;
+		margin: 0 auto;
+		color:#775128;
+}
+
+#OB_contents a {
+color:#775128;
+text-decoration:underline;
+}
+
+#OB_contents a:hover {
+color:#775128;
+text-decoration:none;
+}
+
+
+/********　卒業生の皆様へ　********/
+
+/*　同窓会について　*/
+
+.ob_bg01 {
+		background: url(../../graduate/images/ob_bg01.jpg) no-repeat;
+		width: 970px;
+		height: 392px;
+		position:relative;
+}
+
+.ob_ul01 {
+		float: left;
+		margin: 0;
+		padding: 0 0 0 90px;
+		text-align: left;
+}
+
+
+.ob_ul01 ul {
+		margin: 0;
+		padding: 0 0 0 10px;
+		list-style: none;
+}
+
+.ob_ul01 .li_01 {
+		background: url(../images/ob_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 0 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.ob_ul01 .li_02 {
+		background: url(../images/ob_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 10px 0 40px 20px;
+		line-height: 14px;
+}
+.ob_ul01 .li_03 {
+		background: url(../images/ob_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 0 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.ob_ul01 p {
+		padding: 0 0 0 20px;
+		margin: 0 0 12px 22px;
+		line-height: 20px;
+}
+
+/*　同窓会便り　*/
+
+.ob_letter {
+position:absolute;
+left:400px;
+top:0px;
+}
+
+.ob_letter img {
+margin-bottom:10px;
+}
+
+/********　地域の皆様へ　********/
+
+/*　お知らせ・最新情報　*/
+
+.ob_bg02 {
+		background: url(../../graduate/images/ob_bg03.jpg) no-repeat;
+		width: 970px;
+		height: 397px;
+}
+
+.ob_news {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.ob_news_titile {
+		margin: 0 0 15px 30px;
+}
+
+.ob_news_more {
+		margin: 10px 65px 0 0;
+		float: right;
+}
+
+.ob_window {
+	margin: 0;
+	padding: 0 0 0 330px;
+	text-align: left;
+}
+
+
+/* 学校案内 */
+
+
+.ob_ul02 {
+		float: left;
+		margin: 0;
+		padding: 0 0 0 330px;
+		text-align: left;
+}
+
+.ob_ul02 ul {
+		margin: 10px 0 0 0;
+		padding: 0 0 0 10px;
+		list-style: none;
+}
+
+.ob_ul02 .li_01 {
+		background: url(../images/ob_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 30px 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.ob_ul02 .li_02 {
+		background: url(../images/ob_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+.ob_ul02 .li_03 {
+		background: url(../images/ob_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 35px;
+		line-height: 14px;
+}
+
+.ob_ul03 {
+		float: left;
+		margin: 65px 0 0 0;
+		padding: 0 0 0 10px;
+		text-align: left;
+}
+
+.ob_ul03 ul {
+		margin: 10px 0 0 0;
+		padding: 0 0 0 10px;
+		list-style: none;
+}
+
+.ob_ul03 .li_02 {
+		background: url(../images/ob_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+.ob_blog {
+		float: left;
+		margin: 5px 0 0 35px;
+}
+
+.ob_bun {
+		text-align: left;
+		margin: 0 0 0 0;
+		padding: 0 0 0 39px;
+		height: 74px;
+}
+
+.ob_bun img {
+		float: left;
+		margin: 0 6px 0 0;
+}
+
+.ob_bun img.img02 {
+		float: left;
+		margin: 8px 6px 0 0;
+}		
+
+		
+
+
+/*------------------------------------------------------
+在校生の皆様へ
+-----------------------------------------------------------*/	
+
+/**************************************************************************************************
+Initialization
+**************************************************************************************************/
+
+#STTopImage {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#STTopImage h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#ST_contents {
+		text-align: center;
+		width: 970px;
+		margin: 0 auto;
+}
+
+#ST_contents a {
+color:#775128;
+text-decoration:underline;
+}
+
+#ST_contents a:hover {
+color:#775128;
+text-decoration:none;
+}
+
+
+/********　もっとカタリナを楽しもう　********/
+
+/*　エンジョイスクールバナー　*/
+
+.st_bg01 {
+		background: url(../../student/images/st_bg01.jpg) no-repeat;
+		width: 970px;
+		height: 333px;
+		position:relative;
+}
+
+/*　エンジョイスクールバナー　*/
+
+.st_enjoy {
+	 position: absolute; 
+	 top: 0; 
+	 left: 85px;
+}
+
+.st_ul01 {
+		float: left;
+		margin: 13px 0 0 0;
+		padding: 0;
+		text-align: left;
+}
+
+
+.st_ul01 ul {
+		margin: 10px 0 0 0;
+		padding: 0 0 0 10px;
+		list-style: none;
+}
+
+.st_ul01 .li_01 {
+		background: url(../images/st_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 30px 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.st_ul01 .li_02 {
+		background: url(../imagessts_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+
+.st_ul03 {
+		float: left;
+		margin:180px 0 0 0;
+		padding: 0 0 0 28px;
+		text-align: left;
+}
+
+.st_ul03 ul {
+		margin: 0;
+		padding: 0 0 0 77px;
+		list-style: none;
+}
+
+.st_ul03 .li_01 {
+		background: url(../images/st_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 0 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.st_ul03 .li_02 {
+		background: url(../images/st_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+.st_ul04 {
+		float: left;
+		margin: 180px 0 0 0;
+		padding: 0 0 0 30px;
+		text-align: left;
+}
+
+.st_ul04 ul {
+		margin: 0;
+		padding: 0 0 0 77px;
+		list-style: none;
+}
+
+
+.st_ul04 .li_01 {
+		background: url(../images/st_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 0 0 12px 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.st_ul04 .li_02 {
+		background: url(../images/st_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+.st_ul05 {
+		float: left;
+		margin: 230px 0 0 0;
+		padding: 0 0 0 30px;
+		text-align: left;
+}
+
+
+.st_ul05 ul {
+		margin: 0 0 0 0;
+		padding: 0 00 0;
+		list-style: none;
+}
+
+.st_ul05 .li_02 {
+		background: url(../images/st_arrow02.gif) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 9px 21px;
+		line-height: 14px;
+}
+
+
+/********　学校から、なにかお知らせが出てないかな　********/
+
+/*　おしらせ・最新情報　*/
+
+.st_bg02 {
+		background: url(../../student/images/st_bg02.jpg) no-repeat;
+		width: 970px;
+		height: 430px;
+		position:relative;
+}
+
+.st_news {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.st_news_titile {
+		margin: 0 0 15px 30px;
+}
+
+.st_news_more {
+		margin: 10px 65px 0 0;
+		float: right;
+}
+
+.st_window {
+	margin: 0;
+	padding: 180px 0 0 380px;
+	text-align: left;
+}
+
+/*　緊急掲示板　*/
+
+.st_bbs {
+	 position: absolute; 
+	 top: 340px; 
+	 left: 385px;
+}
+
+/********　学校から、なにかお知らせが出てないかな　********/
+
+/*　おしらせ・最新情報　*/
+
+.st_bg03 {
+		background: url(../../student/images/st_bg03.jpg) no-repeat;
+		width: 970px;
+		height: 408px;
+		position:relative;
+}
+
+.st_bg03in {
+	margin: 0;
+	padding: 0 0 0 95px;
+}
+
+.st_ul06 {
+		float: left;
+		margin: 120px 0 0 0;
+		padding: 0;
+		text-align: left;
+}
+
+.st_ul06 ul {
+		margin: 10px 0 0 0;
+		padding: 0;
+		list-style: none;
+}
+
+.st_ul06 .li_01 {
+		background: url(../images/st_arrow01.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 22px 0 0 0;
+		font-weight: bold;
+		line-height: 14px;
+}
+
+.st_ul06 .li_02 {
+		background: url(../images/st_arrow02.gif) no-repeat;
+		padding: 0 0 0 20px;
+		_padding: 0 0 0 15px;
+		margin: 20px 0 8px 0;
+		line-height: 14px;
+}
+
+.st_ul06 .li_03 {
+		background: url(../images/st_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 20px 12px 20px;
+		line-height: 14px;
+		float: left;
+}
+
+.st_ul06 .li_04 {
+		background: url(../images/st_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 0 12px 100px;
+		_margin: 0 0 12px 120px;
+		line-height: 14px;
+}
+
+.st_ul06 .li_05 {
+		background: url(../images/st_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 20px 12px 0;
+		line-height: 14px;
+		float: left;
+}
+
+.st_ul06 .li_06 {
+		background: url(../images/st_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 0 12px 180px;
+		_margin: 0 0 12px 200px;
+		line-height: 14px;
+}
+
+.st_ul07 {
+		float: left;
+		margin: 120px 0 0 0;
+		padding: 0 0 0 22px;
+		text-align: left;
+}
+
+.st_ul07 ul {
+		margin: 55px 0 0 0;
+		padding: 0 0 0 10px;
+		list-style: none;
+}
+
+.st_ul07 .li_02 {
+		background: url(../images/st_arrow02.gif) no-repeat;
+		padding: 0 0 0 20px;
+		margin: 20px 0 8px 0;
+		line-height: 14px;
+}
+
+.st_ul07 .li_03 {
+		background: url(../images/st_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 20px 12px 20px;
+		line-height: 14px;
+		float: left;
+}
+
+.st_ul07 .li_04 {
+		background: url(../images/st_arrow02.gif) no-repeat;
+		padding: 0 0 0 13px;
+		margin: 0 0 12px 100px;
+		line-height: 14px;
+}
+
+
+/*　進路状況TOPはこちら　*/
+
+.st_top {
+	 position: absolute; 
+	 top: 295px; 
+	 left: 425px;
+}
+
+.st_bun {
+		text-align: left;
+		margin: 70px 0 0 0;
+		padding: 0 0 0 39px;
+		height: 74px;
+}
+
+.st_bun img {
+		float: left;
+		margin: 0 6px 0 0;
+}
+
+.st_bun img.img02 {
+		float: left;
+		margin: 8px 6px 0 0;
+}		
+
+/*-----------------------------------------------------------------
+エンジョイスクールTOP
+-----------------------------------------------------------------*/
+
+/**************************************************************************************************
+enjoyschool
+**************************************************************************************************/
+
+#enjoyschool {
+	background: url(../../enjoy/images/bg_enjoy.jpg) no-repeat;
+	padding: 0;
+	margin: 0;
+	width: 1002px;
+	height: 696px;
+	position:relative;
+}
+
+#enjoyschool ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	position:relative;
+}
+
+#enjoyschool ul li a {
+	background: url(images/touka.gif) no-repeat;
+}
+
+.enjoyschool_top {
+	margin: -4px 0 0 0;
+_margin: 4px 0 0 0;
+}
+
+
+/*  1  */
+
+#enjoyschool .conts01 {
+	 position:absolute; 
+	 top: 97px; 
+	 left: 173px;
+	 height: 208px;
+	 width: 200px;
+}
+
+#enjoyschool .conts01 a {
+	background: url(../../enjoy/images/bbtn_con01_off-trans.png) no-repeat left top;
+	height: 208px;
+	width: 200px;
+	text-indent:-10000px;
+	display:block;
+}
+
+#enjoyschool .conts01 a:hover {
+	background: url(../../enjoy/images/bbtn_con01_on-trans.png) no-repeat left top;
+	height: 208px;
+	width: 200px;
+	text-indent:-10000px;
+	display:block;
+}
+
+#enjoyschool .conts01 Active a {
+	background: url(../../enjoy/images/bbtn_con01_on-trans.png) no-repeat left top;
+	height: 208px;
+	width: 200px;
+	text-indent:-10000px;
+	display:block;
+}
+
+/*  2  */
+
+#enjoyschool .conts02 {
+	position:absolute; 
+	top: 86px; 
+	left: 512px;
+	height: 170px;
+	width: 166px;
+}
+
+#enjoyschool .conts02 a {
+	background: url(../../enjoy/images/bbtn_con02_off-trans.png) no-repeat left top;
+	height: 170px;
+	width: 166px;
+	text-indent:-10000px;
+	display:block;
+}
+
+#enjoyschool .conts02 a:hover {
+	background: url(../../enjoy/images/bbtn_con02_on-trans.png) no-repeat left top;
+	height: 170px;
+	width: 166px;
+	text-indent:-10000px;
+	display:block;
+}
+
+#enjoyschool .conts02 Active a {
+	background: url(../../enjoy/images/bbtn_con02_on-trans.png) no-repeat left top;
+	height: 170px;
+	width: 166px;
+	text-indent:-10000px;
+	display:block;
+}
+
+/*  3  */
+
+#enjoyschool .conts03 {
+	position:absolute; 
+	top: 168px; 
+	left: 810px;
+	height: 170px;
+	width: 170px;
+}
+
+#enjoyschool .conts03 a {
+	background: url(../../enjoy/images/bbtn_con03_off-trans.png) no-repeat left top;
+	height: 170px;
+	width: 170px;
+	text-indent:-10000px;
+	display:block;
+}
+
+#enjoyschool .conts03 a:hover {
+	background: url(../../enjoy/images/bbtn_con03_on-trans.png) no-repeat left top;
+	height: 170px;
+	width: 170px;
+	text-indent:-10000px;
+	display:block;
+}
+
+#enjoyschool .conts03 Active a {
+	background: url(../../enjoy/images/bbtn_con03_on-trans.png) no-repeat left top;
+	height: 170px;
+	width: 170px;
+	text-indent:-10000px;
+	display:block;
+}
+
+/*  4  */
+
+#enjoyschool .conts04 {
+	position:absolute; 
+	top: 401px; 
+	left: 304px;
+	height: 147px;
+	width: 148px;
+}
+
+#enjoyschool .conts04 a {
+	background: url(../../enjoy/images/bbtn_con04_off-trans.png) no-repeat left top;
+	height: 147px;
+	width: 148px;
+	text-indent:-10000px;
+	display:block;
+}
+
+#enjoyschool .conts04 a:hover {
+	background: url(../../enjoy/images/bbtn_con04_on-trans.png) no-repeat left top;
+	height: 147px;
+	width: 148px;
+	text-indent:-10000px;
+	display:block;
+}
+
+#enjoyschool .conts04 Active a {
+	background: url(../../enjoy/images/bbtn_con04_on-trans.png) no-repeat left top;
+	height: 147px;
+	width: 148px;
+	text-indent:-10000px;
+	display:block;
+}
+
+/*  5  */
+
+#enjoyschool .conts05 {
+	position:absolute; 
+	top: 411px; 
+	left: 528px;
+	height: 149px;
+	width: 148px;
+}
+
+#enjoyschool .conts05 a {
+	background: url(../../enjoy/images/bbtn_con05_off-trans.png) no-repeat left top;
+	height: 149px;
+	width: 148px;
+	text-indent:-10000px;
+	display:block;
+}
+
+#enjoyschool .conts05 a:hover {
+	background: url(../../enjoy/images/bbtn_con05_on-trans.png) no-repeat left top;
+	height: 149px;
+	width: 148px;
+	text-indent:-10000px;
+	display:block;
+}
+
+#enjoyschool .conts05 Active a {
+	background: url(../../enjoy/images/bbtn_con05_on-trans.png) no-repeat left top;
+	height: 149px;
+	width: 148px;
+	text-indent:-10000px;
+	display:block;
+}
+
+
+/*-----------------------------------------------------------------------------
+一日の流れ
+-------------------------------------------------------------------------------*/
+
+/**************************************************************************************************
+enjyo
+**************************************************************************************************/
+
+#ENJOY {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	height: auto;
+	width: 989px;
+	text-align: left;
+	
+}
+
+#ENJOY .day_top {
+	margin: -5px 0 0 0;
+	_margin: 3px 0 0 0;
+	width: 989px;
+	height: 241px;
+	
+}
+
+#ENJOY_footer {
+		width: 989px;
+		height: 180px;
+		margin: 30px 0 0 0;
+		padding: 0;
+		position:relative;
+}
+
+#ENJOY_footer ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	position:relative;
+}
+
+#ENJOY_footer .list01 {
+	margin: 0;
+	padding: 0;
+}
+
+
+#ENJOY_footer .list01 a {
+background: url(../../enjoy/images/btn_enjoy_off-trans.png) no-repeat left top;
+height: 127px;
+width: 485px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list01 a:hover {
+background: url(../../enjoy/images/btn_enjoy_on-trans.png) no-repeat left top;
+height: 127px;
+width: 485px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list01 Active a {
+background: url(../../enjoy/images/btn_enjoy_on-trans.png) no-repeat left top;
+height: 127px;
+width: 485px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list02 {
+	 position:absolute; 
+	 top: 0px; 
+	 left: 516px;
+}
+
+#ENJOY_footer .list02 a {
+background: url(../../enjoy/images/btn_contens01_off-trans.png) no-repeat left top;
+height: 124px;
+width: 117px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list02 a:hover {
+background: url(../../enjoy/images/btn_contens01_on-trans.png) no-repeat left top;
+height: 124px;
+width: 117px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list02 Active a {
+background: url(../../enjoy/images/btn_contens01_on-trans.png) no-repeat left top;
+height: 124px;
+width: 117px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list03 {
+	position:absolute; 
+	 top: 70px; 
+	 left: 625px;
+}
+
+#ENJOY_footer .list03 a {
+background: url(../../enjoy/images/btn_contens04_off-trans.png) no-repeat;
+height: 87px;
+width: 86px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list03 a:hover {
+background: url(../../enjoy/images/btn_contens04_on-trans.png) no-repeat left top;
+height: 87px;
+width: 86px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list03 Active a {
+background: url(../../enjoy/images/btn_contens04_on-trans.png) no-repeat left top;
+height: 87px;
+width: 86px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list04 {
+	position:absolute; 
+	 top: 5px; 
+	 left: 701px;
+}
+
+#ENJOY_footer .list04 a {
+background: url(../../enjoy/images/btn_contens02_off-trans.png) no-repeat left top;
+height: 98px;
+width: 101px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list04 a:hover {
+background: url(../../enjoy/images/btn_contens02_on-trans.png) no-repeat left top;
+height: 98px;
+width: 101px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list04 Active a {
+background: url(../../enjoy/images/btn_contens02_on-trans.png) no-repeat left top;
+height: 98px;
+width: 101px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list05 {
+	position:absolute; 
+	 top: 64px; 
+	 left: 784px;
+}
+
+#ENJOY_footer .list05 a {
+background: url(../../enjoy/images/btn_contens05_off-trans.png) no-repeat left top;
+height: 87px;
+width: 89px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list05 a:hover {
+background: url(../../enjoy/images/btn_contens05_on-trans.png) no-repeat left top;
+height: 87px;
+width: 89px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list05 Active a {
+background: url(../../enjoy/images/btn_contens05_on-trans.png) no-repeat left top;
+height: 87px;
+width: 89px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list06 {
+position:absolute; 
+	 top: 16px; 
+	 left: 865px;
+}
+
+#ENJOY_footer .list06 a {
+background: url(../../enjoy/images/btn_contens03_off-trans.png) no-repeat left top;
+height: 100px;
+width: 100px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list06 a:hover {
+background: url(../../enjoy/images/btn_contens03_on-trans.png) no-repeat left top;
+height: 100px;
+width: 100px;
+text-indent:-10000px;
+display:block;
+}
+
+#ENJOY_footer .list06 Active a {
+background: url(../../enjoy/images/btn_contens03_on-trans.png) no-repeat left top;
+height: 100px;
+width: 100px;
+text-indent:-10000px;
+display:block;
+}
+
+
+
+
+
+
+
+/****　一日の流れ　****/
+
+
+.day_bg01 {
+	background: url(../../enjoy/day/images/bg_day01.jpg) no-repeat;
+	width: 989px;
+	height: 331px;
+	margin: 0;
+	padding: 0;
+}
+
+.day_bg01 .text {
+		width: 353px;
+		margin: 0;
+}
+
+.day_bg01 .text p {
+	margin: 0 0 20px 0;
+	_margin: 0 0 10px 0;
+	padding: 5px 0 0 50px;
+	font-size: 12px;
+	line-height: 18px;
+	_line-height: 20px;
+}
+
+.day_bg01 .mor {
+	margin: 0;
+	padding: 0 0 0 580px;
+}
+
+.day_bg01 .mor ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.day_bg01 .mor li {
+	_background: url(../images/arrow_blue.gif) no-repeat left center;
+	background: url(../images/arrow_blue.gif) no-repeat left 2px;;
+	margin: 1px 0 0 0;
+	padding: 0 0 0 15px;
+	height: 17px;
+	_height: 15px;
+}
+
+.day_bg02 {
+	background: url(../../enjoy/day/images/bg_day02.jpg) no-repeat;
+	width: 989px;
+	height: 509px;
+	margin: 0;
+	padding: 0;
+}
+
+.day_bg02 .mor2 {
+	margin: 0;
+	padding: 0;
+}
+
+.day_bg02 .mor2 .td01 {
+	padding: 5px 20px;
+	background-color: #e6fdc7;
+	border: 1px #bbb solid;
+	font-weight: bold;
+	text-align: center;
+}
+
+.day_bg02 .mor2 .td02 {
+	padding: 5px 50px 5px 20px;
+	background-color: #fff;
+	border: 1px #bbb solid;
+	text-align: left;
+}
+
+
+.day_bg02 .mor2 li span {
+	font-weight: bold;
+	margin-right: 40px;
+}
+
+.day_bg02 .mor3 {
+	margin: 55px 0 0 0;
+	padding: 0 0 0 748px;
+}
+
+.day_bg02 .mor3 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.day_bg02 .mor3 li {
+	_background: url(../images/arrow_orenge.gif) no-repeat left center;
+	background: url(../images/arrow_orenge.gif) no-repeat left 2px;;
+	margin: 1px 0 0 0;
+	padding: 0 0 0 15px;
+	height: 17px;
+	_height: 15px;
+}
+
+.day_bg03 {
+	background: url(../../enjoy/day/images/bg_day03.jpg) no-repeat;
+	width: 989px;
+	height: 513px;
+	margin: 0;
+	padding: 0;
+}
+
+.day_bg03 .mor4 {
+		margin: 0;
+		padding: 0 0 0 310px;
+}
+
+.day_bg03 .mor4 p {
+	font-weight: bold;
+	color: #940b42;
+	margin: 13px 0 1px 0;
+}
+
+
+.day_bg03 .mor4 .td01 {
+	padding: 5px 20px;
+	background-color: #ffe6ea ;
+	border: 1px #bbb solid;
+	font-weight: bold;
+	text-align: center;
+}
+
+.day_bg03 .mor4 .td02 {
+	padding: 5px 50px 5px 20px;
+	background-color: #fff;
+	border: 1px #bbb solid;
+	text-align: left;
+}
+
+
+.day_bg03 .mor5 {
+	margin: 0;
+	padding: 0 0 0 622px;
+}
+
+.day_bg03 .mor5 ul {
+	margin: 0;
+	padding: 63px 0 0 0;
+	*padding: 73px 0 0 0;
+	list-style: none;
+}
+
+.day_bg03 .mor5 li {
+	_background: url(../images/arrow_purple.gif) no-repeat left center;
+	background: url(../images/arrow_purple.gif) no-repeat left 2px;;
+	margin: 1px 0 0 0;
+	padding: 0 0 0 15px;
+	height: 17px;
+	_height: 15px;
+	list-style: none;	
+}
+
+/*------------------------------------------------------------------------
+年間の主なイベント
+------------------------------------------------------------------------*/
+/**************************************************************************************************
+envent
+**************************************************************************************************/
+
+#event {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	width: 990px;
+	text-align: left;
+	line-height: 18px;
+}
+
+#event img.year_top {
+	margin: -4px 0 0 0;
+	_margin: 4px 0 0 0; 
+}
+
+
+/****　制服　****/
+
+.event_bg01 {
+		background: url(../../enjoy/year/images/bg_event01.jpg) no-repeat;
+		width: 990px;
+		height: 625px;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		position: relative;
+}
+
+.event_bg01 .eve_text01 {
+	width: 445px;
+	position:absolute;
+	top: 0px;
+	left: 51px;
+}
+
+.event_bg01 .eve_text02 {
+	position:absolute;
+	top: 256px;
+	left: 382px;
+}
+
+.event_bg01 .eve_text03 {
+	position:absolute;
+	top: 182px;
+	left: 625px;
+}
+
+.event_bg01 .eve_text04 {
+	position:absolute;
+	top: 336px;
+	left: 417px;
+}
+
+.event_bg01 .eve_text05 {
+	position:absolute;
+	top: 239px;
+	left: 755px;
+}
+
+.event_bg01 .eve_text06 {
+	position:absolute;
+	top: 147px;
+	left: 174px;
+}
+
+
+.event_bg02 {
+		background: url(../../enjoy/year/images/bg_event02.jpg) no-repeat;
+		width: 990px;
+		height: 558px;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		position: relative;
+}
+
+.event_bg02 .eve_text11 {
+	position:absolute;
+	top: 0px;
+	left: 60px;
+}
+
+.event_bg02 .eve_text12 {
+	position:absolute;
+	top: 120px;
+	left: 484px;
+}
+
+.event_bg02 .eve_text13 {
+	position:absolute;
+	top: 54px;
+	left: 606px;
+}
+
+.event_bg02 .eve_text14 {
+	position:absolute;
+	top: 413px;
+	left: 81px;
+}
+
+.event_bg02 .eve_text15 {
+	position:absolute;
+	top: 468px;
+	left: 381px;
+}
+
+.event_bg02 .eve_text16 {
+	position:absolute;
+	top: 400px;
+	left: 620px;
+}
+
+.event_bg02 .eve_text17 {
+	position:absolute;
+	top: 282px;
+	left: 830px;
+}
+
+.event_bg03 {
+		background: url(../../enjoy/year/images/bg_event03.jpg) no-repeat;
+		width: 990px;
+		height: 522px;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		position: relative;
+}
+
+.event_bg03 .opera {
+		width: 605px;
+		margin: 0;
+		padding: 368px 0 0 350px;
+}
+
+.event_bg03 .opera h5 {
+	color: #125b71;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0 0 0 22px;
+	margin: 0 0 5px 0;
+}
+
+.event_bg03 .opera p {
+		margin: 0 0 17px 0;
+		padding: 0;
+}
+		
+
+/*-------------------------------------------------------------
+制服
+----------------------------------------------------------------*/
+/**************************************************************************************************
+uniform
+**************************************************************************************************/
+
+#Uniform {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	width: 989px;
+	text-align: left;
+}
+
+#Uniform img.uniform_top {
+	margin: -5px 0 0 0;
+	_margin: 3px 0 0 0; 
+}
+
+
+
+/****　制服　****/
+
+.uni_bg01 {
+	background: url(../../enjoy/uniform/images/bg_uni01.jpg) no-repeat;
+	width: 989px;
+	height: 566px;
+	margin: 0;
+	padding: 0;
+	position:relative;
+	text-align: left;
+}
+
+.uni_bg01 .winter {
+		position: absolute;
+		top: 110px;
+		left: 242px;
+		width: 138px;
+}
+
+.uni_bg01 .winter p{
+	color: #174258;
+}
+
+.uni_bg01 .best {
+		position: absolute;
+		top: 360px;
+		left: 328px;
+		width: 138px;
+}
+
+.uni_bg01 .best p{
+	color: #631339;
+}
+
+.uni_bg01 .summer {
+		position: absolute;
+		top: 245px;
+		left: 682px;
+		width: 138px;
+}
+
+.uni_bg01 .summer p{
+	color: #62450f;
+}
+	
+
+
+
+
+.uni_bg02 {
+	background: url(../../enjoy/uniform/images/bg_uni02.jpg) no-repeat;
+	width: 989px;
+	height: 511px;
+	margin: 0;
+	padding: 0;
+	position:relative;
+}
+
+.uni_bg02 .text {
+		width: 296px;
+		margin: 0;
+		padding: 0 0 0 680px;
+}
+
+.uni_bg02 .sub01 {
+		position: absolute;
+		top: 145px;
+		left: 39px;
+		width: 80px;
+}
+
+.uni_bg02 .sub02 {
+		position: absolute;
+		top: 286px;
+		left: 285px;
+		width: 166px;
+}
+
+.uni_bg02 .sub03 {
+		position: absolute;
+		top: 201px;
+		left: 530px;
+		width: 169px;
+}
+
+.uni_bg02 .sub04 {
+		position: absolute;
+		top: 295px;
+		left: 802px;
+		width: 119px;
+}
+
+.uni_bg03 {
+	background: url(../../enjoy/uniform/images/bg_uni03.jpg) no-repeat;
+	width: 989px;
+	height: 218px;
+	margin: 0;
+	padding: 0;
+}
+
+.uni_bg03 .text2 {
+		margin: 0;
+		padding: 110px 0 0 360px;
+}
+
+/*-------------------------------------------------------------------
+部活動の紹介
+-----------------------------------------------------------------*/
+/**************************************************************************************************
+club
+**************************************************************************************************/
+
+#club {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	width: 989px;
+	text-align: left;
+}
+
+img.club_top{
+	margin: -4px 0 0 0;
+	_margin: 4px 0 0 0;
+}
+
+#club h2 {
+		margin: 0 0 33px 0;
+		padding: 0;
+}
+
+/*---------------------
+大会結果
+-----------------------------------*/
+
+#club .c_box {
+	margin: 35px 0 50px;
+}
+
+#club .c_box .c_bloc {
+	margin: 25px 0;
+}
+
+#club .c_box .c_bloc .gold {
+	background: url(../../enjoy/club/images/club_icon01.gif) no-repeat left top;
+	padding: 0 0 0 60px;
+	float: left;
+	width: 410px;
+}
+
+#club .c_box .c_bloc .gold h4.sub_tit {
+	float: left;
+	width: 150px;
+	margin: 15px 15px 0 0;
+}
+
+#club .c_box .c_bloc .gold ul {
+	float: left;
+}
+
+#club .c_box .c_bloc .gold ul li {
+	background: url(../../enjoy/club/images/c_arrow.gif) no-repeat left 4px;
+	padding: 0 0 0 14px;
+	margin-bottom: 5px;
+}
+
+#club .c_box .c_bloc .silver {
+	background: url(../../enjoy/club/images/club_icon02.gif) no-repeat left top;
+	padding: 0 0 0 65px;
+	float: left;
+	width: 130px;
+	min-height: 49px;
+	height: auto !important;
+	height: 49px;
+}
+
+#club .c_box .c_bloc .silver ul li {
+	background: url(../../enjoy/club/images/c_arrow02.gif) no-repeat left 4px;
+	padding: 0 0 0 14px;
+	margin-bottom: 5px;
+}
+
+#club .c_box .c_bloc .other {
+	float: left;
+	width: 310px;
+}
+
+#club .c_box .c_bloc .other .other01 {
+	background: url(../../enjoy/club/images/c_img01.gif) no-repeat left top;
+	padding: 0 0 0 35px;
+	margin-bottom: 10px;
+}
+
+#club .c_box .c_bloc .other .other02 {
+	background: url(../../enjoy/club/images/c_img02.gif) no-repeat left top;
+	padding: 0 0 0 35px;
+}
+
+#club .c_box .c_bloc .other .other01 span, #club .c_box .c_bloc .other .other02 span {
+	color: #c80000;
+	font-weight: bold;
+}
+
+/****　部活動　****/
+
+.club_bg01 {
+	background: url(../../enjoy/club/images/bg_club01.jpg) no-repeat;
+	width: 989px;
+	height: 93px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+
+.club_btn01 {
+	margin: 40px 0 0 40px;
+}
+
+.club_list01 {
+	margin: 0;
+	padding: 0;
+}
+
+.club_list01 ul {
+	margin: 0 0 3px 20px;
+	padding: 0;
+	list-style: none;
+}
+
+.club_list01 li {
+		background: url(../../enjoy/club/images/club_icon01.jpg) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 0 24px;
+		float: left;
+}
+
+.club_list01 a{
+	color:#535353;
+	text-decoration: underline;
+}
+
+.club_list01 a:hover {
+	color:#535353;
+	text-decoration: none;
+}
+
+.club_btn02 {
+	margin: 30px 0 0 40px;
+}
+
+.club_btn02 {
+	margin: 40px 0 20px 40px;
+}
+
+.club_list02 {
+	margin: 0 0 45px 0;
+	padding: 0;
+}
+
+.club_list02 ul {
+	margin: 0 0 3px 20px;
+	padding: 0;
+	list-style: none;
+}
+
+.club_list02 li {
+		background: url(../../enjoy/club/images/club_icon02.jpg) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 0 24px;
+		float: left;
+}
+
+.club_list02 a{
+	color:#535353;
+	text-decoration: underline;
+}
+
+.club_list02 a:hover {
+	color:#535353;
+	text-decoration: none;
+}
+
+
+/* 横　*/
+
+.club_width {
+	margin: 0;
+}
+
+.club_width img {
+	margin: 0 0 17px 0;
+}
+
+.club_width ul {
+		margin: 0 0 20px 10px;
+		padding: 0;
+		list-style: none;
+}
+
+.club_width .icon {
+		margin: 0 8px 0 15px;
+}
+
+
+
+.club_width li {
+		margin: 0;
+		padding: 0;
+}
+
+.club_width .listg {
+		background: url(../../enjoy/club/images/club_icon01.jpg) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0;
+}
+
+.club_width .listg2 {
+		background: url(../../enjoy/club/images/club_icon01.jpg) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0;
+		float: left;
+}
+
+.club_width .listg3 {
+		background: url(../../enjoy/club/images/club_icon01.jpg) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0 0 0 20px;
+		float: left;
+}
+
+.club_width .listb {
+		background: url(../../enjoy/club/images/club_icon02.jpg) no-repeat;
+		padding: 0 0 0 15px;
+		margin: 0;
+}
+
+
+
+.club_width span {
+	color: #c60000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.club_width p {
+		margin: 0 0 20px;
+		width: 220px;
+}
+
+/* 3つ　*/
+
+.club_width .width01 {
+	float: left;
+	margin: 0 19px 0 0;
+	width: 311px;
+}
+
+.club_width .width02 {
+	float: left;
+	margin: 0;
+}
+
+/* 4つ　*/
+
+.club_width .width03 {
+	float: left;
+	margin: 0 14px 0 0;
+}
+
+.width02 table {
+		margin: 33px 0 15px 23px;
+		border: #c1c1c1 1px solid;
+ 
+}
+
+.width02 td {
+		line-height: 30px;
+		padding: 0 0 0 25px;
+		background-color: #fff;
+		border: #c1c1c1 1px solid;
+}
+
+.width02 .under_img {
+		margin: 0 0 0 23px;
+}
+
+.club_ul .ul_left {
+		margin: 0 0 20px 10px;
+		padding: 0;
+		float: left;
+		width: 126px;
+}
+
+/*-- 先輩の声 --*/
+
+#club .c_voice {
+	margin: 15px 0 50px;
+}
+
+#club .c_voice #voice_main01 {
+    height: auto;
+    position: relative;
+    width: 482px;
+	float:left;
+	margin-right: 25px;
+}
+
+#club .c_voice #voice_main02 {
+    height: auto;
+    position: relative;
+    width: 482px;
+	float:left;
+}
+
+
+#club .c_voice dl.Voice_bg {
+    background: url(../images/bg_voice02.jpg) repeat-y scroll 0 0 transparent;
+    margin: 0 0 35px;
+	_height: 1%;
+}
+
+#club .c_voice dl.Voice_bg dt {
+    background: url(../images/top_voice02.jpg) no-repeat scroll left top transparent;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 60px 0 15px 104px;
+}
+
+#club .c_voice dl.Voice_bg dd {
+    background: url(../images/bottom_voice02.jpg) no-repeat scroll left bottom transparent;
+    padding: 0 28px 25px 58px;
+	line-height: 1.5;
+}
+
+#club .c_voice img.v_imgC01 {
+	bottom:47px;
+    height: 250px;
+    left: 250px;
+    position: absolute;
+    width: 200px;
+}
+
+#club .c_voice img.v_imgC02 {
+    bottom:47px;
+    height: 250px;
+    left: 250px;
+    position: absolute;
+    width: 200px;
+}
+
+#club .c_voice img {
+	margin: 0;
+}
+
+
+/*---------------------------------------------------------------
+カタリナのどこが好き？
+--------------------------------------------------------------*/
+#like {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	width: 989px;
+	text-align: left;
+}
+
+#like img.like_top {
+	margin: -6px 0 0 0;
+	_margin: 2px 0 0 0;
+}
+
+#like .Frame {
+	margin: 0;
+	padding: 0;
+	width: 989px;
+	position: relative;
+}
+
+.Gallery {
+	background: url(../../enjoy/like/images/flash_bk.jpg) no-repeat left top;
+	height: 823px;
+	width: 989px;
+	margin: 0 auto;
+}
+
+.Gallery div {
+	margin: 0 0 0 230px;
+	padding: 35px 0 0 0;
+}
+
+		
+/*-----------------------------------------------------------
+Cool School Communication
+-------------------------------------------------------------*/
+
+/**************************************************************************************************
+cool
+**************************************************************************************************/
+
+#cool {
+	padding: 0;
+	margin: 0;
+	width: 970px;
+	position:relative;
+}
+
+.cool01 {
+		background: url(../../cool/images/bg_cool01.jpg) no-repeat ;
+		width: 970px;
+		height: 250px;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+}
+
+.cool01 .text_cool {
+		width: 456px;
+		color: #fff;
+		margin: 0;
+		padding: 0 0 0 50px;
+		font-size: 11px;
+		line-height: 1.5;
+}
+
+.cool02 {
+		background: url(../../cool/images/bg_cool02.jpg) no-repeat ;
+		width: 970px;
+		height: 280px;
+		margin: 0;
+		padding: 0;
+}
+
+.cool_img {
+	padding: 171px 0 0 0;
+}
+
+.cool02 .img_01 {
+		float: left;
+		margin: 0 9px 0 27px;
+}
+
+.cool02 .img_02 {
+		float: left;
+		margin: 0 0 0 0;
+}
+
+
+/*-------------------------------------------------------------------
+英語トレーニング法
+--------------------------------------------------------------------*/
+/**************************************************************************************************
+english
+**************************************************************************************************/
+
+#english {
+		text-align: center;
+		width: 970px;
+		margin: 0 auto 30px;
+}
+
+#english h1 {
+		margin: 0;
+		padding: 0;
+}
+
+#english h2 {
+		margin: 0 0 25px 0;
+		padding: 0;
+}
+
+#english h3 {
+		margin: 0 0 17px 0;
+		padding: 0;
+}
+
+#english h4 {
+	background: url(../../cool/training/images/english_icon01.gif) no-repeat;
+	padding: 0 0 0 30px;
+	margin: 0 0 25px 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #371203;
+	line-height: 21px;
+}
+
+.eng_greeting {
+	background: url(../../cool/training/images/bg_english01.jpg) no-repeat;
+	height: 469px;
+	width: 970px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 74px 38px 0 38px;
+}
+
+.eng_greeting .greet01 {
+	width: 884px;
+	margin: 0 0 74px 0;
+}
+
+.eng_greeting p {
+	line-height: 21px;
+}
+
+.eng_greeting .li_img {
+	margin: 0 0 17px 19px;
+}
+	
+.eng_greeting .li_img2 {
+	margin: 0 0 36px 19px;
+}
+
+.eng_menu {
+	padding: 0 0 0 38px;
+	margin: 0 0 60px 0;
+}
+
+.eng_menu .li_img01 {
+	margin: 0 3px 0 0;
+	float: left;
+}
+
+.eng_menu .li_img02 {
+	margin: 0;
+	float: left;
+}
+
+.eng_contens {
+		width: 889px;
+		text-align: left;
+		margin: 0 auto 50px;
+}
+
+.eng_contens .eng_list01 {
+		padding: 0 0 0 33px;
+		margin: 0 0 23px 0;
+}
+
+.eng_contens .eng_list01 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.eng_contens .eng_list01 li {
+	margin: 0;
+	padding: 0;
+}
+
+.eng_contens .eng_list01 .li01 {
+	background: url(../../cool/training/images/english_icon11.gif) no-repeat;
+	margin: 0 0 8px 0;
+	padding: 0 0 0 25px;
+}
+
+.eng_contens .eng_list01 .li02 {
+	background: url(../../cool/training/images/english_icon12.gif) no-repeat;
+	margin: 0 0 8px 0;
+	padding: 0 0 0 25px;
+}
+
+.eng_contens .eng_list01 .li03 {
+	background: url(../../cool/training/images/english_icon13.gif) no-repeat;
+	margin: 0 0 8px 0;
+	padding: 0 0 0 25px;
+}
+
+.eng_contens .eng_list01 .li04 {
+	background: url(../../cool/training/images/english_icon21.gif) no-repeat;
+	margin: 10px 0 0 0;
+	padding: 0 0 0 25px;
+	font-size:14px;
+}
+
+.eng_contens .red {
+		font-size: 14px;
+		line-height: 21px;
+		color: #b2002f;
+		margin: 8px 0 0 0;
+}
+
+.eng_contens .eng_list01 .li05 {
+	background: url(../../cool/training/images/english_icon22.gif) no-repeat;
+	margin: 0;
+	padding: 0 0 0 25px;
+	font-size:14px;
+}
+
+.eng_contens .eng_list01 .li06 {
+	background: url(../../cool/training/images/english_icon23.gif) no-repeat;
+	margin: 0;
+	padding: 0 0 0 25px;
+	font-size:14px;
+}
+
+.eng_pagetop {
+		float: right;
+		margin: 0 0 5px 0;
+}
+
+.eng_pagetop2 {
+		float: right;
+		margin: 30px 0 5px 0;
+}
+
+.eng_cool {
+		float: left;
+		margin: 0 6px 0 20px;
+}
+
+.eng_cool2 {
+		float: left;
+		margin: 0 6px 40px 0;
+}
+
+
+

@@ -1,0 +1,8 @@
+@charset "utf-8";
+/****************************
+BASE CSS READING (NOT IE 4)
+****************************/
+@import "common.css";
+@import "contents.css";
+@import "highschool.css";
+

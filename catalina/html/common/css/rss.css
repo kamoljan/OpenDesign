@@ -1,0 +1,92 @@
+@charset "utf-8";
+/**************************************************************************************************
+Initialization
+**************************************************************************************************/
+
+.iepngfix {
+ behavior: expression(IEPNGFIX.fix(this));
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, img, h4, h5, h6, table, td, th, pre, code, form, fieldset, legend, input, textarea, p, blockquote {
+	margin : 0;
+	padding : 0;
+}
+body {
+	color: #6a6a6a;
+	font-size: 12px;
+	font-family: "メイリオ", "meiryo", Verdana, "Hiragino Kaku Gothic Pro W3", "MS UI Gothic";
+}
+
+table {
+	border-collapse : collapse;
+	border-spacing : 0;
+}
+td.center {
+	text-align : center;
+}
+fieldset, img {
+	border : 0;
+}
+address, caption, cite, code, dfn, th, var {
+	font-style : normal;
+	font-weight : normal;
+}
+ul {
+	list-style : none;
+}
+caption, th, td {
+	text-align : left;
+	vertical-align: top;
+}
+input, textarea, select {
+	font-family : inherit;
+	font-weight : inherit;
+	font-size : 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size : 100%;
+}
+
+img {
+vertical-align : middle;
+margin-left:16px;
+}
+
+a {
+color:#2d278a;
+text-decoration:none;
+}
+
+a:hover {
+color:#2d278a;
+text-decoration:underline;
+}
+
+#feed li br {
+display:none;
+}
+
+
+#feed li {
+	background: url(../images/arrow_white.gif) no-repeat left 6px;
+	padding: 0 0 4px 30px;
+	margin: 0 0 4px 0;
+	border-bottom: 1px dotted #b6b6b6;
+	list-style-type: none;
+}
+
+#feed li a {
+	margin: 0 0 0 13px;
+}
+
+
+
+.winmore {
+	text-align: right;
+	margin: 0 0 10px 0;
+	padding: 5px 0 0 0;
+}
+
+.SWmor{
+width:416px;
+margin-left:332px;
+}

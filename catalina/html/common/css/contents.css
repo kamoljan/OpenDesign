@@ -1,0 +1,3414 @@
+@charset "utf-8";
+/**************************************************************************************************
+OUTLINE
+**************************************************************************************************/
+
+body {
+	background: url(../images/bg_2nd.jpg) repeat-x left top;
+}
+
+#Container {
+	margin: auto;
+	width: 980px;
+	position: relative;
+}
+
+a {
+color:#2d278a;
+text-decoration:none;
+}
+
+a:hover {
+color:#2d278a;
+text-decoration:underline;
+}
+
+.clear{
+	clear: both;
+}
+
+p{
+margin:0 0 16px 0;
+
+}
+
+/**************************************************************************************************
+Header
+**************************************************************************************************/
+
+.Logo {
+	margin: 19px 0 27px 0;
+	background: url(../images/logo.jpg) no-repeat left top;
+	height: 53px;
+	width: 310px;
+}
+
+.Logo a {
+	height: 53px;
+	width: 310px;
+	text-indent:-10000px;
+	display: block;
+}
+
+.ToTop {
+	background: url(../../images/menu/line_totop.gif) no-repeat right center;
+	margin: 50px 0;
+}
+
+.ToTop a {
+	padding: 0 0 0 4px;
+}
+
+#PageTop {
+	padding: 36px 12px 22px 0;
+	text-align: right;
+}
+
+/**************************************************************************************************
+Menu
+**************************************************************************************************/
+
+.MenuImg {
+	background: url(../../images/menu/menu_topimg_bg.jpg) no-repeat center bottom;
+	padding: 0 0 26px 0;
+	width: 242px;
+	text-align:center;
+	margin: 0 0 0 16px;
+}
+
+#BgLine {
+	background: url(../../images/menu/menu_bg_line.gif) no-repeat left bottom;
+	padding: 0 0 0 0;
+}
+
+#BgLinebox{
+position: absolute;
+width: 259px;
+background: url(../../images/menu/menu_bg_line.gif) no-repeat left bottom;
+padding-left:13px;
+}
+
+*html #BgLinebox{
+height:auto;
+}
+
+*html #Menu{
+margin-bottom:-1120px;
+}
+
+.MenuList {
+	background: url(../../images/menu/menu_bg_02.jpg) repeat-y;
+	margin: 0px;
+	width: 246px;
+}
+
+.MenuTop_Tokushin {
+	height: 25px;
+	width: 246px;
+}
+
+.MenuBg {
+	background: url(../../images/menu/menu_bg_03.jpg) no-repeat left top;
+	padding:0 0 0 0;
+	margin: 0 0 0 9px;
+	height:33px;
+}
+
+
+.MenuBg li {
+	text-indent:16px;
+	height:31px;
+}
+
+.MenuBg li img {
+	margin:6px 0 0 0;
+}
+
+.MenuBg2 {
+	background: url(../../images/menu/menu_bg_04.jpg) no-repeat left top;
+	padding:0;
+	margin: 0 0 0 9px;
+	height:36px;
+}
+
+.MenuBg2 li {
+	padding: 9px 0 0 0;
+	text-indent:16px;
+	height:20px;
+}
+
+.MenuBg2 li a {
+	padding: 9px 0 0 0;
+}
+
+.MenuBg3 {
+	background: url(../../images/menu/menu_bg_06.jpg) no-repeat left top;
+	padding:0;
+	margin: 0 0 0 9px;
+	height:32px;
+}
+
+
+.MenuBg3 li {
+	padding:3px 0 0 0;
+	text-indent:16px;
+	height:32px;
+}
+
+.MenuBg3 li img {
+	margin:6px 0 0 0;
+}
+
+
+.MenuBox {
+	background: url(../../images/menu/menu_bg_box.jpg) no-repeat left top;
+}
+
+.MenuBox ul {
+	padding: 0px 0 0 0;
+	margin: 0 0 0 30px;
+	width: 220px;
+}
+
+.MenuBox ul li {
+	float: left;
+	width: 82px;
+	padding: 3px 0 3px 0;
+	height:20px;
+}
+
+.MenuBox ul li a{
+	float: left;
+	width: 82px;
+	padding: 3px 0 3px 0;
+	height:20px;
+}
+
+.MenuBox ul li.Long {
+	width: 108px;
+}
+
+.MenuBox ul li.Short {
+	width: 66px;
+}
+
+.MenuBox ul li.Middle {
+	width: 87px;
+	_width: 95px;
+}
+
+
+ul.MenuBtn {
+	margin: 0 0 0 9px;
+}
+
+ul.MenuBtn li {
+	background: url(../../images/menu/menu_bg_05.jpg) no-repeat left top;
+	padding:6px 0 0 0;
+	height:31px;
+	text-indent:16px;
+}
+
+ul.MenuBtn li img {
+	margin: 5px 0 0 0;
+}
+
+.MenuTotop {
+	text-align: right;
+	padding: 7px 0 0 0;
+}
+
+/**************************************************************************************************
+Main
+**************************************************************************************************/
+
+p.Right {
+	text-align:right;
+}
+
+p.Left {
+	text-align:left;
+}
+
+.MiddleImg {
+	background: url(../images/bg_middleimg.jpg) no-repeat left bottom;
+	padding: 0 0 26px 0;
+}
+
+.MiddleFrame {
+	width: 653px;
+	margin: 0 0 0 26px;
+}
+
+.MiddleFrame2 {
+	width: 680px;
+	margin: 0 0 0 3px;
+}
+
+.MiddleFrame p,
+.MiddleFrame2 p {
+	margin: 0 0 20px 0;
+}
+
+h2.H2Img{
+	margin: 70px 0 20px 0;
+}
+
+h2.H2Img02 {
+	margin: 70px 0 15px 0;
+}
+
+h2.H2Img03 {
+	margin: 15px 0 0 0;
+}
+
+h2.H2Text {
+	font-size: 16px;
+	background: url(../images/bg_h3_text.gif) no-repeat left top;
+	padding: 0 0 13px 15px;
+	margin: 0 0 20px 0;
+}
+
+h3.H3Text {
+	font-size: 16px;
+	background: url(../images/bg_h3_text.gif) no-repeat left top;
+	padding: 0 0 13px 15px;
+	margin: 70px 0 20px 0;
+color: #4c3e35;
+}
+
+h3.H3Img {
+	margin: 70px 0 20px 0;
+}
+
+h3.H3Img02 {
+	margin: 0 0 20px 0;
+}
+
+
+h4.H4Text {
+	font-size: 13px;
+	color: #6561a9;
+}
+
+h4.H4Textar {
+	font-size: 14px;
+	color: #6561a9;
+	background: url(../images/bg_h4_textar.gif) no-repeat left 3px;
+	padding: 0 0 0 18px;
+	margin: 16px 0 ;
+}
+
+h4.H4Img {
+	margin: 0 0 35px 0;
+}
+
+h4.H4Img02 {
+	margin: 60px 0 20px 0;
+}
+
+h5.H5Text {
+	font-size: 13px;
+	color: #3f3f3f;
+margin: 0 0 20px 0;
+width:638px;
+background-color:#EBEBEB;
+padding: 2px 2px 2px 14px;
+}
+
+.TextAtten{
+color: #960000;
+font-weight:bold;
+}
+
+.attention {
+	color: #960000;
+	font-weight:bold;
+	font-size: 16px;
+	text-align:center;
+	padding: 10px 0;
+	border: 5px solid #E9EBF5;
+    margin: 0 0 35px;
+	width: 99%;
+}
+
+dl.Catch {
+	margin: 0 30px 30px 17px;
+	padding: 0 0 0 15px;
+	background: url(../../images/menu/line_dl.gif) repeat-y left top;
+}
+
+dl.Catch dt {
+	font-size: 14px;
+	margin: 0 0 5px 0;
+	font-weight: bold;
+}
+
+dl.Catch dd {
+}
+
+ul.TextList {
+	padding: 0 0 30px 32px;
+}
+
+ul.TextList li {
+	background: url(../images/arrow_gray.gif) no-repeat left 6px;
+	padding: 0 0 0 11px;
+	margin: 0 0 5px 0;
+}
+
+.DotBox {
+	width: 656px;
+	background: url(../images/dot_box.jpg) no-repeat left top;
+}
+
+.DotLeft {
+	width: 328px;
+	float:left;
+}
+
+.DotRight {
+	width: 328px;
+	float:right;
+}
+
+.DotBox dl {
+	width: 285px;
+	margin: 27px 0 0 24px;
+}
+
+.DotBox dl dt {
+	font-size: 14px;
+	margin: 0 0 10px 0;
+	font-weight: bold;
+}
+
+.DotBox dl dd p {
+	margin: 0 0 15px 0;
+}
+
+.DotBox dl dd p.More {
+	text-align:right;
+}
+
+.Box_main {
+	margin: 10px;
+	
+}
+
+.BoxLarge {
+	background: url(../images/boxl_bg.jpg) repeat-y left top;
+	width: 653px;
+}
+
+.BoxLarge dl {
+	margin: 0 0 0 20px;
+}
+
+.BoxLarge dl dt {
+	float: left;
+	width: 196px;
+}
+
+.BoxLarge dl dd {
+	float: right;
+	width: 422px;
+}
+
+.BoxLarge dl dd h3 {
+	margin: 7px 0 20px 0;
+}
+
+.BoxLarge dl dd p {
+	margin: 0 35px 0 0;
+}
+
+dl.Att {
+	background: url(../images/bg_att.jpg) repeat-y;
+	margin: 0 0 15px 0;
+}
+
+dl.Att dt {
+	background: url(../images/top_att.jpg) no-repeat left top;
+	padding: 60px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+color:#2d278a;
+}
+
+dl.Att dd {
+	background: url(../images/bottom_att.jpg) no-repeat left bottom;
+	padding: 0 58px 25px 58px;
+}
+
+dl.Att02 {
+	background: url(../images/bg_att02.jpg) repeat-y;
+	width: 340px;
+	margin: 0 0 15px 0;
+	float: left;
+}
+
+
+dl.Att02 dt {
+	background: url(../images/top_att02.jpg) no-repeat left top;
+	padding: 55px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#2d278a;
+}
+
+
+dl.Att02 dd {
+	background: url(../images/bottom_att02.jpg) no-repeat left bottom;
+	padding: 0 45px 23px 55px;
+	height: 55px;
+}
+
+dl.Att02 dd.dd01 {
+	height: 95px;
+}
+
+dl.Att02_2 {
+	background: url(../images/bg_att02.jpg) repeat-y;
+	width: 340px;
+	margin: 0 0 15px 0;
+	float: left;
+}
+
+dl.Att02_2 dt {
+	background: url(../images/top_att02.jpg) no-repeat left top;
+	padding: 55px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#2d278a;
+}
+
+dl.Att02_2 dd {
+	background: url(../images/bottom_att02.jpg) no-repeat left bottom;
+	padding: 0 45px 23px 55px;
+}
+
+dl.Att02s {
+	background: url(../images/bg_att02.jpg) repeat-y;
+	width: 340px;
+	_width: 330px;
+	margin: 0 0 15px 0;
+	float: left;
+}
+
+dl.Att02s dt {
+	background: url(../images/top_att02.jpg) no-repeat left top;
+	padding: 55px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#2d278a;
+}
+
+dl.Att02s dd {
+	background: url(../images/bottom_att02.jpg) no-repeat left bottom;
+	padding: 0 40px 23px 55px;
+	_padding: 0 35px 23px 55px;
+	height: 135px;
+}
+
+
+dl.Att02s dd img {
+	padding: 5px 0 0 0;
+}
+
+dl.Att02s_2 {
+	background: url(../images/bg_att02.jpg) repeat-y;
+	width: 340px;
+	_width: 330px;
+	margin: 0 0 15px 0;
+	float: left;
+}
+
+dl.Att02s_2 dt {
+	background: url(../images/top_att02.jpg) no-repeat left top;
+	padding: 55px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#2d278a;
+}
+
+dl.Att02s_2 dd {
+	background: url(../images/bottom_att02.jpg) no-repeat left bottom;
+	padding: 0 40px 23px 55px;
+	_padding: 0 35px 23px 55px;
+}
+
+dl.Att03 {
+	background: url(../images/bg_att.jpg) repeat-y;
+	margin: 0 0 35px 0;
+}
+
+dl.Att03 dt {
+	background: url(../images/top_att03.jpg) no-repeat left top;
+	padding: 60px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+dl.Att03 dt img {
+	height: 18px;
+	margin-bottom: 5px;
+}
+
+dl.Att03 dd {
+	background: url(../images/bottom_att.jpg) no-repeat left bottom;
+	padding: 0 58px 25px 58px;
+	height: 115px;
+}
+
+dl.Att03 dd img {
+	float: left;
+	margin-right: 15px;
+}
+
+dl.Att04 {
+	background: url(../images/bg_att.jpg) repeat-y;
+	margin: 0 0 35px 0;
+}
+
+dl.Att04 dt {
+	background: url(../images/top_att.jpg) no-repeat left top;
+	padding: 60px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#2d278a;
+}
+
+dl.Att04 dt img {
+	margin-bottom: 5px;
+}
+
+dl.Att04 dd {
+	background: url(../images/bottom_att.jpg) no-repeat left bottom;
+	padding: 0 58px 25px 58px;
+}
+
+dl.Att04 dd img {
+	float: right;
+	margin-left: 15px;
+	margin-top:-63px;
+}
+
+dl.Att05 {
+	background: url(../images/bg_att02.jpg) repeat-y;
+	width: 340px;
+	margin: 0 0 15px 0;
+	float: left;
+}
+
+dl.Att05 dt {
+	background: url(../images/top_att05.jpg) no-repeat left top;
+	padding: 48px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	color:#2d278a;
+}
+
+dl.Att05 dt .m_txt{
+	font-size: 12px;
+	font-weight: bold;
+	color:#ff982a;
+}
+
+dl.Att05 dd.dd01 {
+	background: url(../images/bottom_att02.jpg) no-repeat left bottom;
+	padding: 0 45px 23px 55px;
+	height: 70px;
+}
+
+dl.Att05 dd.dd02 {
+	background: url(../images/bottom_att02.jpg) no-repeat left bottom;
+	padding: 0 45px 23px 55px;
+	height: 35px;
+}
+
+dl.Att05 dd.dd03 {
+	background: url(../images/bottom_att02.jpg) no-repeat left bottom;
+	padding: 0 45px 23px 55px;
+	height: 90px;
+}
+
+dl.Att06 {
+	background: url(../images/bg_att.jpg) repeat-y;
+	margin: 0 0 15px 0;
+}
+
+dl.Att06 dt {
+	background: url(../images/top_att.jpg) no-repeat left top;
+	padding: 60px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#2d278a;
+}
+
+dl.Att06 dd {
+	background: url(../images/bottom_att.jpg) no-repeat left bottom;
+	padding: 0 58px 25px 58px;
+	min-height: 73px;
+	height: auto !important;
+	height: 73px;
+}
+
+dl.Att06 dd img {
+	margin: 0 0 0 25px;
+}
+
+dl.Voice_bg {
+	background: url(../images/bg_voice.jpg) repeat-y;
+	margin: 0 0 35px 0;
+}
+
+dl.Voice_bg dt {
+	background: url(../images/top_voice.jpg) no-repeat left top;
+	padding: 60px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+dl.Voice_bg dd {
+	background: url(../images/bottom_voice.jpg) no-repeat left bottom;
+	padding: 0 240px 25px 58px;
+}
+
+dl.Voice_bg dt img {
+	height: 18px;
+	margin-bottom: 5px;
+}
+
+dl.Voice_bg02 {
+	background: url(../images/bg_voice.jpg) repeat-y;
+	margin: 0 0 35px 0;
+}
+
+dl.Voice_bg02 dt {
+	background: url(../images/top_voice.jpg) no-repeat left top;
+	padding: 60px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+dl.Voice_bg02 dd {
+	background: url(../images/bottom_voice.jpg) no-repeat left bottom;
+	padding: 0 58px 25px 58px;
+}
+
+dl.Voice_bg02 dt img {
+	height: 18px;
+	margin-bottom: 5px;
+}
+
+dl.SP_Voice_bg {
+	background: url(../images/bg_SPvoice.jpg) repeat-y;
+	margin: 0 0 35px 0;
+}
+
+dl.SP_Voice_bg dt {
+	background: url(../images/top_SPvoice.jpg) no-repeat left top;
+	padding: 60px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+dl.SP_Voice_bg dd {
+	background: url(../images/bottom_SPvoice.jpg) no-repeat left bottom;
+	padding: 0 240px 25px 58px;
+}
+
+dl.SP_Voice_bg dt img {
+	height: 18px;
+	margin-bottom: 5px;
+}
+
+dl.SP_Voice_bg02 {
+	background: url(../images/bg_SPvoice.jpg) repeat-y;
+	margin: 0 0 35px 0;
+}
+
+dl.SP_Voice_bg02 dt {
+	background: url(../images/top_SPvoice.jpg) no-repeat left top;
+	padding: 60px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+dl.SP_Voice_bg02 dd {
+	background: url(../images/bottom_SPvoice.jpg) no-repeat left bottom;
+	padding: 0 58px 25px 58px;
+}
+
+dl.SP_Voice_bg02 dt img {
+	height: 18px;
+	margin-bottom: 5px;
+}
+
+dl.SP_Voice_bg03 {
+	background: url(../images/bg_SPvoice.jpg) repeat-y;
+	margin: 0 0 35px 0;
+	_height: 1%;
+}
+
+dl.SP_Voice_bg03 dt {
+	background: url(../images/top_SPvoice02.jpg) no-repeat left top;
+	padding: 60px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+dl.SP_Voice_bg03 dd {
+	background: url(../images/bottom_SPvoice.jpg) no-repeat left bottom;
+	padding: 0 240px 25px 58px;
+}
+
+dl.SP_Voice_bg03 dt img {
+	height: 18px;
+	margin-bottom: 5px;
+}
+
+.Data01 {
+	border: 5px solid #E9EBF5;
+	margin: 0 0 35px 0;
+}
+.Data01 table {
+	width: 643px;
+}
+
+.Data01 table th {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	width:160px;
+}
+
+.Data01 table td {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+}
+
+.Data02 {
+	border: 5px solid #E9EBF5;
+	margin: 0 0 15px 0;
+}
+.Data02 table {
+	width: 100%;
+}
+
+.Data02 table th {
+	border: 1px solid #D6D6D6;
+	padding: 10px;
+	font-weight: bold;
+	background: #F6F7FD;
+}
+
+.Data02 table td {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+}
+
+.Data03 {
+	border: 5px solid #E9EBF5;
+	margin: 0 0 15px 0;
+}
+.Data03 table {
+	width: 100%;
+}
+
+.Data03 table th {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	font-weight: bold;
+	background: #F6F7FD;
+	width: 40%;
+}
+
+
+
+.Data03 table td {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	width: 60%;
+}
+
+.Data04 {
+	border: 5px solid #E9EBF5;
+	margin: 0 0 35px 0;
+}
+.Data04 table {
+	width: 100%;
+}
+
+.Data04 table th {
+	border: 1px solid #D6D6D6;
+	background: #F6F7FD;
+	width: 10px;
+	padding: 4px 10px;
+}
+
+.Data04 table th.th02 {
+	border: 1px solid #D6D6D6;
+	background: #F6F7FD;
+	padding: 4px 10px;
+	width: 100%;
+}
+
+.Data04 table td {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	width: 33%;
+}
+
+.Data05 {
+	border: 5px solid #E9EBF5;
+	margin: 0 0 15px 0;
+}
+.Data05 table {
+	width: 100%;
+}
+
+.Data05 table th {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	font-weight: bold;
+	background: #F6F7FD;
+	text-align: center;
+	width: 50%;
+}
+
+.Data05 table td {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	text-align: center;
+	width: 50%;
+}
+
+.Data06 {
+	border: 5px solid #E9EBF5;
+	margin: 0 0 35px 0;
+}
+.Data06 table {
+	width: 100%;
+}
+
+.Data06 table th {
+	border: 1px solid #D6D6D6;
+	background: #F6F7FD;
+	width: 10px;
+	padding: 4px 10px;
+}
+
+.Data06 table td {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+}
+
+.Data06 table td.td01 {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	width: 25%;
+}
+
+.Data06 table td.td02 {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	text-align: center;
+	width: 8%;
+}
+
+.Data07 {
+	border: 5px solid #E9EBF5;
+	margin: 0 0 35px 0;
+}
+.Data07 table {
+	width: 100%;
+}
+
+.Data07 table th {
+	border: 1px solid #D6D6D6;
+	background: #F6F7FD;
+	padding: 4px 10px;
+	text-align: center;
+}
+
+.Data07 table td {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+}
+
+.Data07 table td.td02 {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+}
+
+.Data08 {
+	border: 5px solid #E9EBF5;
+	margin: 0 0 35px 0;
+}
+.Data08 table {
+	width: 643px;
+}
+
+.Data08 table th {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	background: #F6F7FD;
+	text-align: center;
+	vertical-align: middle;
+	width:80px;
+}
+
+.Data08 table td {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+}
+
+
+h4.Caption {
+	margin: 0 0 10px 10px;
+	font-size: 14px;
+}
+
+.ImgLeft {
+	float: left;
+	margin: 0 0 28px 0;
+}
+
+.ImgRight {
+	float: right;
+	margin: 0 0 28px 0;
+}
+
+.TextLeft {
+	float: left;
+	width: 330px;
+}
+
+.TextRight {
+	float: right;
+	width: 330px;
+}
+
+.TextRight2 {
+	float: right;
+	width: 390px;
+}
+
+.TextLeft dl,
+.TextRight dl {
+}
+
+.TextLeft dl dt,
+.TextRight dl dt {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 120%;
+	margin: 0 0 10px 0;
+}
+
+.TextLeft dl dd,
+.TextRight dl dd {
+	font-size: 12px;
+	margin: 0 0 10px 0;
+}
+
+.TextLeft dl dd.Arrow,
+.TextRight dl dd.Arrow {
+	font-size: 12px;
+	background: url(../images/arrow_blue.jpg) no-repeat left center;
+	padding: 0 0 0 10px;
+	margin: 0 0 10px 0;
+	text-align: left;
+}
+
+.ImgList {
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+
+.ImgList th {
+	text-align: center;
+	padding: 0 0 10px 0;
+}
+
+.ImgList td {
+	text-align: center;
+	padding: 0px;
+}
+
+p.Text {
+	margin: 0 20px 20px 20px;
+}
+
+/*---------------------------------------------------------------------------------
+下部ナビゲーション
+-----------------------------------------------------------------------------------*/
+#bottom_navi {
+	margin: 70px 0;
+}
+
+#bottom_navi h3.Navitit01 {
+	text-indent: -9999px;
+	background: url(../images/bottom_navi01.gif) no-repeat left top;
+	width: 703px;
+	height: 29px;
+}
+
+#bottom_navi h3.Navitit02 {
+	text-indent: -9999px;
+	background: url(../images/bottom_navi02.gif) no-repeat left top;
+	width: 703px;
+	height: 29px;
+	margin-top: 25px;
+}
+
+#bottom_navi h3.Navitit03 {
+	text-indent: -9999px;
+	background: url(../images/bottom_navi03.gif) no-repeat left top;
+	width: 703px;
+	height: 29px;
+	margin-top: 25px;
+}
+
+#bottom_navi h3.Navitit04 {
+	text-indent: -9999px;
+	background: url(../images/bottom_navi04.gif) no-repeat left top;
+	width: 703px;
+	height: 29px;
+	margin-top: 25px;
+}
+
+#bottom_navi h3.Navitit05 {
+	text-indent: -9999px;
+	background: url(../images/bottom_navi05.gif) no-repeat left top;
+	width: 703px;
+	height: 29px;
+	margin-top: 25px;
+}
+
+#bottom_navi ul.bm_list {
+	width: 690px;
+	height: 30px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#bottom_navi ul.bm_list li {
+	background: url(../images/icon01.gif) no-repeat left center;
+	padding: 0 0 0 20px;
+	margin: 10px 20px 0 0;
+	float: left;
+}
+
+#bottom_navi ul.bm_list a {
+	text-decoration: underline;
+}
+
+#bottom_navi ul.bm_list a:hover {
+	text-decoration: none;
+}
+
+#bottom_navi ul.bm_list02 {
+	width: 690px;
+	height: 30px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#bottom_navi ul.bm_list02 .li_tit {
+	background: url(../images/icon01.gif) no-repeat left center;
+	padding: 0 0 0 20px;
+	margin: 10px 20px 0 0;
+	color: #5b5887;
+	float: left;
+}
+
+#bottom_navi ul.bm_list02 li {
+	margin: 10px 20px 0 0;
+	float: left;
+}
+
+#bottom_navi ul.bm_list02 a {
+	text-decoration: underline;
+}
+
+#bottom_navi ul.bm_list02 a:hover {
+	text-decoration: none;
+}
+
+#bottom_navi ul.bm_list03 {
+	width: 690px;
+	height: 163px;
+	margin: 0 auto;
+	color: #5b5887;
+	clear: both;
+}
+
+#bottom_navi ul.bm_list03 li.li01 {
+	position: absolute;
+	top: 4px;
+	left: 9px;
+}
+
+#bottom_navi ul.bm_list03 li.li02 {
+	position: absolute;
+	top: 4px;
+	left: 82px;
+}
+
+#bottom_navi ul.bm_list03 li.li03 {
+	position: absolute;
+	top: 71px;
+	left: 82px;
+}
+
+#bottom_navi ul.bm_list03 li.li04 {
+	position: absolute;
+	top: 105px;
+	left: 82px;
+}
+
+#bottom_navi ul.bm_list03 li.li05 {
+	position: absolute;
+	top: 4px;
+	left: 245px;
+}
+
+#bottom_navi ul.bm_list03 li.li06 {
+	position: absolute;
+	top: 37px;
+	left: 245px;
+}
+
+#bottom_navi ul.bm_list03 li.li07 {
+	position: absolute;
+	top: 140px;
+	left: 82px;
+}
+
+#bottom_navi ul.bm_list03 a {
+	text-decoration: underline;
+}
+
+#bottom_navi ul.bm_list03 a:hover {
+	text-decoration: none;
+}
+
+.bm_navi_bg01{
+	background: url(../images/bottom_navi_bg01.gif) no-repeat left top;
+	width: 485px;
+	height: 163px;
+	margin: 12px 0 20px 20px;
+	position: relative;
+}
+
+.bm_navi_bg02{
+	background: url(../images/bottom_navi_bg02.gif) no-repeat left top;
+	width: 485px;
+	height: 163px;
+	margin: 12px 0 20px 20px;
+	position: relative;
+}
+
+.bm_navi_bg03{
+	background: url(../images/bottom_navi_bg03.gif) no-repeat left top;
+	width: 485px;
+	height: 163px;
+	margin: 12px 0 20px 20px;
+	position: relative;
+}
+
+.bm_navi_bg04{
+	background: url(../images/bottom_navi_bg04.gif) no-repeat left top;
+	width: 485px;
+	height: 163px;
+	margin: 12px 0 20px 20px;
+	position: relative;
+}
+
+.bm_navi_bg05{
+	background: url(../images/bottom_navi_bg05.gif) no-repeat left top;
+	width: 485px;
+	height: 163px;
+	margin: 12px 0 20px 20px;
+	position: relative;
+}
+
+.bm_navi_bg06{
+	background: url(../images/bottom_navi_bg06.gif) no-repeat left top;
+	width: 485px;
+	height: 163px;
+	margin: 12px 0 20px 20px;
+	position: relative;
+}
+
+
+
+
+/**************************************************************************************************
+Middle
+**************************************************************************************************/
+
+/** コース紹介 **/
+
+#TopImage {
+	text-align: center;
+	background: url(../images/bg_topimg.jpg) no-repeat center bottom;
+	padding: 0 0 15px 0;
+	margin: 0 0 28px 0;
+}
+
+.CourseSelect {
+	background: url(../../courses/images/index/bg_courses.jpg) repeat-y left;
+	width: 978px;
+	font-size:11px;
+	margin-top: 28px;
+}
+
+.CourseSelect .Photo {
+	margin: 0 0 10px 20px;
+}
+
+.shinsetsu01 {
+	position: absolute;
+	left: -23px;
+	top: 920px;
+	width: 114px;
+	height: 120px;
+}
+
+.shinsetsu02 {
+	position: absolute;
+	left: 910px;
+	top: 1400px;
+	_top: 1410px;
+	width: 98px;
+	height: 100px;
+}
+
+/*-- 新設学科・コース --*/
+
+.new_C {
+	margin: 25px 0 0 0;
+}
+
+.new_C .new_bloc {
+	background: url(../../courses/images/index/new_bg.jpg) no-repeat left bottom;
+	height: 288px;
+	width: 978px;
+	padding: 0 45px 0 50px;
+}
+
+.new_C .new_bloc h3 {
+	margin: 0 0 20px 0;
+}
+
+.new_C .new_bloc .Lbox {
+	float: left;
+	padding: 25px 0 0 0;
+	width: 427px;
+}
+
+.new_C .new_bloc .Rbox {
+	float: left;
+	padding: 25px 0 0 25px;
+	width: 427px;
+}
+
+.new_C .new_bloci dl {
+    margin: 0 20px;
+    padding: 0 0 0;
+}
+
+.new_C .new_bloc dl dt {
+    float: left;
+    padding: 0 0 2px;
+    width: 172px;
+}
+
+.new_C .new_bloc dl dd {
+    float: right;
+    width: 233px;
+}
+
+.new_C .new_bloc dl dd p {
+    font-size: 11px;
+    line-height: 180%;
+    margin: 0 0 8px;
+	height: 110px;
+}
+
+.new_C .new_bloc dl dd ul {
+    width: 230px;
+}
+
+/*-- 総合学科TOP --*/
+
+#voice_main img.top_vimg02 {
+	position: absolute;
+	bottom:12px;
+	left: 454px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+/*-- 総合学科 --*/
+
+.BoxMulti {
+	margin: 25px 0 0 5px;
+	background: url(../../courses/images/index/bg_divergence_07.jpg) repeat-y left;
+	width: 978px;
+}
+
+.BoxMulti dl {
+    margin: 0 20px;
+    padding: 0 0 0;
+}
+
+.BoxMulti dl dt {
+    float: left;
+    padding: 0 0 2px;
+    width: 295px;
+}
+
+.BoxMulti dl dd {
+    float: right;
+    width: 624px;
+}
+
+.BoxMulti dl dd h3 {
+	margin: 0 0 3px;
+}
+
+.BoxMulti dl dd p {
+    font-size: 11px;
+    line-height: 130%;
+    margin: 0 0 8px;
+}
+
+.BoxMulti dl dd ul {
+    width: 435px;
+	margin: 0 0 0 195px;
+}
+
+.BoxMulti dl dd ul li {
+    float: left;
+	margin: 0 5px 0 0;
+}
+
+.mul_box {
+	/margin: 0 0 20px 0;
+}
+
+dd.mul_C {
+	padding: 5px 0 0 0;
+}
+
+.mul_Ctit {
+	color: #A1800C;
+	font-weight: bold;
+	font-size:13px;
+	
+}
+
+.mul_Ctit02 {
+	color: #B81B22;
+	font-weight: bold;
+	font-size:14px;
+	
+}
+
+.mul_img {
+	margin: 35px 0 30px 0;
+}
+
+/*-- そのほか学科 --*/
+
+.BoxOrdinary {
+	float: left;
+	width: 330px;
+}
+
+.BoxOrdinary p {
+	margin: 0 24px 20px 24px;
+}
+
+.BoxNursing {
+	float: left;
+	width: 319px;
+	
+}
+
+.BoxBusiness {
+	float: right;
+	width: 319px;
+}
+
+.BoxBusiness div,
+.BoxNursing div {
+	margin: 0 24px 0 24px;
+}
+
+.BoxBusiness div p,
+.BoxNursing div p {
+	float: left;
+	width: 125px;
+	
+}
+
+.BoxBusiness div ul,
+.BoxNursing div ul {
+	width: 138px;
+	float: right;
+	
+}
+
+.BoxBusiness div ul li,
+.BoxNursing div ul li {
+	margin: 0 0 4px 0;
+}
+
+.Arrow {
+	text-align: center;
+	padding: 20px 0 13px 0;
+}
+
+.Divergence {
+	background: url(../../courses/images/index/bg_divergence_04.jpg) repeat-y left;
+	width: 978px;
+}
+
+.Divergence2 {
+	background: url(../../courses/images/index/bg_divergence_04_2.jpg) repeat-y left;
+	width: 978px;
+}
+
+.Divergence3 {
+	background: url(../../career/images/bg_career_04_2.jpg) repeat-y left;
+	width: 978px;
+}
+
+.Divergence4 {
+	background: url(../../career/images/bg_career2_04.jpg) repeat-y left;
+	width: 978px;
+}
+
+.Divergence5 {
+	background: url(../../exam/images/index/bg_divergence_07.jpg) repeat-y left;
+	width: 978px;
+}
+
+.Divergence6 {
+	background: url(../../courses/images/index/bg_divergence_04_3.jpg) repeat-y left;
+	width: 978px;
+}
+
+.Divergence6 dl,
+.Divergence5 dl,
+.Divergence4 dl, 
+.Divergence3 dl,
+.Divergence2 dl,
+.Divergence dl {
+	padding: 0px 0 0 0;
+	margin: 0 20px;
+}
+
+.Divergence6 dl dt,
+.Divergence5 dl dt,
+.Divergence4 dl dt,
+.Divergence3 dl dt,
+.Divergence2 dl dt,
+.Divergence dl dt {
+	float: left;
+	width: 196px;
+	padding: 0 0 2px 0;
+}
+
+.Divergence6 dl dd,
+.Divergence5 dl dd,
+.Divergence4 dl dd,
+.Divergence2 dl dd,
+.Divergence dl dd {
+	float: right;
+	width: 240px;
+}
+
+
+.Divergence3 dl dd {
+	float: right;
+	width: 715px;
+}
+
+.Divergence3 dl dd .rightPlong {
+float:left;
+width:500px;
+}
+
+.Divergence6 dl dd h3,
+.Divergence5 dl dd h3,
+.Divergence4 dl dd h3,
+.Divergence3 dl dd h3,
+.Divergence2 dl dd h3,
+.Divergence dl dd h3 {
+	margin: 0 0 3px 0;
+}
+
+.Divergence6 dl dd p,
+.Divergence5 dl dd p,
+.Divergence4 dl dd p,
+.Divergence3 dl dd p,
+.Divergence2 dl dd p,
+.Divergence dl dd p {
+	font-size:11px;
+	line-height: 130%;
+	margin: 0 0 10px 0;
+}
+
+.Divergence6 dl dd ul,
+.Divergence4 dl dd ul,
+.Divergence3 dl dd ul,
+.Divergence2 dl dd ul,
+.Divergence dl dd ul {
+	width: 240px;
+}
+
+.Divergence6 dl dd ul li,
+.Divergence4 dl dd ul li,
+.Divergence3 dl dd ul li,
+.Divergence2 dl dd ul li,
+.Divergence dl dd ul li {
+	float: left;
+	height: 20px;
+	width: 120px;
+	
+}
+.Divergence dl dd ul li.Long {
+	height: 20px;
+	width: 170px;
+	
+}
+small {
+	font-size: 12px;
+	text-align: right;
+}
+
+.Divergence6 .Left,
+.Divergence5 .Left,
+.Divergence4 .Left,
+.Divergence3 .Left,
+.Divergence2 .Left,
+.Divergence .Left {
+	float: left;
+	width: 485px;
+	
+}
+
+.Divergence3 .all{
+	width: 960px;
+		float: left;	
+}
+
+.Divergence6 .Right,
+.Divergence5 .Right,
+.Divergence4 .Right,
+.Divergence3 .Right,
+.Divergence2 .Right,
+.Divergence .Right {
+	float: right;
+	width: 485px;
+	
+}
+
+.mt30 {margin-top:30px;}
+
+
+.course_report {
+	width: 100%;
+	height: auto;
+}
+
+.course_report p{
+	float: left;
+	width: 360px;
+	height: auto;
+	margin-right: 10px;
+}
+
+.course_report img{
+	float: left;
+	width: 300px;
+	height: 209px;
+}
+
+.course_report img.img02 {
+	float: left;
+	width: 300px;
+	height: 100px;
+}
+
+.banner_area {
+	width: 680px;
+	height: auto;
+}
+
+.banner_area img {
+	margin: 0 0 5px 0;  
+}
+
+.banner_area img.img02 {
+	margin: 0 5px 5px 0;  
+}
+
+/*---特進アカデミックコース--*/
+
+.tokushin01 {
+	width: 100%;
+	height: 303px;
+	clear: both;
+}
+
+.tokushin01 ul{
+	width: 330px;
+	height: auto;
+	float: left;
+	margin-right:20px;
+}
+
+.tokushin01 li{
+	background: url(../images/arrow_blue.jpg) no-repeat left 5px;
+	padding: 0 0 0 15px;
+	margin: 10px 0 0 0;
+}
+
+.tokushin01 .chart{
+	width: 300px;
+	height: 303px;
+	float: left;
+}
+
+#jisseki{
+	width:100%;
+	height: 27px;
+	position:relative;
+}
+
+#jisseki .jisakubox01 {
+	position: absolute;
+	width: 155px;
+	height:27px;
+	top: 0px;
+	left: 351px;
+}
+
+#jisseki .jisakubox02 {
+	position: absolute;
+	width: 155px;
+	height:27px;
+	top: 0px;
+	left: 505px;
+}
+
+#jisseki .jisseki .jisakuimg {
+	width: 145px;
+}
+
+.Sproject_about {
+	width: 100%;
+	height: 210px;
+	clear: both;
+}
+
+.Sproject_abouts {
+	width: 100%;
+	height: 300px;
+	clear: both;
+}
+
+.Sproject_abouts02 {
+	width: 100%;
+	height: 340px;
+	clear: both;
+}
+
+.Sproject_about02 {
+	width: 100%;
+	height: 200px;
+}
+
+.Sproject_about03 {
+	width: 100%;
+	height: 250px;
+	clear: both;
+}
+
+.Sproject_about04 {
+	width: 100%;
+	height: 280px;
+	clear: both;
+}
+
+.second_curriculum{
+	clear: both;
+	width: 680px;
+}
+
+.second_curriculum li {
+	float: left;
+	padding-right:4px;
+}
+
+/*-----総合進学コース-------------*/
+.shingaku_main01 {
+	width: 100%;
+	height: 350px;
+	margin: 20px 0 0 0;
+	clear: both;
+}
+
+.shingaku_main01 .shingaku_box {
+	width: 163px;
+	height: auto;
+	margin: 0 3px 0 3px;
+	float: left;
+}
+
+.shingaku_main01 .shingaku_box img {
+	margin: 0 0 10px 0;
+}
+
+.shingaku_main01 .shingaku_box li {
+	background: url(../images/arrow_blue.jpg) no-repeat scroll left 5px;
+	padding: 0 0 0 15px;
+	margin: 10px 0 0 0;
+}
+
+.shingaku_list {
+	margin: 30px 0 0 0;
+	width: 100%;
+	height: auto;
+}
+
+.shingaku_list ul {
+	margin: 15px 0 0 0;
+	width: 100%;
+	height: 35px;
+}
+
+.shingaku_list ul li {
+	width: 310px;
+	height: auto;
+	float: left;
+	background: url(../images/arrow_blue.jpg) no-repeat scroll left 5px;
+	padding: 0 0 0 15px;
+	margin: 0 0 0 10px;
+}
+
+.B_box {
+	width: 100%;
+	clear: both;
+}
+
+.B_box02 {
+	clear: both;
+	margin-left: 25px;
+	_margin: 35px 0 0 25px;
+}
+
+.B_box02 .ImgLeft {
+	margin: 0 29px 28px 0;
+}
+
+.B_box02 .ImgLeft02 {
+	margin: 0 0 28px 0;
+}
+
+.sh_room {
+	width: 680px;
+	height: 161px;
+	padding: 20px 0 0 0;
+	clear: both;	
+}
+
+.sh_room img {
+	width: 332px;
+	height: 141px;
+	float: left;
+}
+
+.sh_room img.img02 {
+	width: 332px;
+	height: 141px;
+	float: left;
+	margin-left: 16px;
+}
+
+/*-----商業科-----------*/
+
+.graph_box {
+	width: 100%;
+	height: 280px;
+}
+
+.graph_box img {
+	width: 303px;
+	height: 271px;
+	float: left;
+	margin: 10px 5px 0 10px;
+}
+
+.graph_box p {
+	width: 347px;
+	height: auto;
+	margin: 10px 0 0 10px;
+	float: left;
+}
+
+.test_box {
+	width: 100%;
+	height: 150px;
+	clear: both;
+}
+
+.test_list {
+	width: 230px;
+	height: auto;
+	margin: 0 8px;
+	_margin: 0 7px;
+	float: left;
+}
+
+.test_list02 {
+	width: 170px;
+	height: auto;
+	margin: 0 8px;
+	_margin: 0 7px;
+	float: left;
+}
+
+.test_list ul li{
+	margin: 8px 0 0 0;
+}
+
+.bu_about {
+	position: relative;
+	width: 680px;
+	height: 370px;	
+}
+
+.bu_about p.bu_txt01 {
+	position: absolute;
+	top: 150px;
+	left: 132px;
+	width: 180px;
+	height: auto;
+	color: #878787;
+}
+
+.bu_about p.bu_txt02 {
+	position: absolute;
+	top: 150px;
+	left: 482px;
+	width: 180px;
+	height: auto;
+	color: #878787;
+}
+
+
+/*--------- 看護科 -----------*/
+
+.nursing_result {
+	width: 100%;
+	clear: both;	
+}
+
+.nurding_box01 {
+	width: 320px;
+	height: auto;
+	float: left;
+	margin-right: 15px;
+}
+
+.nurding_box01 img {
+	margin: 0 5px 0 0;
+	float: left;
+	width: 155px;
+	height: 155px;
+}
+
+.nurding_box02 {
+	width: 340px;
+	height: auto;
+	float: left;
+}
+
+.nurding_box02 img.img01 {
+	margin-bottom: 10px;
+	width: 332px;
+	height: 172px;
+	margin: 0 auto 15px auto;
+}
+
+.result_link {
+	width: 335px;
+	height: 36px;
+	margin: 15px 0 0 0;
+	_margin: 8px 0 0 0;
+	float: right;
+}
+
+/*-----------------------------------------
+入試情報
+---------------------------------------------*/
+#exam ul.TextListexam{
+padding: 0 0 20px 22px;
+}
+
+#exam ul.TextListexam .txt_red {
+	color:#c93900;
+}
+
+#exam ul.TextListexam li {
+	padding: 0 0 0 11px;
+	margin: 0 0 0 0;
+}
+
+#exam ul.TextListexam li.li02 {
+	padding: 0 0 0 29px;
+	margin: 0 0 0 0;
+}
+
+#exam ul.TextListexam li.li03 {
+	background:transparent url(../images/arrow_gray02.gif) no-repeat scroll left top;
+	width: auto;
+	padding: 0 0 0 15px;
+	margin: 5px 0 0 300px;
+}
+
+#exam .tblmid th{
+	text-align:center;
+	font-weight: bold;
+	background: #F6F7FD;
+	vertical-align:middle;
+}
+
+#exam table.tblmid td{
+	text-align:center;
+	vertical-align:middle;
+}
+
+#exam table.tblmid td.td02{
+	text-align:left;
+	vertical-align:middle;
+	padding-left: 55px;
+}
+
+#exam .tblmid02 th{
+	text-align:center;
+	font-weight: bold;
+	background: #F6F7FD;
+	vertical-align:middle;
+	width: 30%;
+}
+
+#exam table.tblmid02 td{
+	text-align:left;
+	vertical-align:middle;
+	padding-left: 48px;
+	width: 35%;
+}
+
+/*---------------------------------------
+体験学習会
+-----------------------------------------------*/
+.tr_box01 {
+	width: 100%;
+	height: 132px;
+	clear: both;	
+}
+
+.tr_box01 img.tr_img01 {
+	float: left;
+	margin: 0 8px 0 0;
+	width: 213px;
+	height: auto;
+}
+
+.tr_box01 .tr_box01_02 {
+	float: left;
+	width: 432px;
+	height: auto;
+}
+
+.tr_box01 .tr_box01_02 img {
+	margin: 0 0 8px 0;
+}
+
+.download_box {
+	height: 50px;
+}
+
+/*-----------------------------------------
+学校案内
+---------------------------------------------*/
+
+.GuidelineSelect {
+	background: url(../../guideline/images/index/bg_guideline.jpg) repeat-y left;
+	width: 978px;
+	font-size:11px;
+	margin-top: 28px;
+}
+
+.GuidelineSelect .Photo {
+	margin: 0 0 10px 20px;
+}
+
+
+.GuidelineSelect2 {
+	background: url(../../guideline/images/index/bg_guideline.jpg) repeat-y left;
+	width: 978px;
+	font-size:11px;
+	margin-top: 10px;
+}
+
+.GuidelineSelect2 .Photo {
+	margin: 0 0 10px 20px;
+}
+
+.GuidelineSelect3 {
+	background: url(../../guideline/images/index/bg_guideline02.jpg) repeat-y left;
+	width: 978px;
+	font-size:11px;
+	margin-top: 10px;
+}
+
+.GuidelineSelect3 .Photo {
+	margin: 0 0 10px 20px;
+}
+
+.BoxOrdinary2 {
+	float: left;
+	width: 330px;
+	
+}
+
+.BoxOrdinary2 div {
+	margin: 0 24px 0 20px;
+	width: 280px;
+}
+
+.BoxBusiness2 {
+	float: left;
+	width: 319px;
+}
+.BoxNursing2 {
+	float: right;
+	width: 319px;
+	
+}
+
+.BoxBusiness2 div,
+.BoxNursing2 div {
+	margin: 0 auto;
+	width: 280px;
+}
+
+.moreTop{
+margin-top:4px;
+}
+
+.moreTop02{
+margin-top:39px;
+}
+
+.BoxBusiness2 div .more{
+float:left;
+margin-right:4px;
+}
+
+
+/*
+.BoxBusiness2 div ul li,
+.BoxNursing2 div ul li {
+	width: 138px;
+	float: left;
+	margin: 0 0 4px 0;
+	
+}*/
+
+
+
+
+/*-----校長挨拶----------*/
+.greeting_main{
+	margin-top: 70px;
+}
+
+
+/*-----キャンパスマップ-------*/
+.map_tit{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 120%;
+	margin: 0 0 10px 0;
+}
+
+.map_txt{
+	font-size: 12px;
+	margin: 0 5px 0 0;
+	width: 320px;
+}
+
+.map_R01{
+	float: right;
+	background: url(../../guideline/campusmap/images/map01_m.jpg) no-repeat right bottom;
+	width: 330px;
+	height: 220px;
+}
+
+.map_R02{
+	float: right;
+	font-size: 12px;
+	margin: 0 5px 0 0;
+	background: url(../../guideline/campusmap/images/map02_m.jpg) no-repeat right bottom;
+	width: 330px;
+	height: 220px;
+}
+
+.map_R03{
+	float: right;
+	font-size: 12px;
+	margin: 0 5px 0 0;
+	background: url(../../guideline/campusmap/images/map03_m.jpg) no-repeat right bottom;
+	width: 330px;
+	height: 220px;
+}
+
+.map_R04{
+	float: right;
+	font-size: 12px;
+	margin: 0 5px 0 0;
+	background: url(../../guideline/campusmap/images/map04_m.jpg) no-repeat right bottom;
+	width: 330px;
+	height: 220px;
+}
+
+.map_R05{
+	float: right;
+	font-size: 12px;
+	margin: 0 5px 0 0;
+	background: url(../../guideline/campusmap/images/map05_m.jpg) no-repeat right bottom;
+	width: 330px;
+	height: 220px;
+}
+
+
+
+/*----各種証明書発行----*/
+
+#download .F_left {
+	float: left;
+	width: 200px;
+	margin-left: 10px;
+}
+
+#download .F_left img {
+	margin: 0 0 10px 0;
+}
+
+
+.attestationTB {
+	margin: 0 0 15px 0;
+}
+.attestationTB table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.attestationTB table th {
+	padding: 10px 5px 10px 5px;
+}
+
+.attestationTB table td {
+	padding: 4px 5px;
+}
+
+.attestationTB table td.td02 {
+	padding: 4px 5px 4px 25px;
+}
+
+.attestationTB02 {
+	margin: 0 0 15px 0;
+}
+.attestationTB02 table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.attestationTB02 table th {
+	padding: 4px 5px;
+	width: 8%;
+}
+
+.attestationTB02 table td {
+	padding: 4px 5px;
+	width: 92%;
+}
+
+.table_L {
+	float: left;
+	margin: 0 0 15px 12px;
+}
+.table_L table {
+	border: 1px solid #D6D6D6;
+	width: 300px;
+}
+
+.table_L table th {
+	text-align: center;
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	font-weight: bold;
+	background: #F6F7FD;
+}
+
+.table_L table td {
+	text-align: center;
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+}
+
+.contactTB {
+	width: 50%;
+	border: 5px solid #E9EBF5;
+	margin: 0 0 30px 25px;
+}
+
+.contactTB table {
+	width: 100%;
+}
+
+.contactTB table th {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	font-weight: bold;
+	background: #F6F7FD;
+}
+
+.contactTB table td {
+	padding: 4px 10px;
+}
+
+.download_ab {
+	margin: 25px 0 25px 0;
+}
+
+/*-------PTAニュース----------*/
+.news_pdf {
+	width: 680px;
+	height: auto;
+	margin: 0 0 70px 0;
+}
+
+.news_pdf ul li {
+	background: url(../../images/pdf_icon.jpg) no-repeat left 28px;
+	width: 500px;
+	height: auto;
+	border-bottom: 1px dotted #B6B6B6;
+	margin: 0 0 0 15px;
+	padding: 32px 0 7px 35px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+/*------進路指導------------------*/
+
+.aegis_main {
+	background: url(../../guideline/aegis/images/main_bk.jpg) no-repeat center top;
+	width: 680px;
+	height: auto;
+}
+
+.aegis_main .box_area {
+	margin: 0 0 0 7px;
+	_margin: 0 0 0 10px;
+	padding: 145px 0 0 0;
+	width: 666px;
+	height: 197px;
+	clear: both;
+}
+
+.aegis_main .box_area .aegis_box {
+	background: url(../../guideline/aegis/images/aegis_box-trans.png) no-repeat left top;
+	width: 218px;
+	height: 197px;
+	margin: 0 2px;
+	_margin: 0 1px;
+	float: left;
+}
+
+.aegis_box .box_h3 {
+	height: 32px;
+	width: 180px;
+	margin: 20px 0 0 20px;
+}
+
+.aegis_box .box_h4 {
+	height: 35px;
+	width: 180px;
+	margin: 8px 0 0 20px;
+}
+
+.aegis_box p {
+	height: 75px;
+	width: 180px;
+	margin: 13px 0 0 20px;
+	_margin: 10px 0 0 20px;
+	font-size: 11px;
+}
+
+.aegis_comment {
+	width: 668px;
+	height: 335px;
+	font-size: 11px;
+	margin: 0 0 0 12px;
+	clear: both;
+}
+
+.aegis_comment img.aegis_graph {
+	width: 208px;
+	height: 335px;
+	float: left;
+	margin: 0 10px 0 3px;
+	_margin: 0 8px 0 5px;
+}
+
+.aegis_comment .comment_box {
+	width: 208px;
+	height: 335px;
+	float: left;
+	margin: 0 6px;
+}
+
+.aegis_comment .comment_box .comment_tit01 {
+	font-weight: bold;
+	color: #2d278a;
+	height: 15px;
+	margin: 0 0 0 10px;
+}
+
+.aegis_comment .comment_box .comment_tit02 {
+	font-weight: bold;
+	height: 15px;
+	margin: 0 0 0 10px;
+}
+
+.aegis_comment .comment_box p {
+	width: 197px;
+	height: auto;
+	margin: 0 0 8px 10px;
+	padding-top: 5px;
+	line-height: 16px;
+}
+
+.aegis_comment .comment_box .txt_red{
+	color:#c93900;
+}
+
+.aegis_comment .comment_box .txt_m {
+	width: 193px;
+	height: auto;
+	margin: 0 0 3px 11px;
+	line-height: 16px;
+}
+
+.aegis_comment .comment_box .comment_name {
+	width: 195px;
+	height: auto;
+	margin: 0 0 19px 10px;
+	line-height: 16px;
+}
+
+h3.aegis_h3 {
+	margin: 70px auto 20px auto;
+	width: 634px;
+	height: 27px;
+}
+
+.aegis_topic {
+	width: 680px;
+	height: auto;
+	position: relative;
+	font-size: 11px;
+}
+
+.aegis_topic .topic_img{
+	width: 662px;
+	height: 346px;
+	margin: 0 0 0 9px;
+}
+
+.aegis_topic .topic_txt01 {
+	position: absolute;
+	top: 150px;
+	left: 55px;
+	width: 160px;
+	height: auto;
+}
+
+.aegis_topic .topic_txt02 {
+	position: absolute;
+	top: 150px;
+	left: 277px;
+	width: 160px;
+	height: auto;
+}
+
+.aegis_topic .topic_txt03 {
+	position: absolute;
+	top: 150px;
+	left: 496px;
+	width: 160px;
+	height: auto;
+}
+
+/*-----授業風景フラッシュ-------*/
+
+.class_flash {
+	width: 680px;
+	position: relative;
+}
+
+.class_Gallery {
+	background-image: url(../../courses/images/flash_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 465px;
+	width: 555px;
+	margin: 30px auto;
+}
+
+.class_Gallery div {
+	margin: 0 0 0 28px;
+	padding: 27px 0 0 0;
+}
+
+
+
+/*-------先輩の声------------*/
+
+.name {
+	padding: 0 0 0 15px;
+	background: url(../../images/menu/line_dl.gif) repeat-y left top;
+}
+
+
+#voice_main {
+	position: relative;
+	width: 680px;
+	height: auto;
+}
+
+*html #voice_main dl.Voice_bg {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg_voice.jpg) repeat-y;
+	margin: 0 0 35px 0;
+}
+
+*html #voice_main dl.Voice_bg02 {
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg_voice.jpg) repeat-y;
+	margin: 0 0 35px 0;
+}
+
+*html #voice_main dl.SP_Voice_bg {
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg_SPvoice.jpg) repeat-y;
+	margin: 0 0 35px 0;
+}
+
+.voice_anchor{
+	clear: both;
+	margin:  30px 0 0 0;
+	height: 50px;
+	width: 100%;
+}
+
+.voice_anchor img {
+	float: left;
+	margin-right: 5px;
+}
+
+/*-- アカデミックコースTOP --*/
+
+#voice_main img.top_vimg01 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+/*---特進国際コース---*/
+#voice_main img.v_imgE01 {
+	position: absolute;
+	bottom:11px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:46px;
+}
+
+#voice_main img.v_imgE02 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+
+#voice_main img.v_imgE03 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+
+#voice_main img.v_imgE04 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+
+#voice_main img.v_imgE05 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+
+#voice_main img.v_imgE06 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 326px;
+	/bottom:47px;
+}
+
+
+#voice_main img.v_imgE07 {
+	position: absolute;
+	bottom:6px;
+	left: 444px;
+	width: 200px;
+	height: 472px;
+	/bottom:41px;
+}
+
+
+#voice_main img.v_imgE08 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+
+#voice_main img.v_imgE09 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgE10 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+/*---特進スーパーアカデミックコース---*/
+
+#voice_main img.v_imgB01 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgB02 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgB03 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgB04 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgB05 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+
+#voice_main img.v_imgB06 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+
+#voice_main img.v_imgB07 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+/*---スポーツ進学コース---*/
+
+#voice_main img.v_imgS01 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgS02 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgS03 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgS04 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+
+#voice_main img.v_imgS05 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+
+#voice_main img.v_imgS06 {
+	position: absolute;
+	bottom:9px;
+	left: 444px;
+	width: 200px;
+	height: 524px;
+	/bottom:44px;
+}
+
+
+#voice_main img.v_imgS07 {
+	position: absolute;
+	bottom:9px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:44px;
+}
+
+
+#voice_main img.v_imgS08 {
+	position: absolute;
+	bottom:9px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:44px;
+}
+
+#voice_main img.v_imgS09 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgS10 {
+	position: absolute;
+	bottom:0px;
+	left: 444px;
+	width: 200px;
+	height: 524px;
+	/bottom:35px;
+}
+
+
+/*---総合進学コース---*/
+
+#voice_main img.v_imgG01 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgG02 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgG03 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgG04 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgG05 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgG06 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgG07 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+/*----------------------------
+ベーシック進学コース
+------------------------------------*/
+
+#voice_main img.v_imgBS01 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgBS02 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgBS03 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+/*---商業科---*/
+
+#voice_main img.v_imgBU01 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgBU02 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgBU03 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgBU04 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgBU05 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgBU06 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 269px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgBU07 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgBU08 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgBU09 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+/*-- 看護科TOP --*/
+
+#voice_main img.top_vimg03 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+/*---看護科---*/
+
+.independence_box {
+	width: 680px;
+	height: auto;
+}
+
+.independence_box img {
+	float: left;
+	margin-right: 15px;
+	width: 300px;
+	height: 142px;
+}
+
+.independence_box p {
+	float: left;
+	width: 365px;
+}
+
+#voice_main img.v_imgN01 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgN02 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgN03 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgN04 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgN05 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgN06 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 269px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgN07 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 269px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgN08 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgN09 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgN10 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgN11 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 269px;
+	/bottom:43px;
+}
+
+#voice_main img.v_imgN12 {
+	position: absolute;
+	bottom:8px;
+	left: 444px;
+	width: 200px;
+	height: 269px;
+	/bottom:43px;
+}
+
+/*----------------------------
+総合学科
+------------------------------------*/
+#voice_main img.v_imgM01 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgM02 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgM03 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgM04 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgM05 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgM06 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgM07 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+#voice_main img.v_imgM08 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+/*------------------------------------------
+留学
+----------------------------------------------*/
+
+.abroad_box {
+	width: 100%;
+	height: 330px;
+	clear: both;
+}
+
+.abroad_box img {
+	width: 300px;
+	height: 330px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.abroad_about {
+	width: 350px;
+	height: 330px;
+	float: left;
+}
+
+.abroad_box_m {
+	width: 360px;
+	height: 160px;
+}
+
+.abroad_box_m img {
+	width: 150px;
+	height: 160px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.abroad_box_m .abroad_list {
+	width: 180px;
+	float: left;
+	font-size: 95%;
+}
+
+.abroad_box_m .abroad_list li {
+	background: url(../images/arrow_blue.jpg) no-repeat left 5px;
+	padding: 0 0 0 15px;
+	margin: 0 0 7px 0;
+}
+
+.ab_img01 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+.ab_img02 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+.ab_img03 {
+	position: absolute;
+	bottom:12px;
+	left: 444px;
+	width: 200px;
+	height: 250px;
+	/bottom:47px;
+}
+
+.cadet_txt01 {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.cadet_txt02 {
+	padding-bottom: 10px;
+}
+
+/*短期留学*/
+
+.study_abroad {
+	margin: 0 19px;
+}
+
+.study_abroad ul {
+	margin: 0 0 30px 6px;
+}
+
+.study_abroad ul li {
+	float: left;
+	margin-bottom: 6px;
+}
+
+.study_abroad ul li.L_img {
+	margin-right: 6px;
+}
+
+.study_abroad h4 {
+	margin: 0 0 15px 10px;
+}
+
+.study_abroad h4.h4_2 {
+	margin: 30px 0 15px 10px;
+}
+
+.study_abroad p {
+	padding: 0 10px 20px 10px;
+	margin: 0;
+}
+
+.study_abroad p.p01 {
+	padding: 0 10px 10px 10px;
+}
+
+.study_abroad p.name {
+	padding: 0 10px 0 15px;
+	margin: 0 0 30px 10px;
+}
+
+.study_abroad img.s_ab_img {
+	margin: 0 0 20px;
+}
+
+.study_abroad p span.tit {
+	font-weight: bold;
+	font-size: 13px;
+	padding: 0 0 3px;
+	color: #4c3e35;
+	display: block;
+}
+
+/*---------------------------------------------------------------------------------
+お問い合わせ誘導
+-----------------------------------------------------------------------------------*/
+
+.action{margin:50px 0;}
+
+.actionBg{
+background:url(../images/action_bg.jpg) no-repeat left top;
+width:705px;
+height:81px;
+position:relative;
+}
+
+.actionMail{
+position:absolute;
+left:20px;
+top:13px;
+}
+
+
+/*------------------------------------------
+進路状況
+----------------------------------------------*/
+
+.career {
+border:5px solid #E9EBF5;
+margin:0 0 35px;
+width:960px;
+}
+
+.career table {
+border-collapse:collapse;
+border-spacing:0;
+width:960px;
+}
+
+.career table th {
+border:1px solid #D6D6D6;
+padding:4px 4px;
+background-color:#E9EBF5;
+color:#000000;
+text-align:center;
+font-weight:normal;
+}
+
+.career table td {
+border:1px solid #D6D6D6;
+padding:4px 4px;
+}
+
+.w165{
+width:165px;
+}
+
+.w25{
+width:25px;
+}
+
+.w10{
+width:10px;
+}
+
+.w192{
+width:192px;
+}

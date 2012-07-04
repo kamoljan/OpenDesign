@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@import "common.css";
+@import "contents.css";
+@import "highschool.css";
+@media print { 
+body {background:none;}
+#Header {display:none;} 
+#Menu {display:none;}
+#Footer { display:none; } 
+#bottom_navi { display:none; } 
+
+} 

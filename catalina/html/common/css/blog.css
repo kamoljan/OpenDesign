@@ -1,0 +1,202 @@
+@charset "utf-8";
+/*******************************************************************************
+BLOGページに関するCSS
+*******************************************************************************/
+
+/* ================================================
+header
+=================================================*/
+
+#Mainimg{
+width:980px;
+margin-bottom:30px;
+}
+
+#Mainimg_left{
+width:702px;
+float:left;
+background:url(../images/bg_middleimg.jpg) no-repeat left bottom;
+padding:0 0 26px;
+}
+
+#Mainimg_right{
+width:242px;
+float:right;
+background:url(../../images/menu/menu_topimg_bg.jpg) no-repeat left bottom;
+padding:0 0 26px;
+text-align:center;
+}
+
+table th, table td {
+padding:10px;
+}
+
+table th {
+font-weight:bold;
+}
+
+/* ================================================
+category
+=================================================*/
+
+.cicon{
+float:left;
+margin-right:7px;
+/margin-top:-12px;
+padding-top:4px;
+}
+
+
+/* ---------------------------------------------------
+Menu
+---------------------------------------------------*/#
+.cat-item{
+margin-bottom:12px;
+}
+
+#blogcat{
+padding:30px 0;
+}
+
+#Menu a:link{
+color:#0d3388;
+text-decoration:underline;
+}
+
+#Menu a:visited{
+color:#0d3388;
+text-decoration:underline;
+}
+
+#Menu a:hover{
+color:#0d3388;
+text-decoration:none;
+}
+
+#Menu h2{
+font-size:14px;
+color:#666;
+background:url(../images/searchbg.gif) repeat-x left top;
+padding-left:8px;
+margin-bottom:12px;
+}
+
+#Menu .categories li{
+background:url(../images/blog_arrow01.gif) no-repeat 8px 4px;
+padding-left:22px;
+margin-bottom:6px;
+}
+
+#Menu .navigation2 li{
+background:url(../images/blog_arrow01.gif) no-repeat 8px 4px;
+padding-left:22px;
+margin-bottom:6px;
+}
+
+#Menu .children li{
+background:url(../images/blog_arrow02.gif) no-repeat left 6px;
+padding-left:12px;
+margin-top:10px;
+}
+
+.BgLine {
+background: url(../../images/menu/menu_bg_line.gif) no-repeat left bottom;
+padding: 0 0 0 13px;
+}
+
+.MenuTotop {
+	text-align: right;
+	padding: 7px 0 0 0;
+}
+
+.cat-item-3, .cat-item-4, .cat-item-5, .cat-item-6, .cat-item-9, .cat-item-22, .cat-item-24 {
+margin:15px 0 15px 0;
+background:url(../images/blog_arrow03.gif) no-repeat left 2px;
+padding-left:20px;
+}
+
+.cat-item-11 {
+margin:15px 0 45px 0;
+background:url(../images/blog_arrow03.gif) no-repeat left 2px;
+padding-left:20px;
+}
+
+/* ---------------------------------------------------
+Main
+---------------------------------------------------*/
+#Main a:link{
+color:#0d3388;
+text-decoration:underline;
+}
+
+#Main a:visited{
+color:#0d3388;
+text-decoration:underline;
+}
+
+#Main a:hover{
+color:#0d3388;
+text-decoration:none;
+}
+
+#Main h2 {
+width:687px;
+background: url(../images/bg_h3_text.gif) no-repeat left top;
+font-size:16px;
+margin:0 0 20px;
+padding:0 0 13px 15px;
+}
+
+#Main h3 {
+background: url(../images/bg_h3_text.gif) no-repeat left top;
+font-size:16px;
+margin:0 0 20px;
+padding:0 0 13px 15px;
+}
+
+.post{
+width:702px;
+padding-bottom:30px;
+}
+
+#Main .navigation{
+width:702px;
+}
+
+.ToTop {
+background: url(../../images/menu/line_totop.gif) no-repeat right center;
+margin: 50px 0;
+}
+
+.entry img{
+padding:5px;
+border:1px solid #ccc;
+}
+
+/* ================================================
+Single
+=================================================*/
+
+#Single h2 {
+width:665px;
+background: url(../images/bg_h3_text.gif) no-repeat left top;
+font-size:16px;
+margin:0 0 20px;
+padding:0 0 13px 15px;
+}
+
+
+/* ================================================
+Go For The Gold
+=================================================*/
+
+.gofor01{
+margin:20px auto;
+padding:10px;
+width:540px;
+text-align:center;
+border:1px dotted #ccc;
+}
+
+
+

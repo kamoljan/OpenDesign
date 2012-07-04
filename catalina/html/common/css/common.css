@@ -1,0 +1,470 @@
+@charset "utf-8";
+/**************************************************************************************************
+Initialization
+**************************************************************************************************/
+
+.iepngfix {
+ behavior: expression(IEPNGFIX.fix(this));
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, img, h4, h5, h6, table, td, th, pre, code, form, fieldset, legend, input, textarea, p, blockquote {
+	margin : 0;
+	padding : 0;
+}
+body {
+	color: #6a6a6a;
+	font-size: 12px;
+	font-family: "メイリオ", "meiryo", Verdana, "Hiragino Kaku Gothic Pro W3", "MS UI Gothic";
+	text-align:center;
+}
+
+table {
+	border-collapse : collapse;
+	border-spacing : 0;
+}
+td.center {
+	text-align : center;
+}
+fieldset, img {
+	border : 0;
+}
+address, caption, cite, code, dfn, th, var {
+	font-style : normal;
+	font-weight : normal;
+}
+ul {
+	list-style : none;
+}
+caption, th, td {
+/*
+vertical-align: top;
+*/
+}
+input, textarea, select {
+	font-family : inherit;
+	font-weight : inherit;
+	font-size : 100%;
+margin:0;
+padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size : 100%;
+}
+img {
+	vertical-align : bottom;
+}
+
+
+
+/**************************************************************************************************
+CLEARFIX CLASS
+**************************************************************************************************/
+.clearfix:after {
+	display : block;
+	clear : both;
+	height : 0;
+	visibility : hidden;
+	content : ".";
+	line-height : 0;
+}
+.clearfix {
+	display : inline-table;
+	min-height : 1%;
+}
+/* FOR MAC IE \*/
+* html .clearfix {
+	height : 1%;
+}
+.clearfix {
+	display : block;
+}
+/* END OF FOR MAC IE */
+
+/**************************************************************************************************
+HEADER
+**************************************************************************************************/
+#Header {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.Logo {
+	float: left;
+	width: 200px;
+}
+.HeaderLink {
+	width: 980px;
+height:100px;
+
+}
+
+.HeaderNavi {
+	float: right;
+	width:536px;
+}
+
+.HeaderLink ul {
+	margin: 0 0 16px 0;
+	
+}
+.HeaderLink ul li {
+	float: right;
+	width: 134px;
+	
+}
+
+#Searchfrom {
+	width:375px;
+	background: url(../images/contents_search.gif) no-repeat left top;
+	text-align:left;
+	margin:0 0 28px 160px;
+}
+
+html:not(:target) #Searchfrom .search {
+	background: url(../images/input.gif) no-repeat left top;
+	border: none;
+	height: 27px;
+	width: 204px;
+	margin:0 0 0 131px;
+	padding:0;
+	line-height:27px;
+}
+
+#Searchfrom .search {
+	background: url(../images/input.gif) no-repeat left -1px;
+	border: none;
+	height: 27px;
+	width: 204px;
+	margin:0 0 0 131px;
+	padding:0;
+	line-height:27px;
+}
+
+#Searchfrom .search02 {
+	border: none;
+	height: 27px;
+	width: 40px;
+	margin-left:-5px;
+	padding:0;
+}
+
+ul.GlobalNavi {
+	width: 1000px;
+	margin: 0 auto 25px auto;
+}
+
+
+
+ul.GlobalNavi02 {
+	width: 1000px;
+	margin: 0 auto 10px auto;
+}
+
+ul.GlobalNavi li {
+	float: left;
+	margin: 0 3px 0 0;	
+}
+
+ul.GlobalNavi02 li {
+	float: left;
+	margin: 0 5px 0 0;	
+}
+
+/**************************************************************************************************
+MAIN
+**************************************************************************************************/
+
+#Contents {
+	text-align: left;
+
+}
+
+#PageTitle {
+	
+}
+	
+.Path {
+	background: url(../images/bg_path.jpg) no-repeat left center;
+	line-height: 37px;
+	color: #160d5a;
+	padding-left: 30px;
+	font-size: 12px;
+	margin: 0 0 33px 0;
+}
+.Path p {
+}
+.Path strong {
+	font-weight: normal;
+}
+.Pagetop {
+}
+/**************************************************************************************************
+RIGHT
+**************************************************************************************************/
+
+#Main {
+	float: left;
+	width: 708px;
+	padding: 0 0 20px 0;
+	min-height: 1700px;
+	height: auto !important;
+	height: 1700px;
+}
+
+/**************************************************************************************************
+LEFT
+**************************************************************************************************/
+
+
+#Menu {
+	float: right;
+	width: 259px;
+	margin: 0 0 80px;
+}
+
+
+
+
+
+/**************************************************************************************************
+FOOTER
+**************************************************************************************************/
+
+#Footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#Footer a:hover {
+	text-decoration: underline;
+}
+
+#Footer {
+	text-align: left;
+	padding: 30px 0 0 0;
+	color: #FFFFFF;
+	font-size:11px;
+	border-top: 2px solid #2D278A;
+	background: url(../images/bg.gif) repeat;
+	min-width: 1000px;
+}
+
+.FooterLink {
+width: 985px;
+margin: 0 auto;
+}
+
+/** 学校案内 **/
+
+.FooterSchool {
+	float: left;
+	width: 240px;
+}
+
+.FooterSchool dl {
+	
+}
+
+.FooterSchool dl dt {
+	margin: 0 0 7px 0;
+	padding: 0 0 0 14px;
+	background: url(../images/dot-trans.png) no-repeat left 3px;
+	_background: url(../images/dot2-trans.png) no-repeat left top;
+}
+
+.FooterSchool dl dd {
+	margin: 0 0 7px 15px;
+	padding: 0 0 0 11px;
+	background: url(../images/arrow-trans.png) no-repeat left 5px;
+_background: url(../images/arrow2-trans.png) no-repeat left top;
+}
+
+.FooterSchool dl dd.Margin {
+	margin: 0 0 20px 17px;
+}
+
+/** 学科・コース紹介 **/
+
+.FooterCourse {
+	float: left;
+	width: 330px;
+}
+
+.FooterCourse dl {
+}
+
+.FooterCourse dl dt {
+	margin: 0 0 7px 0;
+	padding: 0 0 0 14px;
+	background: url(../images/dot-trans.png) no-repeat left 3px;
+_background: url(../images/dot2-trans.png) no-repeat left top;
+}
+
+.FooterCourse dl dd {
+	margin: 0 0 14px 17px;
+}
+
+.FooterCourse dl dd p {
+margin: 0 0 5px 0;
+
+}
+
+.FooterCourse dl dd ul {
+	width: 280px;
+	margin: 0 0 14px 0;
+}
+
+.FooterCourse dl dd ul.Two li {
+	float: left;
+	width: 140px;
+	margin: 0 0 7px 0;
+	padding: 0 0 0 0px;
+	background: none;
+}
+
+.FooterCourse dl dd ul.Two li a {
+	padding: 0 0 0 11px;
+	background: url(../images/arrow-trans.png) no-repeat left 5px;
+_background: url(../images/arrow2-trans.png) no-repeat left top;
+}
+
+.FooterCourse dl dd li {
+	margin: 0 0 7px 0;
+	padding: 0 0 0 11px;
+	background: url(../images/arrow-trans.png) no-repeat left 5px;
+_background: url(../images/arrow2-trans.png) no-repeat left top;
+
+}
+
+/** 入試情報 **/
+
+.FooterExam {
+float: left;
+width: 215px;
+}
+
+.FooterExam dl {
+	margin: 0 0 30px 0;
+}
+
+.FooterExam dl dt {
+	margin: 0 0 7px 0;
+	padding: 0 0 0 14px;
+	background: url(../images/dot-trans.png) no-repeat left 3px;
+_background: url(../images/dot2-trans.png) no-repeat left top;
+}
+
+.FooterExam dl dd {
+	margin: 0 0 7px 17px;
+	padding: 0 0 0 11px;
+	background: url(../images/arrow-trans.png) no-repeat left 5px;
+background: url(../images/arrow2-trans.png) no-repeat left top;
+}
+
+/** 住所 **/
+
+.FooterAdd {
+float: right;
+width: 185px;
+}
+
+.Add {
+	margin: 0 0 30px 0;
+}
+
+.qrimg {
+	margin: 0 0 30px 0;
+	background: url(../images/qr_footer-trans.png) no-repeat left top;
+	padding-top: 48px;
+
+}
+
+.FooterAdd dl dt {
+	margin: 0 0 7px 0;
+	padding: 0 0 0 14px;
+	background: url(../images/dot-trans.png) no-repeat left 3px;
+_background: url(../images/dot2-trans.png) no-repeat left 3px;
+}
+
+.FooterAdd dl dd {
+	padding: 15px 0 25px 17px;
+}
+
+.FooterAdd dl.Add {
+	margin: 0 0 30px 0;
+}
+
+.FooterAdd dl.Add dt {
+	margin: 0 0 5px 0;
+	font-weight: bold;
+	padding: 0;
+	background: none;
+}
+
+.FooterAdd dl.Add dd {
+	padding: 0 0 10px 0;
+	font-size: 11px;
+}
+
+/** コピーライト **/
+
+#Copyright {
+	text-align: center;
+	padding: 0px 0 30px 0;
+	color: #FFFFFF;
+}
+
+/*-----------------------------------------
+お知らせ、校長室の窓から、カタリナブログ
+---------------------------------------------*/
+.wp-caption{
+border: 1px solid #D6D6D6;
+padding:16px;
+margin:0 auto;
+}
+
+.wp-caption-text{
+text-align:center;
+padding-top:7px;
+}
+
+.widecolumn{
+width:800px;
+margin:30px auto;
+text-align:left;
+}
+
+.aligncenter{
+margin:0 auto;
+}
+
+.postmetadata{
+clear:both;
+}
+
+.widecolumn h2{
+	font-size: 16px;
+	background: url(../images/bg_h3_text.gif) no-repeat left top;
+	padding: 0 0 13px 15px;
+	margin: 0 0 20px 0;
+}
+
+.entry{
+line-height:180%;
+margin:20px 0;
+_margin: 0;
+}
+
+.hentry{
+line-height:180%;
+margin:20px 0;
+}
+
+.navigation{
+margin:20px 0 50px 0 ;
+}
+
+
+.alignright{
+text-align:right;
+margin-top:-20px;
+}

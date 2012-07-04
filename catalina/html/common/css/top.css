@@ -1,0 +1,153 @@
+@charset "utf-8";
+/**************************************************************************************************
+OUTLINE
+**************************************************************************************************/
+
+#Container {
+	margin: auto;
+	width: 980px;
+}
+
+/**************************************************************************************************
+Index
+**************************************************************************************************/
+
+body {
+	background: url(../images/bg_index.jpg) repeat-x left top;
+}
+
+.Logo {
+	margin: 19px 0 27px 0;
+}
+
+.Logo h1 {
+	text-indent:-10000px;
+	background: url(../images/logo.jpg) no-repeat left top;
+	height: 53px;
+	width: 310px;
+}
+
+.Logo h1 a {
+	height: 53px;
+	width: 310px;
+	display: block;
+}
+
+#Flash {
+	text-align: center;
+	margin: 0 0 37px 0;
+}
+
+#Index {
+	width: 910px;
+	margin: 0 auto 150px auto;
+}
+
+#Index h2 {
+	margin: 0 0 18px 30px;
+}
+
+#Index ul {
+}
+
+#feed li br {
+display:none;
+}
+
+
+
+#feed li {
+	background: url(../images/arrow_white.gif) no-repeat left 8px;
+	padding: 0 0 4px 30px;
+	*padding: 0 0 4px 14px;
+	margin: 0 0 4px 0;
+	border-bottom: 1px dotted #b6b6b6;
+	list-style-type: none;
+}
+
+#feed li a {
+	margin: 0 0 0 13px;
+}
+
+
+#feed img{
+margin-left:16px;
+vertical-align:middle;
+}
+
+
+
+#Index p {
+	text-align: right;
+	margin: 0 0 10px 0;
+	padding: 5px 0 0 0;
+}
+
+.Info {
+	float: left;
+	width: 416px;
+	position: relative;
+}
+
+.News {
+	float: right;
+	width: 416px;
+	position: relative;
+}
+
+.Window {
+	
+	margin: 0 0 20px 0;
+}
+
+.Blog {
+margin: 0 0 20px 0;
+position:relative;
+}
+
+.Cools {
+	margin: 0 0 20px 0;	
+}
+
+.Go {
+	margin: 0 0 20px 0;	
+}
+
+.tpbnr{
+width:440px;
+position: absolute;
+top: 485px;
+left: 0;
+}
+
+.tpbnr li{
+float:left;
+margin:6px 6px 0 0;
+
+}
+
+.tpbnr li.li02{
+margin:3px 6px 0 0;
+}
+
+.tmore{
+width:415px;
+}
+
+.tmore li{
+padding-left:350px;
+}
+
+.oldblg{
+position:absolute;
+top:-2px;
+*top:2px;
+left:120px;
+}
+
+.go_bnr {
+	position: absolute;
+	top: 765px;
+	left: 0;
+	width: 415px;
+}

@@ -1,0 +1,834 @@
+@charset "utf-8";
+/**************************************************************************************************
+OUTLINE
+**************************************************************************************************/
+
+body {
+	background: url(../images/bg_2nd.jpg) repeat-x left top;
+}
+
+#Container {
+	margin: auto;
+	width: 980px;
+}
+
+a {
+color:#2d278a;
+text-decoration:none;
+}
+
+a:hover {
+color:#2d278a;
+text-decoration:underline;
+}
+
+.clear{
+	clear: both;
+}
+
+/**************************************************************************************************
+Header
+**************************************************************************************************/
+
+.Logo {
+	margin: 19px 0 27px 0;
+	background: url(../images/logo.jpg) no-repeat left top;
+	height: 53px;
+	width: 310px;
+}
+
+.Logo a {
+	height: 53px;
+	width: 310px;
+	text-indent:-10000px;
+	display: block;
+}
+
+.ToTop {
+	background: url(../../images/menu/line_totop.gif) no-repeat right center;
+	margin: 50px 0;
+}
+
+.ToTop a {
+	padding: 0 0 0 4px;
+}
+
+#PageTop {
+	padding: 36px 12px 22px 0;
+	text-align: right;
+}
+
+/**************************************************************************************************
+Menu
+**************************************************************************************************/
+
+.MenuImg {
+	background: url(../../images/menu/menu_topimg_bg.jpg) no-repeat center bottom;
+	padding: 0 0 26px 0;
+	width: 242px;
+	text-align:center;
+	margin: 0 0 0 16px;
+}
+
+.BgLine {
+	background: url(../../images/menu/menu_bg_line.gif) no-repeat left bottom;
+	padding: 0 0 0 13px;
+}
+
+.MenuList {
+	background: url(../../images/menu/menu_bg_02.jpg) repeat-y;
+	margin: 0px;
+	width: 246px;
+}
+
+.MenuTop_Tokushin {
+	height: 25px;
+	width: 246px;
+}
+
+.MenuBg {
+	background: url(../../images/menu/menu_bg_03.jpg) no-repeat left top;
+	padding:3px 0 9px 0;
+	margin: 0 0 0 9px;
+}
+
+.MenuBg a {
+	margin: 0 0 0 16px;
+}
+
+.MenuBg2 {
+	background: url(../../images/menu/menu_bg_04.jpg) no-repeat left top;
+	padding:9px 0 9px 0;
+	margin: 0 0 0 9px;
+}
+
+.MenuBg2 a {
+	margin: 0 0 0 16px;
+}
+
+.MenuBox {
+	background: url(../../images/menu/menu_bg_box.jpg) no-repeat left top;
+}
+
+.MenuBox ul {
+	padding: 0px 0 0 0;
+	margin: 0 0 0 40px;
+	width: 175px;
+}
+
+.MenuBox ul li {
+	float: left;
+	width: 82px;
+	padding: 1px 0 3px 0;
+}
+
+.MenuBox ul li.Long {
+	float: left;
+	width: 108px;
+	padding: 1px 0 3px 0;
+}
+
+.MenuBox ul li.Short {
+	float: left;
+	width: 66px;
+	padding: 1px 0 3px 0;
+}
+
+ul.MenuBtn {
+	margin: 0 0 0 9px;
+}
+
+ul.MenuBtn li {
+	background: url(../../images/menu/menu_bg_05.jpg) no-repeat left top;
+	padding:6px 0 9px 0;
+}
+
+ul.MenuBtn li a {
+	margin: 0 0 0 16px;
+}
+
+.MenuTotop {
+	text-align: right;
+	padding: 7px 0 0 0;
+}
+
+/**************************************************************************************************
+Main
+**************************************************************************************************/
+
+p.Right {
+	text-align:right;
+}
+
+p.Left {
+	text-align:left;
+}
+
+.MiddleImg {
+	background: url(../images/bg_middleimg.jpg) no-repeat left bottom;
+	padding: 0 0 26px 0;
+}
+
+.MiddleFrame {
+	width: 653px;
+	margin: 0 0 0 26px;
+}
+
+.MiddleFrame2 {
+	width: 680px;
+	margin: 0 0 0 3px;
+}
+
+.MiddleFrame p,
+.MiddleFrame2 p {
+	margin: 0 0 20px 0;
+}
+
+
+h2.H2Text {
+	font-size: 16px;
+	background: url(../images/bg_h3_text.gif) no-repeat left top;
+	padding: 0 0 13px 15px;
+	margin: 0 0 20px 0;
+}
+
+h3.H3Text {
+	font-size: 16px;
+	background: url(../images/bg_h3_text.gif) no-repeat left top;
+	padding: 0 0 13px 15px;
+	margin: 70px 0 20px 0;
+}
+
+h3.H3Img{
+	margin: 70px 0 20px 0;
+}
+
+h4.H4Text {
+	font-size: 13px;
+	color: #6561a9;
+}
+
+h4.H4Img {
+	margin: 0 0 35px 0;
+}
+
+h4.H4Img02 {
+	margin: 20px 0 10px 0;
+}
+
+dl.Catch {
+	margin: 0 30px 30px 17px;
+	padding: 0 0 0 15px;
+	background: url(../../images/menu/line_dl.gif) repeat-y left top;
+}
+
+dl.Catch dt {
+	font-size: 14px;
+	margin: 0 0 5px 0;
+	font-weight: bold;
+}
+
+dl.Catch dd {
+}
+
+ul.TextList {
+	padding: 0 0 30px 32px;
+}
+
+ul.TextList li {
+	background: url(../images/arrow_gray.gif) no-repeat left 6px;
+	padding: 0 0 0 11px;
+	margin: 0 0 5px 0;
+}
+
+.DotBox {
+	width: 656px;
+	background: url(../images/dot_box.jpg) no-repeat left top;
+}
+
+.DotLeft {
+	width: 328px;
+	float:left;
+}
+
+.DotRight {
+	width: 328px;
+	float:right;
+}
+
+.DotBox dl {
+	width: 285px;
+	margin: 27px 0 0 24px;
+}
+
+.DotBox dl dt {
+	font-size: 14px;
+	margin: 0 0 10px 0;
+	font-weight: bold;
+}
+
+.DotBox dl dd p {
+	margin: 0 0 15px 0;
+}
+
+.DotBox dl dd p.More {
+	text-align:right;
+}
+
+.Box_main {
+	margin: 10px;
+	
+}
+
+.BoxLarge {
+	background: url(../images/boxl_bg.jpg) repeat-y left top;	
+}
+
+.BoxLarge dl {
+	margin: 0 0 0 20px;
+}
+
+.BoxLarge dl dt {
+	float: left;
+	width: 196px;
+}
+
+.BoxLarge dl dd {
+	float: right;
+	width: 422px;
+}
+
+.BoxLarge dl dd h3 {
+	margin: 7px 0 20px 0;
+}
+
+.BoxLarge dl dd p {
+	margin: 0 35px 0 0;
+}
+
+dl.Att {
+	background: url(../images/bg_att.jpg) repeat-y;
+	margin: 0 0 35px 0;
+}
+
+dl.Att dt {
+	background: url(../images/top_att.jpg) no-repeat left top;
+	padding: 60px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+dl.Att dd {
+	background: url(../images/bottom_att.jpg) no-repeat left bottom;
+	padding: 0 58px 25px 58px;
+}
+
+dl.Att02 {
+	background: url(../images/bg_att02.jpg) repeat-y;
+	margin: 0 0 35px 0;
+}
+
+dl.Att02 dt {
+	background: url(../images/top_att02.jpg) no-repeat left top;
+	padding: 55px 0 15px 104px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+dl.Att02 dd {
+	background: url(../images/bottom_att02.jpg) no-repeat left bottom;
+	padding: 0 58px 25px 58px;
+}
+
+.Data01 {
+	border: 5px solid #E9EBF5;
+	margin: 0 0 35px 0;
+}
+.Data01 table {
+	width: 643px;
+}
+
+.Data01 table th {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+}
+
+.Data01 table td {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+}
+
+.Data02 {
+	border: 5px solid #E9EBF5;
+	margin: 0 0 15px 0;
+}
+.Data02 table {
+	width: 100%;
+}
+
+.Data02 table th {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	font-weight: bold;
+	background: #F6F7FD;
+}
+
+.Data02 table td {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+}
+
+.Data03 {
+	border: 5px solid #E9EBF5;
+	margin: 0 0 15px 0;
+}
+.Data03 table {
+	width: 100%;
+}
+
+.Data03 table th {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	font-weight: bold;
+	background: #F6F7FD;
+	width: 40%;
+}
+
+.Data03 table td {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	width: 60%;
+}
+
+
+h4.Caption {
+	margin: 0 0 10px 10px;
+	font-size: 14px;
+}
+
+.ImgLeft {
+	float: left;
+	margin: 0 0 28px 0;
+}
+
+.ImgRight {
+	float: right;
+	margin: 0 0 28px 0;
+}
+
+.TextLeft {
+	float: left;
+	width: 330px;
+}
+
+.TextRight {
+	float: right;
+	width: 330px;
+}
+
+.TextRight2 {
+	float: right;
+	width: 390px;
+}
+
+.TextLeft dl,
+.TextRight dl {
+}
+
+.TextLeft dl dt,
+.TextRight dl dt {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 120%;
+	margin: 0 0 10px 0;
+}
+
+.TextLeft dl dd,
+.TextRight dl dd {
+	font-size: 12px;
+	margin: 0 0 10px 0;
+}
+
+.TextLeft dl dd.Arrow,
+.TextRight dl dd.Arrow {
+	font-size: 12px;
+	background: url(../images/arrow_blue.jpg) no-repeat left center;
+	padding: 0 0 0 10px;
+	margin: 0 0 10px 0;
+	text-align: left;
+}
+
+.ImgList {
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+
+.ImgList th {
+	text-align: center;
+	padding: 0 0 10px 0;
+}
+
+.ImgList td {
+	text-align: center;
+	padding: 0px;
+}
+
+p.Text {
+	margin: 0 20px 20px 20px;
+}
+
+/*---------------------------------------------------------------------------------
+下部ナビゲーション
+-----------------------------------------------------------------------------------*/
+#bottom_navi {
+	margin: 70px 0;
+}
+
+#bottom_navi h3.Navitit01 {
+	text-indent: -9999px;
+	background: url(../images/bottom_navi01.gif) no-repeat left top;
+	width: 703px;
+	height: 29px;
+}
+
+#bottom_navi h3.Navitit02 {
+	text-indent: -9999px;
+	background: url(../images/bottom_navi02.gif) no-repeat left top;
+	width: 703px;
+	height: 29px;
+	margin-top: 25px;
+}
+
+#bottom_navi ul.bm_list {
+	width: 690px;
+	height: 30px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#bottom_navi ul.bm_list li {
+	background: url(../images/icon01.gif) no-repeat left center;
+	padding: 0 0 0 20px;
+	margin: 10px 20px 0 0;
+	float: left;
+}
+
+#bottom_navi ul.bm_list a {
+	border-bottom: 1px solid #5b5887;
+}
+
+
+
+/**************************************************************************************************
+Middle
+**************************************************************************************************/
+
+/** コース紹介 **/
+
+#TopImage {
+	text-align: center;
+	background: url(../images/bg_topimg.jpg) no-repeat center bottom;
+	padding: 0 0 15px 0;
+	margin: 0 0 28px 0;
+}
+
+.CourseSelect {
+	background: url(../../courses/images/index/bg_courses.jpg) repeat-y left;
+	width: 978px;
+	font-size:11px;
+	margin-top: 28px;
+}
+
+.CourseSelect .Photo {
+	margin: 0 0 10px 20px;
+}
+
+.BoxOrdinary {
+	float: left;
+	width: 330px;
+	
+}
+
+.BoxOrdinary p {
+	margin: 0 24px 20px 24px;
+}
+
+.BoxBusiness {
+	float: left;
+	width: 319px;
+}
+.BoxNursing {
+	float: right;
+	width: 319px;
+	
+}
+
+.BoxBusiness div,
+.BoxNursing div {
+	margin: 0 24px 0 24px;
+}
+
+.BoxBusiness div p,
+.BoxNursing div p {
+	float: left;
+	width: 125px;
+	
+}
+
+.BoxBusiness div ul,
+.BoxNursing div ul {
+	width: 138px;
+	float: right;
+	
+}
+
+.BoxBusiness div ul li,
+.BoxNursing div ul li {
+	margin: 0 0 4px 0;
+}
+
+.Arrow {
+	text-align: center;
+	padding: 20px 0 13px 0;
+}
+
+.Divergence {
+	background: url(../../courses/images/index/bg_divergence_04.jpg) repeat-y left;
+	width: 978px;
+}
+
+.Divergence2 {
+	background: url(../../courses/images/index/bg_divergence_04_2.jpg) repeat-y left;
+	width: 978px;
+}
+.Divergence2 dl,
+.Divergence dl {
+	padding: 0px 0 0 0;
+	margin: 0 20px;
+}
+
+.Divergence2 dl dt,
+.Divergence dl dt {
+	float: left;
+	width: 196px;
+	padding: 0 0 2px 0;
+}
+
+.Divergence2 dl dd,
+.Divergence dl dd {
+	float: right;
+	width: 240px;
+}
+
+.Divergence2 dl dd h3,
+.Divergence dl dd h3 {
+	margin: 0 0 3px 0;
+}
+
+.Divergence2 dl dd p,
+.Divergence dl dd p {
+	font-size:11px;
+	line-height: 130%;
+	margin: 0 0 10px 0;
+}
+
+.Divergence2 dl dd ul,
+.Divergence dl dd ul {
+	width: 240px;
+}
+
+.Divergence2 dl dd ul li,
+.Divergence dl dd ul li {
+	float: left;
+	height: 20px;
+	width: 120px;
+	
+}
+.Divergence dl dd ul li.Long {
+	height: 20px;
+	width: 170px;
+	
+}
+small {
+	font-size: 12px;
+	text-align: right;
+}
+
+.Divergence2 .Left,
+.Divergence .Left {
+	float: left;
+	width: 485px;
+	
+}
+
+.Divergence .Right {
+	float: right;
+	width: 485px;
+	
+}
+
+/*---特進アカデミックコース--*/
+.tokushin01 {
+	width: 100%;
+	height: auto;
+}
+
+.tokushin01 p{
+	float: left;
+	width: 360px;
+	height: auto;
+	margin-right: 10px;
+}
+
+.tokushin01 img{
+	float: left;
+	width: 300px;
+	height: 100px;
+}
+
+.tokushin02 {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 50px;
+}
+
+.tokushin02 ul{
+	width: 55%;
+	height: auto;
+	float: left;
+}
+
+.tokushin02 li{
+	background: url(../images/arrow_blue.jpg) no-repeat left top;
+	padding: 0 0 0 15px;
+	margin: 10px 0 0 0;
+}
+
+.tokushin02 img{
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+
+/*-----------------------------------------
+学校案内
+---------------------------------------------*/
+/*-----校長挨拶----------*/
+.greeting_main{
+	margin-top: 70px;
+}
+
+
+/*-----キャンパスマップ-------*/
+.map_tit{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 120%;
+	margin: 0 0 10px 0;
+}
+
+.map_txt{
+	float:left;
+	font-size: 12px;
+	margin: 0 5px 0 0;
+	width: 200px;
+}
+
+.map_img{
+	float:left;
+}
+
+/*----各種証明書発行----*/
+
+.download .F_left {
+	float: left;
+	width: 200px;
+	margin-left: 10px;
+}
+
+.attestationTB {
+	margin: 0 0 15px 0;
+}
+.attestationTB table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.attestationTB table th {
+	padding: 10px 5px 10px 5px;
+}
+
+.attestationTB table td {
+	padding: 4px 5px;
+}
+
+.attestationTB table td.td02 {
+	padding: 4px 5px 4px 25px;
+}
+
+.attestationTB02 {
+	margin: 0 0 15px 0;
+}
+.attestationTB02 table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.attestationTB02 table th {
+	padding: 4px 5px;
+	width: 8%;
+}
+
+.attestationTB02 table td {
+	padding: 4px 5px;
+	width: 92%;
+}
+
+.table_L {
+	float: left;
+	margin: 0 0 15px 12px;
+}
+.table_L table {
+	border: 1px solid #D6D6D6;
+	width: 300px;
+}
+
+.table_L table th {
+	text-align: center;
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	font-weight: bold;
+	background: #F6F7FD;
+}
+
+.table_L table td {
+	text-align: center;
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+}
+
+.contactTB {
+	width: 50%;
+	border: 5px solid #E9EBF5;
+	margin: 0 0 30px 25px;
+}
+
+.contactTB table {
+	width: 100%;
+}
+
+.contactTB table th {
+	border: 1px solid #D6D6D6;
+	padding: 4px 10px;
+	font-weight: bold;
+	background: #F6F7FD;
+}
+
+.contactTB table td {
+	padding: 4px 10px;
+}
+
+.download_ab {
+	margin: 25px 0 25px 0;
+}
+
