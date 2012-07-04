@@ -28,8 +28,8 @@ $(document).ready(function() {
 	 
 	 $(".hvr_fd06").hover(function(){
      $(this).stop().fadeTo(400,0.6);
-     },
-     function(){
-     $(this).stop().fadeTo(400,1.0);
-     });
+    },
+    function(){
+    $(this).stop().fadeTo(400,1.0);
+    });
 });

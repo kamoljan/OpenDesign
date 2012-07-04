@@ -9,7 +9,7 @@ var DOMAssistant = function () {
 	strictElmCreation = function() {
 		if (!isIE) return true;
 		try {
-			document.createElement("<img>");
+			document.createElement("<img />");
 			return false;
 		} catch (e) {
 			return true;
