@@ -1,0 +1,113 @@
+#cause {
+	background:url(../images/bg_cause.jpg) no-repeat center 0;	
+}
+
+#cause .left-menu {
+    background: url("../images/bg_cnt-leftmenu.png") no-repeat scroll 0 0 transparent;
+    margin: 0 0 30px 2px;
+}
+
+#cause .page_top {
+	margin: 0 0 50px;
+}
+
+#cause .cause-p01{
+    margin:30px 0 0;
+	line-height: 180%;}
+    
+#cause .cause-div01{
+    background: url("../../cause/images/bg-cause-div01.png") no-repeat scroll 0 0 transparent;
+    width:714px;
+    min-height:154px;
+    margin:70px 0 0;
+    position:relative;}
+    
+#cause .cse-dv001{
+    margin:20px 0 0;}
+    
+#cause .cse-icon01{
+    position:absolute;
+    top:-30px;
+    left:15px;}
+    
+#cause .cause-div02{
+    background: url("../../cause/images/bg-cause-div02.png") no-repeat scroll 0 0 transparent;
+    width:357px;
+    min-height: 267px;
+    margin:15px 0 0;}
+    
+#cause .cause-div03{
+    background: url("../../cause/images/bg-cause-div03.png") no-repeat scroll 0 0 transparent;
+    width:357px;
+    min-height: 267px;
+    margin:15px 0 0;}
+    
+#cause .cse-icon02{
+    margin:35px 0 0 7px;}
+    
+#cause .cse-icon03{
+    margin:19px 0 0 9px;}
+    
+#cause .cse-ul01{
+    width:235px;
+    margin:35px 0 0 109px;
+}
+ 
+#cause .cse-ul01 li{
+    background: url("../../cause/images/cse-dot1.png") no-repeat scroll 0 4px transparent;
+    padding:0 0 0 13px;
+    margin:0 0 6px;
+	color: #4A2816;
+}
+    
+#cause .cse-bt-img{    
+     margin: 17px 0 0 15px;}
+     
+#cause .cse-ul02{
+    margin:17px 0 0 109px}
+    
+#cause .cse-ul03{
+    margin:20px 0 0 109px}
+    
+#cause .cause-div04{
+    background: url("../../cause/images/bg-cause-div04.png") no-repeat scroll 0 0 transparent;}
+    
+#cause .cause-div05{
+    background: url("../../cause/images/bg-cause-div05.png") no-repeat scroll 0 0 transparent;}
+
+#cause .cse-qa-tpf{
+    padding:40px 0 60px;
+    margin:0 ! important;}  
+
+#cause .cse-qa-tpf2{
+    padding:25px 0 35px;
+    margin:0 ! important;}    
+    
+#cause .cse-q-a{
+    background: url("../../cause/images/cse-q-a.png") no-repeat scroll 0 0 transparent;
+    width:711px;
+    height:366px;
+    position:relative;}
+    
+#cause .cse-qa-img01{
+    position:absolute;
+    top:-30px;
+    left:-5px;}
+    
+#cause .cse-qa-p{
+    text-align:center;
+    width:310px;
+    margin:125px 0 0 20px;
+    color:#62351c;
+    font:12px Meiryo;}
+    
+#cause .cse-qa-ul{
+    width:342px;
+    margin: 200px 0 0;
+}
+    
+#cause .cse-qa-ul li{
+    float:left;
+    width:342px;
+    padding:0 0 2px;
+}

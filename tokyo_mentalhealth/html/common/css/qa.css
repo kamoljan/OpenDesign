@@ -1,0 +1,59 @@
+.qa-div01{
+    }
+    
+.qa-div02{
+    background:url("../../images/qa-top-bg.png") no-repeat scroll 0 0 transparent;
+    width:711px;
+    padding:69px 0 0;
+    position:relative;}
+
+.qa-div03{
+    background:url("../../images/qa-bot-bg.png") no-repeat scroll 0 bottom transparent;
+    padding:0 0 7px;
+    width:711px;}
+   
+.qa-div04{
+    background:url("../../images/qa-read-bg.png") repeat-y scroll 0 0 transparent;
+    width:711px;
+    padding:0 0 13px;}
+    
+.qa-div05{
+    }
+    
+.qa-a{
+    left:55px;
+    position:absolute;
+    top:56px;}
+
+.qa-q{
+    position:absolute;
+    top:0;
+    left:0;}
+
+.qa-p01{
+    position:absolute;
+    top:15px;
+    left:55px;
+    color:#f9eede;
+    font:14px Meiryo;}
+
+.qa-p02{
+    width:605px;
+	text-align: left;
+    margin:-10px 0 0 85px;
+    font:12px Meiryo;}
+    
+.qa .page_top {
+    bottom: -30px;
+    position: absolute;
+    right: 0;
+}
+  
+.qa-dd{
+	margin-top: 72px;
+	margin-right: 0;
+	margin-left: 0px;
+}
+    
+.qa .btn_contact { 
+    margin:90px 0 20px !important; }

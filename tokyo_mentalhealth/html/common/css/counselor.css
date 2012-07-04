@@ -1,0 +1,559 @@
+/* detail */
+
+.title_content{
+    float: left;
+    margin: 0 0 25px;
+    padding: 0 0 0 5px;
+    width: 710px;
+	text-align: left;
+}
+
+.advice{
+    float: left;
+    padding: 0 0 0 5px;
+    text-align: left;
+	margin: 0 0 50px;
+    width: 710px;
+	line-height: 170%;
+}
+
+.info_box{
+    float: left;
+    width: 310px;	
+}
+
+.info_list{
+    float: left;
+    margin: 0 0 10px;
+    width: 310px;	
+}
+
+.info_list li{
+    float: left;
+    width: 310px;
+	text-align: left;
+	margin: 0 0 2px;	
+}
+
+.info_img{
+    float: left;
+    margin: 0 5px 0 0;
+    width: 79px;	
+}
+
+.info_text{
+    float: left;
+    padding: 5px 0 0;	
+	width: 225px;
+}
+
+.info_text strong{
+    float: left;
+    font-size: 14px;
+
+}
+
+.emdr_therapy{
+	background:url(../../counselor/images/bg_emdr_box.png) no-repeat center 0;
+    float: left;
+    height: 310px;
+    padding: 0 23px 10px 16px;
+    text-align: left;
+    width: 270px;
+}
+
+.btn_emdr{
+    float: left;
+    margin: -10px 0 10px -23px;
+}
+
+.emdr_text{
+    float: left;
+    line-height: 17px;
+    width: 280px;
+	margin: 0 0 20px;	
+	min-height: 85px;
+}
+
+.guide{
+    float: left;
+    margin: 0 0 15px 5px;	
+}
+
+.therapy_list{
+    float: left;
+    padding: 0 0 0 5px;
+    width: 255px;	
+	margin: 0 0 10px;
+}
+
+.therapy_list li{
+    float: left;
+	color: #5E6B38;
+    margin: 0 0 2px;
+    padding: 0 0 0 10px;
+    width: 245px;
+	background:url(../../counselor/images/pipe-green.gif) no-repeat left 4px;
+	font-size: 11px;
+}
+
+*+html .therapy_list li{
+	margin: 0 0 6px;		
+}
+
+.therapy_list li.last{
+	margin:0;
+}
+
+a.learn_more{
+	background:url(../../counselor/images/learn-more_off.png) no-repeat;
+    float: left;
+    height: 30px;
+    width: 285px;
+	text-indent:-9999px;
+	margin: 0 0 0 -10px;		
+}
+
+a:hover.learn_more{
+	background:url(../../counselor/images/learn-more_on.png) no-repeat;
+}
+
+.info_person{
+    float: right;
+    width: 400px;	
+}
+
+.person_img01{
+    float: right;
+    margin: -50px 0 30px;	
+}
+
+.uemura .person_img01{
+    float: right;
+    margin: -125px 0 10px;	
+}
+
+
+.news_box{
+    float: left;
+    padding: 0 0 0 25px;
+    width: 378px;
+}
+
+.news_topics{
+	background:url(../../counselor/images/circles.png) no-repeat right 0;	
+    float: left;
+    height: 59px;
+    padding: 10px 0 0;
+	text-align: left;
+    width: 400px;	
+}
+
+.list_news{
+    float: left;
+    padding: 0 0 0 5px;
+    text-align: left;
+    width: 370px;	
+	line-height: 16px;
+	margin: 0 0 20px;
+}
+
+.list_news li{
+	float:left;
+	background:url(../../counselor/images/pipe-circle.gif) no-repeat left 4px;
+	padding:0 0 0 10px;
+	width: 360px;
+	margin: 0 0 10px;
+}
+
+.list_news li.last{
+	margin:0;
+}
+
+.list_news span.date{
+    float: left;
+    margin: 0 5px 0 0;
+    width: 80px;	
+}
+
+.list_news span.descr{
+    float: left;
+    width: 270px;
+	font-size: 11px;
+}
+
+a.btn_counseling{
+	background:url(../../counselor/images/btn_counselling_off.gif) no-repeat;
+    float: left;
+    height: 33px;
+    margin: 0 0 0 5px;
+    text-indent: -9999px;
+    width: 377px;
+}
+
+a:hover.btn_counseling{
+	background:url(../../counselor/images/btn_counselling_on.gif) no-repeat;
+}
+
+.info_message{
+    float: left;
+    width: 715px;	
+	 position: relative;
+	 margin: 50px 0 40px;
+	 min-height: 410px;
+}
+
+.info_message .page_top {
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+}
+
+.person_img02{
+    left: -5px;
+    position: absolute;
+    top: -30px;
+    z-index: 3;
+}
+
+.message_box{
+	background:url(../../counselor/images/bg_2circle01.png) no-repeat;
+    float: right;
+    padding: 80px 20px 0 85px;
+    position: relative;
+	margin: 0 0 40px;
+    width: 541px;	
+}
+
+.title_message{
+    left: 75px;
+    position: absolute;
+    top: 25px;}
+
+.message_text{
+    float: left;
+    position: relative;
+    text-align: left;
+    width: 540px;
+    z-index: 4;
+}
+
+*+html .message_text{
+    float: left;
+    position: relative;
+
+}
+
+.info_career{
+	background:url(../../counselor/images/bg_career.gif) no-repeat center 0;
+    float: left;
+    height: 110px;
+    padding: 6px 7px;
+    width: 698px;	
+	margin: 0 0 40px	
+}
+
+.info_career2{
+	background:url(../../counselor/images/bg_career02.gif) no-repeat center 0;
+    float: left;
+    height: 153px;
+    padding: 6px 7px;
+    width: 698px;	
+	margin: 0 0 40px	
+}
+
+.btn_career{
+    float: left;
+    margin: 0 0 15px;	
+}
+
+.about_career{
+    float: left;
+    padding: 0 0 0 10px;
+    text-align: left;
+    width: 690px;
+	color: #3C180A;
+	font-size: 98%;
+	line-height: 160%;
+}
+
+.take_one{
+	background:url(../../counselor/images/bg_2circle02.png) no-repeat;
+    float: left;
+    margin: 0 0 70px -25px;
+    padding: 75px 0 0;
+    position: relative;
+    width: 736px;
+}
+
+.title_take{
+    left: 30px;
+    position: absolute;
+    top: 12px;
+}
+
+.person_img03{
+    position: absolute;
+    right: 0;
+    top: 75px;
+}
+
+.title01{
+    float: left;
+    height: 31px;
+    padding: 0 0 0 13px;
+	margin: 0 0 20px;
+	background:url(../../counselor/images/pipe_brown01.gif) no-repeat;	
+}
+
+.title02{
+    float: left;
+    height: 17px;
+	margin: 0 0 20px;
+    padding: 0 0 0 13px;
+	background:url(../../counselor/images/pipe_brown02.gif) no-repeat;	
+}
+
+.info_box01{
+    float: left;
+	min-height: 200px;
+    padding: 10px 0 0 50px;
+    text-align: left;
+    width: 440px;	
+	margin: 0 0 25px;
+}
+
+.info_box02{
+    float: left;
+    text-align: left;
+    width: 430px;	
+}
+
+.info_box01 p, .info_box02 p{
+    float: left;
+    margin: 0 0 20px;
+	width: 430px;	
+}
+
+.care_about{
+	background:url(../../counselor/images/bg_2circle03.png) no-repeat;
+    float: left;
+    padding: 93px 0 0 5px;
+    position: relative;
+	margin: 0 0 0 25px;
+	min-height: 255px;
+    width: 463px;
+}
+
+.title_careabout{
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.akagi .person_img01{
+	margin: -58px 0 30px;	
+}
+
+.tamai .therapy_list{
+	margin: 0 0 5px;	
+}
+
+.tamai .therapy_list li{
+	margin: 0 0 0;	
+}
+
+/*********** begin counselor_index.html *************/
+
+.index .content{
+	background:none;	
+}
+
+.index .page_top{
+    float: right;
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+
+.free_margin01{
+    float: left;
+    margin: 20px 0 0;
+    width: 100%;
+}
+
+.free_margin02{
+    float: left;
+    margin: 0 0 40px;
+    width: 100%;
+}
+
+.free_margin03{
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+
+.free_margin04{
+    float: left;
+    margin: 0 0 30px;
+    width: 100%;
+}
+
+.about_person{
+	background:url(../../counselor/images/bg_person.png) no-repeat;
+    padding: 0 10px 0 0;
+    width: 332px;	
+	 min-height: 285px;
+	 margin: 0 0 30px;
+	 text-align: left;
+}
+
+.img_person{
+    float: left;
+    margin: 0 15px 10px 0;	
+}
+
+.info_all{
+    float: left;
+    width: 170px;	
+	padding: 5px 0 0;
+}
+
+.name_person{
+    float: left;
+    margin: 0 0 10px;	
+}
+
+a.img_link{
+    float: left;
+    margin: 0 0 5px;
+    padding: 0 0 0 3px;	
+}
+
+a:hover.img_link{
+	padding: 0 0 0 6px;	
+}
+
+.free_text{
+    float: left;
+    padding: 0 0 0 3px;
+	margin: 0 0 15px;
+    width: 165px;	
+	font-size: 11px;
+}
+
+.your_symptom{
+	float:left;
+	margin:0 0 10px;	
+}
+
+.free_text02{
+	float:left;
+	width: 330px;
+	font-size: 11px;
+}
+
+.title_list{
+    float: left;
+    margin: 0 0 25px -2px;
+    width: 100%;	
+	text-align: left;
+}
+
+.list_mental{
+    float: left;
+    width: 100%;	
+}
+
+.list_mental li{
+    float: left;
+    margin: 0 0 30px;
+    text-align: left;
+    width: 236px;
+}
+
+.list_mental li img{
+    float: left;
+    margin: 0 10px 0 0;	
+}
+
+.info_link{
+    float: left;
+	width: 150px;
+	padding:8px 0 0;	
+}
+
+.info_link a{
+    float: left;
+    margin: 0 0 3px;
+    width: 150px;	
+	color: #492C04;
+}
+
+.info_link a span {
+	font-weight: bold;
+}
+
+/* list */
+
+#counselor-list{
+	background:url("../images/bg_list.jpg") no-repeat scroll center 0 transparent;}
+.l-face{
+	clear:both;
+	margin:0;
+	text-align:left;}
+
+.photo-box{
+	float: left;
+    width: 180px;}
+	
+.info-box{
+  	float: right;
+    width: 475px;
+	background:url(../../counselor/images/l-hbg.png) no-repeat top left;
+	padding:3px 15px 0 32px;
+	min-height: 53px;
+}
+
+
+.face-c{
+	margin:8px 0 0 0;}
+	
+.face-h{
+	padding:35px 0 15px 0;
+	clear:both;}
+
+.h-bio{
+	background:url(../../counselor/images/l-btn-bio.png) no-repeat left top;
+	min-height:26px;
+	float:left;
+	width:97%;
+	margin:8px 15px 8px 0;
+	padding:35px 0 0 0}
+
+.h-hobby{
+	background:url(../../counselor/images/l-btn-hobby.png) no-repeat left top;
+	padding:5px 0 0 90px;
+	min-height:26px;
+	float:left;}
+
+.l-top{
+	float:right;
+	clear:both;
+	margin:45px 0 45px 0;}
+
+.face-list{
+    float: left;
+	text-align: left;
+	margin:0 0 20px 20px;
+}
+
+.face-list li{
+	line-height:23px;
+	padding-left:22px;
+	background:url(../../counselor/images/l-face-list-li.png) no-repeat 0px 6px;
+}
+
+.face-list li a{
+	text-decoration:none;}

@@ -1,0 +1,7 @@
+<a class="logo fade" href="../index.html" title="こころに新しい息吹-いぶき-をそそぐ 東京メンタルヘルス・カウンセリングセンター Tokyo Mentalhealth Academy Counseling Center"><img src="../common/images/logo.png" width="391" height="61" title="こころに新しい息吹-いぶき-をそそぐ 東京メンタルヘルス・カウンセリングセンター Tokyo Mentalhealth Academy Counseling Center" alt="こころに新しい息吹-いぶき-をそそぐ 東京メンタルヘルス・カウンセリングセンター Tokyo Mentalhealth Academy Counseling Center" /></a>
+<ul class="topmenu">
+<li><a class="fade" href="../qa.html" title="よくあるご質問"><img src="../common/images/topmenu01_off.png" width="88" height="15" title="よくあるご質問" alt="よくあるご質問" /></a></li>
+<li><a href="mailto&#58;in&#102;&#111;&#64;&#109;&#101;&#110;&#116;&#97;&#108;&#104;&#101;alt&#104;.&#106;p" title="お問い合わせ"><img src="../common/images/topmenu02_off.png" width="78" height="15" title="お問い合わせ" alt="お問い合わせ" /></a></li>
+<li><a href="https://www.tmaweb.net/cgi-bin/corder/cordernew.cgi" target="_blank" title="ご予約お申し込み"><img src="../common/images/topmenu03_off.png" width="90" height="15" title="ご予約お申し込み" alt="ご予約お申し込み" /></a></li>
+<li class="last"><a href="https://www.tmaweb.net/kojin/html/croom.htm" target="_blank" title="会員ログイン"><img src="../common/images/topmenu04_off.png" width="71" height="15" title="会員ログイン" alt="会員ログイン" /></a></li>
+</ul> 

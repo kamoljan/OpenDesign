@@ -1,0 +1,460 @@
+#company {
+	background:url(../images/bg_company.jpg) no-repeat center 0;	
+}
+
+#company .left-menu {
+    background: url("../images/bg_cmleftmenu.png") no-repeat scroll 0 0 transparent;
+    margin: -5px 0 30px 2px;
+}
+
+#company.index .page_top {
+	margin: 120px 0 0 0 !important;
+}
+
+#company .about_company{
+	background:url(../../company/images/bg_content.png) no-repeat center 0;
+    float: left;
+    padding: 35px 10px 0;
+    width: 691px;
+	min-height: 968px;
+}
+
+#company .info_company{
+    float: left;
+    padding: 0 9px 0 0;
+    width: 212px;	
+	position: relative;
+	margin: 0 9px 0 0;
+}
+
+#company .title_company{
+    float: left;
+    margin: 0 0 0 30px;	
+}
+
+#company .box_02 .title_company, .box_03 .title_company{
+     margin: 0 0 0 47px;	
+}
+
+#company .info_image{
+    float: left;
+    position: relative;
+    z-index: 3;
+}
+
+#company .view_more{
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    z-index: 2;	
+}
+
+#company .text_about{
+    float: right;
+    margin: 0 0 40px;
+    text-align: left;
+	font-size: 11px;
+    width: 108px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:10000),
+not all and (-webkit-min-device-pixel-ratio:0) {
+#company .text_about{
+	font-size: 11px;
+}
+
+}
+
+*+html #company .text_about{
+	font-size:10px;	
+}
+
+#company .btn_viewmore{
+    float: right;
+    position: relative;
+    padding: 15px 0 0;
+}
+
+#company .box_02 .text_about{
+	margin: 0 0 58px -20px;
+    width: 105px;
+}
+
+#company .box_02, .box_03{
+	width: 222px;
+}
+
+#company .box_02{
+    padding: 0 8px 0 0;
+}
+
+#company .box_03{
+    margin: 0;
+    padding: 0;	
+}
+
+#company .box_03 .text_about{
+	width: 100px;
+}
+
+#company .c_center{
+    float: left;
+    margin: 35px 0 5px -5px;	
+}
+
+*+html #company .c_center{
+    margin: 0 0 5px -5px;	
+}
+
+#company .c_center img{
+	float:left;
+}
+
+#company .info_center{
+	background:url(../../company/images/bg_whitebox.png) no-repeat center 0;
+    float: left;
+    padding: 7px 5px 0 6px;
+    width: 215px;
+}
+
+#company .btn_room{
+    float: left;
+    margin: 0 0 5px;	
+}
+
+#company .info_contact{
+    float: left;
+    padding: 0 10px;
+    width: 195px;	
+}
+
+#company .c_name{
+    float: left;
+    margin: 0 0 5px;	
+}
+
+#company .c_address{
+    float: left;
+    font-size: 11px;
+    margin: 0 0 2px;
+    text-align: left;
+    width: 190px;	
+}
+
+*+html #company .c_address{
+    font-size: 11px;
+}
+
+#company .phone_number{
+	background:url(../../company/images/phone.png) no-repeat left 0;
+    float: left;
+    height: 12px;
+    margin: 5px 0 0;
+    padding: 0 0 0 15px;
+}
+
+#company .btn_map{
+	float: right;
+}
+
+#company .margin_right{
+	margin:0 6px 0 0;	
+}
+
+#company .first_line{
+	margin:0 0 40px;
+	float:left;	
+}
+
+#company .flower_image{
+	float:right;	
+}
+
+
+/* outline */
+
+#company .title_outline{
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 710px;
+    z-index: 1;	
+}
+
+#company .c_outline{
+	background:url(../../company/images/bg_blue.png) no-repeat center top;
+    float: left;
+    margin: 0 0 50px 5px;
+    min-height: 345px;
+    padding: 30px 0 0 180px;
+    position: relative;
+    width: 510px;
+	z-index:5;
+}
+
+#company .c_director{
+    left: 20px;
+    position: absolute;
+    top: -45px;
+}
+
+#company .about_director{
+    float: left;
+    width: 510px;	
+}
+
+#company .top_title{
+    float: left;
+    margin: 0 0 25px;	
+}
+
+#company .outline_text{
+    float: left;
+    text-align: left;
+    width: 510px;	
+}
+
+#company .text_box01{
+    float: left;
+    width: 710px;
+	position: relative;	
+	margin: 0 0 80px;
+}
+
+#company .title_text{
+    float: left;
+    margin: 0 0 25px;	
+}
+
+#company .box_text{
+    float: left;
+    width: 710px;	
+	line-height: 18px;
+}
+
+#company .blue_balls{
+    position: absolute;
+    right: 15px;
+    top: -100px;	
+}
+
+#company .about_us{
+    float: left;
+    margin: 40px 0 70px;
+    width: 690px;	
+	background:url(../../company/images/map_place.gif) no-repeat right 50px;
+	position: relative;
+}
+
+#company .title_address{
+    float: left;
+    margin: 0 0 10px;	
+}
+
+#company .address_list{
+    float: left;
+	padding: 15px 0 0;
+    margin: 0 0 23px;
+}
+
+#company .address_list li{
+    float: left;
+    margin: 0 0 23px;
+    width: 588px;
+}
+
+#company .address_list li.last{
+    margin: 0;
+}
+
+#company .address_list02{
+    float: left;
+    width: 690px;
+}
+
+#company .address_list02 li{
+    float: left;
+    width: 420px;
+}
+
+#company .free_div{
+    float: left;
+    margin: 0 0 55px;	
+	width: 100%;
+}
+
+#company .job_name{
+    padding: 5px 0;
+    text-align: center;
+    width: 124px;
+	float:left;
+	border-radius:25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-moz-box-shadow: 0 0 2px 2px #F8EFE4;
+	-webkit-box-shadow: 0 0 2px 2px #F8EFE4;
+	box-shadow: 0 0 2px 2px #F8EFE4;
+	background: #ffffff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMWQ4ZDIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e1d8d2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e1d8d2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e1d8d2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#e1d8d2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e1d8d2 100%); /* IE10+ */
+	background: linear-gradient(top,  #ffffff 0%,#e1d8d2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e1d8d2',GradientType=0 ); /* IE6-8 */
+	display:inline-block; /* IE is so silly */	
+}
+
+#company .us_address{
+	background:url(../../company/images/blue_line.png) no-repeat left 6px;
+    float: right;
+    margin: 4px 0 5px -7px;
+    padding: 0 0 0 20px;
+	width: 450px;
+	text-align: left;
+	line-height: 18px;
+}
+
+#company .us_address span {
+	font-size: 11px;
+}
+
+#company .address_list02 li.last{
+    float: right;
+    width: 250px;
+}
+
+#company .address_list02 .us_address {
+	width: 283px;
+}
+
+#company .address_list02 .last_add{
+	 margin: 4px 0 0 -7px;	
+}
+
+#company .last .last_add{
+	width: 230px;
+}
+
+#company .google_map{
+    top: 265px;
+    position: absolute;
+    right: 8px;	
+}
+
+#company .page_top{
+    float: right;
+    text-align: right;
+    width: 100%;	
+}
+
+
+
+/* place */
+
+#company.place .page_top {
+	margin: 50px 0 70px;
+}
+
+#company .place_menu{
+	background:url(../../company/images/bg_list.png) no-repeat center 0;
+    float: left;
+    min-height: 82px;
+    padding: 55px 50px 0;
+    width: 600px;	
+	margin: 0 0 35px;
+}
+
+#company .place_list{
+    float: left;
+    width: 600px;	
+}
+
+#company .place_list li{
+    float: left;
+    margin: 0 30px 15px 0;
+    width: 180px;	
+}
+
+#company .place_list li.last{
+	margin:0 0 15px;
+}
+
+#company .info_address{
+    float: left;
+    padding: 0 0 0 5px;
+    width: 695px;	
+}
+
+#company .name_center{
+    float: left;
+    margin: 0 0 40px;
+    padding: 0 5px 0 0;
+    width: 690px;	
+}
+
+#company .center_room{
+	float: right;
+}
+
+#company .img_info{
+	float:left;	
+	margin: 0 0 0 35px;
+}
+
+#company .title_center{
+    float: left;
+    margin: 0 0 20px;	
+}
+
+#company .text_img{
+    float: left;
+    line-height: 18px;
+	padding: 0 0 0 35px;
+    margin: 10px 0 0;
+    width: 635px;}
+
+#company .address_map{
+    float: left;
+    width: 695px;	
+}
+
+#company .timetable{
+    float: left;
+    width: 300px;	
+	padding: 2px 0 0 1px;
+}
+
+#company .timetable li{
+    float: left;
+    margin: 0 0 10px;
+    width: 300px;	
+}
+
+#company .timetable li img{
+     float: left;
+    margin: 0 0 5px;
+}
+
+#company .timetable p{
+    float: left;
+    padding: 0 0 0 40px;
+    width: 260px;
+	line-height: 18px;
+}
+
+#company .timetable li.last{
+	margin:0;
+}
+
+#company .info_map{
+    float: right;
+    width: 320px;	
+}
+
+#company .center_map{
+    float: right;
+    margin: 0 0 10px;	
+}

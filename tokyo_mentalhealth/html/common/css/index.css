@@ -1,0 +1,400 @@
+#index{
+	background:url(../images/bg-index.jpg) no-repeat center 0;		
+}
+
+#index #page{
+	background:none ! important;	
+}
+
+#index #wrap{
+	background:url(../images/bg_tree.png) no-repeat center 0;
+	min-height: 1550px !important;
+}
+
+#index .header {
+margin:0 auto;
+width:980px;
+padding:0;
+min-height:0;
+float:none;
+} 
+
+#index #header-container {
+padding:30px 0 0;
+width:100%;
+}
+
+#index .main{
+    position:relative;
+    min-height:1197px;
+    margin: 0 auto;
+    padding:0;
+    width: 980px ! important;
+    float:none;
+}
+
+/*  BEGIN MAIN  */
+
+.inx-door{
+    margin:12px 0 0 -107px;}
+    
+*+html .inx-door{
+    margin:52px 0 0 -107px;}    
+    
+.inx-img01{
+    left: 340px;
+    position: absolute;
+    top: 70px;
+}
+    
+*+html .inx-img01{
+    top:105px;}    
+
+.inx-img02{
+    left: 365px;
+    position: absolute;
+    top: 170px;
+}
+    
+*+html  .inx-img02{
+    top:210px;}
+
+.inx-img03{
+    left:380px;
+    position:absolute;
+    top:313px;}
+    
+*+html  .inx-img03{
+    top:353px;}
+
+.inx-div01{
+    background:url("../../images/bg-inx-div01.png") no-repeat scroll center 0 transparent;
+    float:left;
+    height:435px;
+    left:-152px;
+    position:relative;
+    top:-45px;
+    width:1302px;
+    z-index:103;}
+    
+.inx-div02{
+    left:170px;
+    position:absolute;
+    top:73px;
+    width:210px;}
+
+.inx-img04{
+}
+
+.inx-p01{
+    float:left;
+    font:11px Meiryo;
+    padding:15px 0 10px 22px;
+    width:130px;}
+
+.inx-img05{
+    margin:0 0 0 15px;}
+    
+.inx-div03{
+    left:425px;
+    position:absolute;
+    top:83px;
+    width:210px;}
+    
+.inx-p02{
+    float:left;
+    font:11px Meiryo;
+    padding:15px 0 10px 0px;
+    width:130px;}
+     
+.inx-div04{
+    left:672px;
+    position:absolute;
+    top:83px;
+    width:210px;}
+    
+.inx-p03{
+    float:left;
+    font:11px Meiryo;
+    padding:15px 0 10px 4px;
+    width:140px;}
+    
+.inx-div05{
+    left:917px;
+    position:absolute;
+    top:73px;
+    width:210px;} 
+    
+.inx-ul01{
+    padding:7px 0 0 11px;
+    width:170px;}
+    
+.inx-ul01 li{
+    float:left;}
+    
+*+html .inx-ul01 li{
+    padding:0;}
+    
+.inx-div06{
+    background:url("../../images/bg-inx-div06.png") no-repeat scroll 0 0 transparent;
+    float:left;
+    height:333px;
+    left:11px;
+    position:relative;
+    top:-145px;
+    width:1000px;
+    z-index:102;}
+    
+.inx-such01{ 
+    margin:33px 0 0 45px;
+    z-index:101;}
+
+.inx-such02{ 
+    margin:24px 0 0 45px;
+    z-index:101;}
+    
+.inx-such-left{
+    width:461px;}
+    
+.inx-such-ul01{
+    width:304px;
+    margin:14px 0 0 15px;}
+
+.inx-such-ul01 li{
+    width:144px; }
+
+.inx-such-ul01 li a{
+    color:#686862;
+    float:left;
+    text-decoration:underline;}
+
+.inx-such-a01{
+    padding:10px 0 4px;}
+
+.inx-such-a02{
+background:url("../../images/inx-such01-bb.png") no-repeat scroll 2px 3px transparent;
+padding:0 0 0 12px;}
+
+.inx-such-a00{
+    margin:17px 0 0 131px;
+    cursor:pointer;
+    z-index:105;
+	display: block;
+	position: relative;}
+    
+    
+.inx-such-right{
+    width:512px;}
+    
+.inx-nw-tp01{
+    margin:115px 0 0 50px;}
+    
+.inx-such-ul02{
+    width:450px;
+    margin:20px 0 0 56px;}
+
+.inx-such-ul02 li{
+    background:url("../../images/inx-nw-tt.png") no-repeat scroll 0 11px transparent;
+    float:left;
+    font:11px/27px Meiryo;
+    padding:0 0 0 10px;
+    width:425px;
+    color:#5c5c5c;}
+
+.inx-such-ul02 li p{
+    float:left;
+    width:65px;
+    line-height:27px;}
+
+.inx-such-ul02 li a{
+    float:right;
+    text-decoration:underline;
+    width:338px;
+    color:#5c5c5c;}
+	
+.inx-such-ul02 li a:hover{
+    text-decoration:none;
+}
+
+.inx-nw-tp02{
+	display: block;
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+}
+    
+/* 人表示の際利用(現在北村さん非表示の為display:noneにしています) */
+.inx-such-women01{
+bottom: 81px;
+*bottom:153px;
+left: -80px;
+position:absolute;
+z-index:102;
+display: none;}
+
+/*  END MAIN    */
+ 
+ 
+
+#main-container{ 
+text-align:left;
+*z-index: 150;
+}
+*+html #main-container{
+min-height:1100px;	
+}
+
+#index .footer-ul02 li{ 
+    padding:0 0 0 10px;
+}
+.page_top a{
+	float:right;
+}
+.content {
+	padding: 25px 0 0 20px;
+}
+.page-cnt, .page-cnt2 {
+	float: left;
+	width: 725px;
+}
+.page-cnt .txt {
+	float:left;
+	padding-top:15px;
+	color:#5d5d5c;
+	line-height: 23px;	
+}
+.page-cnt .txt2{
+	float:left;	
+	color:#9d814b;
+	width: 100%;
+	margin-top: 14px;
+}
+.page-cnt .txt2 .top{
+	background:url("../../concept/images/brown-bgt.png") no-repeat scroll -4px 0 transparent;	
+	height:23px;
+	float:left;
+	width:100%;
+}
+.page-cnt .txt2 .middle{
+	background:url("../../concept/images/brown-bgm.png") repeat-y scroll -4px 0 transparent;		
+	float:left;
+	width:100%;
+	text-align:center;
+	padding: 10px 0 10px 0;
+}
+.page-cnt .txt2 .bottom{
+	background:url("../../concept/images/brown-bgb.png") no-repeat scroll -4px 0 transparent;		
+	float:left;
+	height:23px;
+	width:100%;
+}
+.page-cnt2 h2{
+	padding-TOP: 35px;
+}
+.page-cnt .txt span{
+	color:#6f3f22;
+	font-weight:bold;
+}
+.page-cnt2 .txt{
+	padding-bottom: 30px;
+}
+.cnt3-btm{
+	
+}
+
+.page-cnt3 .txt{
+	
+}
+.page-cnt3 .left {
+	float: left;
+	width: 355px;
+}
+.page-cnt3 .left .top{
+	background: url("../../concept/images/cnt3-left-t.jpg") no-repeat scroll 1px 0 transparent;
+	float: left;
+	width: 356px;		
+}
+.page-cnt3 .left .midd{
+	background:url("../../concept/images/cnt3-left-m.jpg") repeat-y scroll 0 0 transparent;	
+	width: 356px;
+	float: left;
+	padding-top: 14px;
+}
+.page-cnt3 .text{
+	float:left;
+	padding-left: 18px;
+	width: 319px;
+	height: 168px;
+	line-height: 145%;
+}
+.page-cnt3 .text.tx2{
+	height: 244px;
+}
+.page-cnt3 .left .bott{
+	background:url("../../concept/images/cnt3-left-b.jpg") no-repeat scroll 0 bottom transparent;	
+	width: 356px;
+	float: left;
+	padding-left: 17px;
+	padding-bottom: 15px;
+}
+.page-cnt3{
+	background:url("../../concept/images/cnt3-bottom.jpg") no-repeat scroll 0 bottom transparent;
+	color:#838383;
+	float: left;
+	padding-bottom: 62px;
+}
+
+.page-cnt3 .page-cnt3_tit {
+	background:url("../../concept/images/cnt3-top.jpg") no-repeat scroll 0 top transparent;
+	width: 717px;
+	padding: 115px 0 0;
+}
+
+.page-cnt3 span{
+	color:#c33333;
+}
+.mtop{
+	margin-top: -36px;
+}
+.bottom-links{
+	float:left;
+	width: 719px;
+	padding-top: 24px;
+}
+.bottom-links .top{	
+	background:url("../../concept/images/btmbg-t.png") no-repeat scroll 0 top transparent;	
+	float:left;
+	width: 100%;
+	height: 23px;
+}
+.bottom-links .midd{	
+	background:url("../../concept/images/btmbg-m.png") repeat-y scroll 0 top transparent;	
+	float:left;
+	padding-left: 15px;
+	width: 100%;
+}
+.bottom-links .bott{	
+	background:url("../../concept/images/btmbg-b.png") no-repeat scroll 0 bottom transparent;	
+	float:left;
+	width: 100%;
+	height: 17px
+}
+.bottom-links  ul{	
+	float:left;
+	margin-left: 24px;
+}
+.bottom-links  li{	
+	float:left;
+	padding-top: 13px;
+	float: left;
+margin-right: 38px;
+list-style-type: disc;
+color: #D7C8BA;
+}
+
+
+/* ページTOPのフッターに人を表示する際に使用する
+
+#index #footer-container {
+    background: url("../images/bg-footer_index.png") no-repeat center 0;
+}*/

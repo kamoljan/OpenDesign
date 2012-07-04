@@ -1,0 +1,7 @@
+AddHandler x-httpd-php5 .php .phps
+AddType text/x-component .htc
+
+Options +Includes
+AddHandler server-parsed .html .inc
+
+ErrorDocument 404 http://www.mentalhealth.jp/404.html

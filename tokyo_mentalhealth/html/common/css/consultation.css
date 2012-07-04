@@ -1,0 +1,832 @@
+#consultation {
+	background:url(../../consultation/images/bg_about.jpg) no-repeat center 0;	
+}
+
+#consultation .left-menu {
+    background: url("../images/bg_aleftmenu.png") no-repeat scroll 0 0;
+	margin: -5px 0 30px 2px;
+}
+
+/*about*/
+
+#consultation .about_box{
+	background:url(../../consultation/images/share_solve.png) no-repeat right bottom;	
+    float: left;
+    text-align: left;
+    width: 690px;	
+}
+
+#consultation .about_text{
+    float: left;
+    line-height: 19px;
+    padding: 0 0 85px;
+    width: 620px;
+}
+
+#consultation .content {
+    padding: 38px 0 0 25px;
+    width: 710px;
+}
+
+#consultation .title_content{
+	padding:0;	
+}
+
+
+#consultation .red_text{
+	color:#b91111;	
+}
+
+#consultation .title_box{
+	float:left;
+	margin:0 0 20px -3px;	
+}
+
+#consultation .counsel_text{
+    float: left;
+    margin: 0 0 25px;
+    text-align: left;
+    width: 100%;	
+	line-height: 18px;
+}
+
+#consultation .consultant{
+    float: left;
+    text-align: left;
+	margin: 0 0 25px;
+}
+
+#consultation .number01{
+	background:url(../../consultation/images/consultant01.jpg) no-repeat;	
+    width: 199px;
+    padding: 215px 15px 0 10px;	
+	 margin: 0 5px 30px 0;	
+}
+
+#consultation .number02{
+	background:url(../../consultation/images/consultant02.jpg) no-repeat;	
+    padding: 215px 15px 0 20px;
+    width: 201px;	
+}
+
+#consultation .number03{
+	background:url(../../consultation/images/consultant03.jpg) no-repeat;	
+    padding: 215px 15px 0 30px;
+    width: 200px;
+}
+
+#consultation .consult_list01, .consult_list02, .consult_list03{
+    float: left;
+    width: 199px;
+	line-height: 14px;
+}
+
+#consultation .consult_list01, .consult_list02, .consult_list03, .descr_list li{
+ 	font-size: 11px;	
+}
+
+#consultation .consult_list01{
+	color:#636f49;	
+}
+
+#consultation .consult_list02{
+	color:#7c2c39;	
+}
+
+#consultation .consult_list03{
+	color:#0b2a46;	
+}
+
+#consultation .consult_list01 li, .consult_list02 li, .consult_list03 li{
+	float:left;
+	margin: 0 0 5px;
+	padding: 0 0 0 10px;
+	width: 189px;
+}
+
+#consultation .consult_list01 li{
+	background:url(../../consultation/images/pipe_green.png) no-repeat left 4px;
+}
+
+#consultation .consult_list02 li{
+	background:url(../../consultation/images/pipe_red.png) no-repeat left 4px;
+}
+
+#consultation .consult_list03 li{
+	background:url(../../consultation/images/pipe_blue.png) no-repeat left 4px;
+}
+
+#consultation .box_center{
+	background:url(../../consultation/images/bg_center.gif) repeat-y;
+	float:left;
+	width: 717px;
+}
+
+#consultation .free_box{
+	float:left;
+	margin:0 0 15px -3px;	
+}
+
+#consultation .box_top{
+	background:url(../../consultation/images/bg_top.gif) no-repeat top center;
+	float:left;
+	width: 717px;	
+}
+
+#consultation .box_bottom{
+	background:url(../../consultation/images/bg_bottom.gif) no-repeat bottom center;
+	float:left;
+	width: 717px;	
+}
+
+#consultation .text_inbox{
+	float:left;
+	padding:25px 22px;
+	text-align:left;	
+	width: 673px;
+}
+
+#consultation .magin_bottom{
+	margin:0 0 25px;
+	float:left;
+	width:100%;	
+}
+
+#consultation .step_box{
+    float: left;
+    margin: 0 0 35px -5px;
+    width: 719px;	
+}
+
+#consultation .bg_boxcenter{
+	background:url(../../consultation/images/bgcenter_3effect.gif) repeat-y center 0;
+	float:left;
+	width:719px;
+}
+
+#consultation .bg_boxtop{
+	background:url(../../consultation/images/bgtop_3effect.gif) no-repeat top center;
+	float:left;
+	width:719px;	
+}
+
+#consultation .bg_boxbottom{
+	background:url(../../consultation/images/bgbottom_3effect.gif) no-repeat bottom center;
+	float:left;
+	width:719px;	
+}
+
+#consultation .box_content{
+    float: left;
+    padding: 18px;
+    width: 683px;	
+	
+}
+
+.title_3effect{
+#consultation     float: left;
+    margin: 0 0 12px -2px;	
+}
+
+#consultation .step{
+    float: left;
+    width: 220px;	
+	margin: 0 10px 0 0;
+}
+
+#consultation .last_step{
+	margin:0;	
+}
+
+#consultation .down_pointer{
+    float: left;
+    margin: 0 0 10px 2px;	
+}
+
+#consultation .yellow_center{
+	background:url(../../consultation/images/bg_center02.gif) repeat-y center 0;
+	float:left;
+	width:220px;
+	margin: 0 0 10px;
+}
+
+#consultation .yellow_top{
+	background:url(../../consultation/images/bg_top02.gif) no-repeat top center;
+	float:left;
+	width:220px;	
+}
+
+#consultation .yellow_bottom{
+	background:url(../../consultation/images/bg_bottom02.gif) no-repeat bottom center;
+	float:left;
+	width:220px;	
+}
+
+#consultation .in_box{
+    float: left;
+    padding: 12px 10px;
+    text-align: left;
+    width: 200px;	
+}
+
+#consultation .in_box img{
+    float: left;
+    margin: 0 0 5px;	
+}
+
+#consultation .in_box p{
+    float: left;
+    margin: 0 0 15px;
+    padding: 0 0 0 12px;	
+	width: 185px;
+}
+
+#consultation .no_margin{
+	margin:0 0 5px !important;	
+}
+
+#consultation .addition{
+	float:left;
+	margin:0 0 10px 15px;	
+}
+
+#consultation .descr_list{
+	background:url(../../consultation/images/bg_grey.gif) no-repeat;
+	float:left;
+	width:187px;
+	padding:15px 10px 0;
+	text-align:left;
+	margin: 0 0 0 5px;
+}
+
+#consultation .descr_list li{
+	background:url(../../consultation/images/pipe_green.png) no-repeat left 4px;
+    float: left;
+    line-height: 16px;
+    margin: 0 0 10px;
+	width: 176px;
+    padding: 0 0 0 10px;	
+}
+
+#consultation .descr_list li.last{
+	
+}
+
+/* ethic */
+
+#consultation .time_table{
+    float: right;
+    margin: 0 5px 35px 0;
+    text-align: right;
+    width: 100%;	
+}
+
+#consultation .ethic_article{
+	width:330px;
+	text-align:left;	
+}
+
+#consultation .article_text{
+    float: left;
+    width: 330px;
+	line-height: 18px;	
+}
+
+#consultation .two_box{
+    float: left;
+    margin: 0 0 35px;
+    width: 100%;	
+}
+
+#consultation .page_up {
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+
+/*category*/
+
+#consultation.category_page .block {
+	margin: 0 0 20px;
+}
+
+#consultation.category_page #anchor01.block {
+	margin: 30px 0 20px;
+}
+
+#consultation.category_page .category-p01 {
+	margin: 30px 0 0;
+}
+
+#consultation.category_page .ctg-div01{
+    background:url(../../consultation/images/bg-ctg-div01.png) no-repeat 0 0;
+    width:735px;
+    height:323px;
+    margin:10px 0 0 -20px;}
+    
+#consultation.category_page .ctg-icon01{
+    margin:44px 100px 0 0;}
+    
+#consultation.category_page .ctg-ul01{
+    width:230px; 
+    }
+
+#consultation.category_page .ctg-ul01 li{
+    float:left;
+    width:227px;
+    padding:0 3px 3px 0;}
+     
+#consultation.category_page .ctg-div02{
+    margin:27px 0 0;
+    width:690px;
+    padding:0 0 0 34px;}
+    
+#consultation.category_page .ctg-div03{
+    background:url(../../consultation/images/bg-ctg-div03.png) no-repeat 0 0;
+    width:730px; 
+    margin:50px 0 0 -15px;
+    position:relative;}
+    
+#consultation.category_page .ctg-div033{
+    margin:35px 0 0-15px;
+    padding:0 0 20px;}
+    
+#consultation.category_page .ctg-icon02{
+    margin:66px 0 0 32px;}
+    
+#consultation.category_page .ctg-p01{
+    margin:32px 0 0 40px;
+    width:350px;
+    color: #50504F;
+	line-height: 160%;
+}
+   
+#consultation.category_page .ctg-p02{
+    margin:20px 0 0 40px;
+    width:545px;
+	line-height: 160%;
+}
+
+#consultation.category_page .ctg-p02_02{
+    margin:0 0 0 40px;
+    width:545px;
+	line-height: 160%;
+}
+    
+#consultation.category_page .ctg-p-red{
+    color:#c13131;}
+    
+#consultation.category_page .ctg-icon03{
+    position:absolute;
+    top:25px;
+    right:8px;}
+    
+#consultation.category_page .ctg-therapy1{
+    background:url(../../consultation/images/ctg-therapy-top.png) no-repeat 0 0;
+    width:400px;
+    padding:35px 0 0;
+    margin:17px 0 0 30px;}
+
+#consultation.category_page .ctg-therapy2{
+    background:url(../../consultation/images/ctg-therapy-bot.png) no-repeat 0 bottom;
+    width:400px;
+    padding:0 0 20px;}
+
+#consultation.category_page .ctg-therapy3{
+    background:url(../../consultation/images/ctg-therapy-ready.png) repeat-y 0 0;
+    width:400px;}
+    
+#consultation.category_page .ctg-p03{
+    width:362px;
+    padding:15px 0 0 20px;
+	color: #394b09;
+	line-height: 160%;
+}
+    
+#consultation.category_page .ctg-icon04{
+    margin:-45px 0 0 -8px;}
+    
+#consultation.category_page .ctg-div04{
+    width:270px;
+    margin:17px 13px 0 0;}
+	
+#consultation.category_page .ctg-div04 .ctg-bn02 {
+	margin: 0 0 0 -3px;
+	*margin: 0 0 0 -6px;
+}
+	
+#consultation.category_page .ctg-icon66{
+    margin:42px 0 0; }
+    
+#consultation.category_page .ctg-divter{
+    margin: 17px 0 0;
+    width:730px;}
+    
+#consultation.category_page .ctg-p03-4,.ctg-p03-7{
+    padding: 15px 0 15px 15px;}
+    
+#consultation.category_page .ctg-p03-9{
+    padding: 15px 0 15px 15px;}
+    
+#consultation.category_page .ctg-p03-12{
+    padding: 15px 0 30px 15px;}
+
+#consultation.category_page .page_up {
+	margin: 20px 0 50px;
+}
+
+/**********************************************/
+
+
+#consultation .top-types-info ul{
+	background:url(../../consultation/images/top-types-bg.png) no-repeat left top;
+	height: auto;
+	width: 100%;
+	float: left;
+	padding-bottom: 130px;
+}
+#consultation .top-types-info ul li{
+	width: 240px;
+	float: left;
+}
+#consultation li.second-row{
+	margin-top: 45px;
+}
+
+#consultation a.green-link{
+	text-align: right;
+	display: block;
+	width: 172px;
+	line-height: 25px;
+	padding-right: 13px;
+	text-decoration: none;
+	margin-left: 45px;
+}
+
+#consultation a.green-link:hover{
+text-decoration: none;	
+}
+
+#consultation .top-types-info ul .txt{
+	padding: 0 0 12px 119px;
+	float: none;
+	line-height: 160% !important;
+}
+
+#consultation .top-types-info ul .txt2{
+	padding: 15px 0 10px 119px;
+	margin: 0;
+	float: none;
+	line-height: 160% !important;
+	color:#5D5D5C;
+}
+#consultation .about-icon{
+	position:absolute;
+	margin-top:-116px;
+}
+
+#consultation .about-icon2{
+	position:absolute;
+	margin-top:-90px;
+}
+
+#consultation .way-icon{
+	position:absolute;
+	margin-top:-122px;
+}
+#consultation .cnt-title{
+	background: url(../../consultation/images/list-title.png) no-repeat left top;
+	display: block;
+	height: 25px;
+	width: 100%;
+	text-indent: -9999px;
+	margin: 30px 0 0 0;
+}
+#consultation .page-cnt.list{
+	
+}
+#consultation .page-cnt.list ul{
+	
+}
+#consultation .page-cnt.list ul li{
+	background: url(../../consultation/images/list-bg.png) no-repeat left top;
+	float: left;
+width: 715px;
+}
+#consultation .page-cnt.list li img{
+	float: left;
+margin-top: 37px;
+margin-left: -10px;
+}
+#consultation .page-cnt.list li div img{
+	margin-top:0;
+	margin-left: 0;
+}
+#consultation .page-cnt.list li div.text{
+	float: left;
+margin: 0;
+padding-top: 11px;
+padding-bottom: 38px;
+padding-left: 20px;
+width: 605px;
+}
+#consultation .page-cnt.list li{
+	margin-top: -45px;
+}
+#consultation .page-cnt.list li.first-li{
+	margin-top:0;
+}
+
+#consultation ul.greenlinks li{
+	color:#c8e852;
+	min-width: 125px;
+}
+#consultation ul.greenlinks{
+	margin-bottom:20px;
+}
+#consultation .content .bottom-links ul li{
+	min-width: 125px;
+}
+
+#consultation .content .bottom-links .midd{
+	background: url("../../consultation/images/btmbg-m.png") repeat-y scroll 0 top transparent;
+}
+#consultation .content .bottom-links .top {
+	background: url("../../consultation/images/btmbg-t.png") no-repeat scroll -1px top transparent;
+	height: 45px;
+padding-top: 33px;
+padding-left: 15px;
+}
+#consultation .content .bottom-links .bott {
+	background: url("../../concept/images/btmbg-b.png") no-repeat scroll -2px bottom transparent;
+	height: 33px;
+}
+
+
+
+/* voice */
+#consultation .text{
+	margin-top: 26px;
+float: left;
+width: 100%;
+color: #454545;
+}
+#consultation ul.item{
+	
+}
+#consultation ul.item li{
+background: url("../../consultation/images/itembg-blu.png") no-repeat scroll left top transparent;
+	width: 335px;
+float: left;
+padding-top: 11px;
+margin-bottom: 25px;
+}
+#consultation ul.item li.roze{
+	background: url("../../consultation/images/itembg-roze.png") no-repeat scroll left 3px transparent;
+	margin-left: 33px;
+}
+#consultation .item h2{
+	background: url("../../consultation/images/itemtitle-bg.png") no-repeat scroll left top transparent;
+	padding-left: 37px;
+	height: 46px;
+	line-height: 23px;
+}
+#consultation .item .itemphoto{
+	width: 136px;
+	float:left;
+}
+#consultation .item .itemtext{
+	width: 184px;
+float: left;
+padding-top: 13px;
+margin-bottom: 50px;
+}
+#consultation .item .itembutton{
+	
+}
+#consultation .item .portraiticon{
+	float: left;
+margin-top: -122px;
+margin-left: 212px;
+
+}
+
+#consultation.voice .pre {
+	font-size: 25px;
+	color: #844C29;
+	text-align: center;
+	padding: 150px 0;
+	font-weight: bold;
+}
+
+
+
+
+/* way */
+#consultation ul.way-ul{
+	float:left;
+	width: 717px;
+}
+#consultation ul.way-ul li{
+	background: url("../../consultation/images/wli-topbg.png") no-repeat scroll left top transparent;	
+	float:left;
+	width:100%;
+	margin-top: 56px;
+}
+#consultation ul.way-ul li.rightside{
+	background: url("../../consultation/images/wlileft-topbg.png") no-repeat scroll left top transparent;	
+	padding-left: 10px;
+	margin-top: 56px;
+}	
+* + html #consultation ul.way-ul li.rightside{
+	margin-top:100px;
+}
+#consultation .wcontent{
+	background: url("../../consultation/images/wli-bottombg.png") no-repeat scroll left bottom transparent;	
+	float:left;
+	width:100%;
+	padding-bottom: 24px;
+}
+#consultation .rightside .wcontent{
+	background: url("../../consultation/images/wlileft-bottombg.png") no-repeat scroll left bottom transparent;	
+	padding-left: 10px;
+}
+#consultation .wmimage{
+	margin-top: -36px;
+	float: left;
+	position: absolute;	
+}
+* + html #consultation .wmimage{
+	margin-top: -80px;
+}
+* + html #consultation .wmimage img{	
+	position:absolute;
+	margin-top: -100px 
+}
+#consultation .rightside .wmimage{	
+	float: left;
+margin-left: 385px;
+margin-top: -29px;
+}
+* + html #consultation .rightside .wmimage{	
+	margin-left:-10px;
+	margin-top: -6px;
+}
+* + html #consultation .rightside .wmimage{	
+	margin-left:-10px;
+	margin-top: -90px 
+}
+#consultation .wg-button{
+	float: right;
+margin-top: 10px;
+margin-right: 18px;
+}
+#consultation .rightside .wg-button{
+	float:left;
+}
+#consultation .wtext{
+	float: right;
+	width: 336px;
+	margin-right: 47px;
+	padding-top: 10px;
+}
+#consultation .rightside .wtext{
+	float: left;
+	width: 350px;
+	margin: 0 0 0 20px;
+	padding-top: 10px;
+}
+#consultation .wytext{
+	background: url("../../consultation/images/wytop.png") no-repeat scroll left top transparent;	
+	float: right;
+	margin-top: 15px;
+	padding-top: 18px;
+	padding-left:24px;
+	width: 360px;
+	color: #6C2F13;
+}
+#consultation .rightside .wytext{
+	float:left;
+}
+#consultation .wytextcenter{
+	background: url("../../consultation/images/wycenter.png") repeat-y scroll left top transparent;	
+	float: left;
+width: 336px;
+padding-left: 24px;
+margin-left: -24px;
+}
+
+#consultation .wytextcenter p {
+	font-size: 11px;
+	color: #C01717;
+	width: 300px;
+}
+
+#consultation .wytextbottom{
+	background: url("../../consultation/images/wybottom.png") no-repeat scroll left bottom transparent;
+height: 30px;
+width: 100%;
+float: left;
+margin-left: -24px;
+padding-left: 24px;
+padding-top: 13px;
+}
+
+#consultation .wytextbottom.bt2{
+	padding-top: 0;
+}
+
+#consultation .wytext ul{
+	background:none;
+}
+#consultation .wytext ul li{
+	background:none;
+	margin: 0 0 5px;
+	background: url("../../consultation/images/right-arrow.png") no-repeat scroll left 4px transparent;
+	padding-left: 11px;
+}
+#consultation .wytext ul li.second{
+	margin-top: 12px;
+}
+
+#consultation.way .page_up {
+	margin: 30px 0 0;
+}
+
+/*discount*/
+body#discount {
+	text-align: left;
+}
+
+body#discount #discount_contents {
+	width: 600px;
+	padding: 40px 25px 40px 60px;
+}
+
+body#discount #discount_contents p.att {
+	color: #c01717;
+	padding: 10px 0 0 30px;
+}
+
+body#discount #discount_contents ul {
+	padding: 0 0 0 30px;
+	margin: 22px 0 0 0;
+}
+
+body#discount #discount_contents ul li {
+	margin: 0 0 25px;
+}
+
+body#discount #discount_contents ul li h2 {
+	background: url(../../consultation/images/bar.gif) no-repeat left top;
+	padding: 0 0 7px 8px;
+	font-size: 13px;
+	color: #844c29 !important;
+line-height: 15px;
+}
+
+body#discount #discount_contents ul li p {
+	padding: 0 0 8px 10px;
+}
+
+body#discount #discount_contents ul li p span {
+	font-weight: bold;
+}
+
+body#discount #discount_contents ul li .dis_block {
+	background: url(../../consultation/images/block_bg.gif) repeat-y center top;
+	width: 348px;
+	text-align: center;
+	margin: 25px 0 0 60px;
+}
+
+body#discount #discount_contents ul li .dis_block .dis_foot {
+	background: url(../../consultation/images/block_foot.gif) no-repeat center bottom;
+	width: 348px;
+	padding: 0 0 15px 0;
+}
+
+body#discount #discount_contents ul li .dis_block .dis_bg {
+	background: url(../../consultation/images/block_head.gif) no-repeat center top;
+	width: 348px;
+	padding: 15px 0 0 0;
+}
+
+body#discount #discount_contents ul li .dis_block h3 {
+	font-size: 14px;
+	color: #af6041;
+	padding: 0 5px 10px 0;
+}
+
+body#discount #discount_contents ul li .dis_block p {
+	padding: 0 5px 0 0;
+}
+
+body#discount #discount_contents ul li .dis_block p strong {
+	padding: 0 5px 0 0;
+	color: #6c2f13;
+}
+
+body#discount #discount_contents .close {
+	margin: 15px 0 0 200px;
+}
